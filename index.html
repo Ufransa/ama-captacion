@@ -1,0 +1,1585 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AMA · Plan de captación en Gran Canaria</title>
+<meta name="description" content="Plan de captación de clientes y posicionamiento en buscadores para AMA: trabajos en altura, fontanería y soldadura en Gran Canaria.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --yeso:#F2F3F0;
+  --blanco:#FFFFFF;
+  --tinta:#18242E;
+  --gris:#525E67;
+  --linea:#D2D6D0;
+  --senal:#E8531E;
+  --senal-osc:#A0350B;
+  --alt:#D9A200;
+  --alt-osc:#6F5200;
+  --fon:#1F7EA1;
+  --fon-osc:#11566F;
+  --sol:#6552D1;
+  --sol-osc:#402F96;
+  --verde:#2E7D46;
+  --ancho:72rem;
+  --prosa:42rem;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--yeso);color:var(--tinta);font-family:"Archivo","Helvetica Neue",Arial,sans-serif;font-size:1.0625rem;line-height:1.6;overflow-x:hidden}
+a{color:var(--fon-osc);text-underline-offset:.15em}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--senal);outline-offset:2px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.wrap{max-width:var(--ancho);margin:0 auto;padding:0 1.25rem}
+h1,h2,h3{font-weight:800;line-height:1;margin:0;text-wrap:balance}
+h1{font-size:clamp(2.6rem,11vw,5.8rem);font-stretch:66%;letter-spacing:-.01em;line-height:.92}
+h2{font-size:clamp(1.95rem,7vw,3.3rem);font-stretch:70%;letter-spacing:-.005em}
+h3{font-size:1.28rem;font-stretch:85%;font-weight:750;line-height:1.15}
+p{margin:0 0 1rem}
+.prosa{max-width:var(--prosa)}
+strong{font-weight:750}
+sup.ref{font-size:.68em;line-height:0;vertical-align:super;margin-left:.12em;white-space:nowrap}
+sup.ref a{text-decoration:none;color:var(--gris);font-weight:650}
+sup.ref a:hover{color:var(--tinta);text-decoration:underline}
+.m{display:inline-block;width:.78em;height:.78em;border-radius:2px;margin-right:.45em;vertical-align:-.02em;flex:none}
+.m-alt{background:var(--alt)}.m-fon{background:var(--fon)}.m-sol{background:var(--sol)}
+.etq{font-weight:750}
+.etq-alt{color:var(--alt-osc)}.etq-fon{color:var(--fon-osc)}.etq-sol{color:var(--sol-osc)}
+
+/* Portada */
+.hero{position:relative;overflow:hidden;padding:3rem 0 0}
+.hero-cabecera{position:relative;padding-left:2.6rem}
+.cuerda{position:absolute;left:.55rem;top:-3rem;bottom:3.4rem;width:9px;border-radius:0 0 5px 5px;
+  background:repeating-linear-gradient(-55deg,var(--senal) 0 4px,#B0400D 4px 6px);
+  transform-origin:top;animation:descenso 1.1s cubic-bezier(.2,.7,.2,1) both}
+.cuerda::after{content:"";position:absolute;left:50%;bottom:-27px;width:20px;height:26px;border:4px solid var(--tinta);border-radius:11px;transform:translateX(-50%)}
+.hero-texto{animation:aparece .7s .5s ease-out both}
+.hero h1{max-width:13ch;margin-bottom:1.4rem}
+.entrada{font-size:clamp(1.1rem,3.5vw,1.32rem);line-height:1.5;max-width:40rem}
+.contexto{color:var(--gris);font-size:.95rem;max-width:40rem;margin-bottom:0}
+@keyframes descenso{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+@keyframes aparece{from{opacity:0}to{opacity:1}}
+@media (min-width:760px){.hero{padding-top:4.5rem}.hero-cabecera{padding-left:4.5rem}.cuerda{left:1.4rem;top:-4.5rem}}
+
+.resumen{margin:2.75rem 0 0;border-top:2px solid var(--tinta)}
+.resumen div{display:grid;gap:.2rem;padding:1rem 0;border-bottom:1px solid var(--linea)}
+.resumen dt{font-weight:750;font-stretch:85%;font-size:1.15rem;display:flex;align-items:center}
+.resumen dd{margin:0}
+@media (min-width:760px){.resumen div{grid-template-columns:16rem 1fr;gap:1.5rem;align-items:baseline}}
+
+.indice{margin-top:2.25rem;background:var(--blanco);border-top:1px solid var(--linea);border-bottom:1px solid var(--linea)}
+.indice ul{list-style:none;margin:0;padding:.8rem 0;display:flex;flex-wrap:wrap;gap:.3rem 1.2rem;font-size:.93rem}
+.indice a{color:var(--tinta);text-decoration:none;border-bottom:1px solid var(--linea)}
+.indice a:hover{border-color:var(--tinta)}
+
+/* Secciones */
+main section{padding:4rem 0;border-top:1px solid var(--linea)}
+main section:first-child{border-top:0}
+.cabeza{margin-bottom:1.9rem}
+.cabeza h2{margin-bottom:.9rem}
+.cabeza p{max-width:var(--prosa);font-size:1.08rem}
+
+/* Tabla comparativa de lineas */
+.lineas{width:100%;border-collapse:collapse;background:var(--blanco);table-layout:fixed}
+.lineas th,.lineas td{padding:.95rem 1rem;vertical-align:top;text-align:left;border-bottom:1px solid var(--linea)}
+.lineas thead th{font-stretch:78%;font-size:1.2rem;font-weight:800;line-height:1.1;border-bottom:2px solid var(--tinta);padding-top:1.3rem}
+.lineas thead th.c-alt{box-shadow:inset 0 7px 0 var(--alt)}
+.lineas thead th.c-fon{box-shadow:inset 0 7px 0 var(--fon)}
+.lineas thead th.c-sol{box-shadow:inset 0 7px 0 var(--sol)}
+.lineas tbody th{font-weight:700;font-stretch:88%;width:11rem}
+.lineas thead th:first-child{width:11rem}
+.lineas .peq{font-size:.95rem}
+@media (max-width:759px){
+  .lineas thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  .lineas,.lineas tbody,.lineas tr,.lineas th,.lineas td{display:block;width:auto}
+  .lineas{background:none}
+  .lineas tr{background:var(--blanco);border-top:2px solid var(--tinta);margin-bottom:1.25rem;padding-bottom:.4rem}
+  .lineas tbody th{padding:.8rem 1rem .5rem;border:0;font-size:1.15rem;font-stretch:80%;font-weight:800;width:auto}
+  .lineas td{border:0;border-left:4px solid var(--linea);margin:0 1rem .7rem;padding:.1rem 0 .1rem .8rem}
+  .lineas td::before{content:attr(data-linea);display:block;font-weight:700;font-size:.9rem}
+  .lineas td.c-alt{border-color:var(--alt)}.lineas td.c-fon{border-color:var(--fon)}.lineas td.c-sol{border-color:var(--sol)}
+}
+
+/* Escala de precios */
+.escala{background:var(--blanco);border:1px solid var(--linea);padding:1.5rem 1.25rem 1.25rem}
+.fila{display:grid;grid-template-columns:1fr;gap:.3rem;margin-bottom:1.5rem}
+.fila .nombre{font-weight:750;font-stretch:85%;font-size:1.05rem;display:flex;align-items:center}
+.pista{position:relative;height:1.5rem;
+  background:linear-gradient(90deg,var(--linea) 0 1px,transparent 1px) 0 0/33.333% 100% repeat-x;
+  border-right:1px solid var(--linea)}
+.barra{position:absolute;top:.2rem;bottom:.2rem;border-radius:3px}
+.barra.c-alt{background:var(--alt)}.barra.c-fon{background:var(--fon)}.barra.c-sol{background:var(--sol)}
+.rango{font-weight:800;font-stretch:80%;font-size:1.12rem;font-variant-numeric:tabular-nums;white-space:nowrap}
+.fila .nota{color:var(--gris);font-size:.9rem;margin:0}
+.fila-eje{display:grid;grid-template-columns:1fr;margin-top:-.4rem}
+.eje{position:relative;height:1.4rem;font-size:.85rem;color:var(--gris);font-variant-numeric:tabular-nums}
+.eje span{position:absolute;top:0;transform:translateX(-50%);white-space:nowrap}
+.eje span:first-child{transform:none}
+.eje span:last-child{transform:translateX(-100%)}
+@media (max-width:759px){.eje span.menor{display:none}}
+@media (min-width:760px){
+  .fila{grid-template-columns:13rem 1fr 9.5rem;align-items:center;column-gap:1.15rem;row-gap:.2rem}
+  .fila .nota{grid-column:2 / 4}
+  .fila-eje{grid-template-columns:13rem 1fr 9.5rem;column-gap:1.15rem}
+  .fila-eje .eje{grid-column:2}
+}
+
+/* Datos */
+.datos{list-style:none;margin:0;padding:0;border-top:2px solid var(--tinta)}
+.datos li{display:grid;grid-template-columns:1fr;gap:.45rem;padding:1.25rem 0;border-bottom:1px solid var(--linea)}
+.cifra{font-size:clamp(2rem,8.5vw,2.8rem);font-weight:800;font-stretch:66%;line-height:1;font-variant-numeric:tabular-nums}
+.dato{margin:0}
+.implica{margin:0;padding:.1rem 0 .1rem .9rem;border-left:3px solid var(--tinta)}
+.afecta{display:inline-flex;gap:.2rem;margin-right:.35rem;vertical-align:-.05em}
+.afecta .m{margin-right:0}
+.separador{font-weight:800;font-stretch:72%;font-size:1.3rem;padding:1.6rem 0 .4rem;border-bottom:0}
+@media (min-width:900px){.datos li{grid-template-columns:13rem 1fr 1fr;column-gap:2rem;align-items:start}.datos li.separador{display:block}}
+
+/* Competencia */
+.comp{display:grid;gap:1.25rem}
+@media (min-width:900px){.comp{grid-template-columns:repeat(2,1fr);gap:1.5rem 2rem}}
+.comp-bloque{background:var(--blanco);border-top:6px solid var(--linea);padding:1rem 1.15rem 1.15rem}
+.comp-bloque.c-alt{border-color:var(--alt)}.comp-bloque.c-fon{border-color:var(--fon)}.comp-bloque.c-sol{border-color:var(--sol)}
+.comp-bloque h3{margin-bottom:.15rem}
+.comp-bloque .fichas{color:var(--gris);font-size:.9rem;margin:0 0 .7rem}
+.comp-lista{list-style:none;margin:0;padding:0}
+.comp-lista li{display:grid;grid-template-columns:1fr;gap:.1rem;margin-bottom:.5rem;font-size:.95rem}
+.comp-nombre{display:flex;justify-content:space-between;gap:.75rem;align-items:baseline}
+.comp-nombre b{font-weight:750;font-variant-numeric:tabular-nums;white-space:nowrap}
+.comp-barra{height:7px;background:#E7E9E5;border-radius:4px;overflow:hidden}
+.comp-barra span{display:block;height:100%;border-radius:4px;background:var(--gris)}
+.comp-bloque.c-alt .comp-barra span{background:var(--alt)}
+.comp-bloque.c-fon .comp-barra span{background:var(--fon)}
+.comp-bloque.c-sol .comp-barra span{background:var(--sol)}
+.lectura{margin-top:.8rem;padding-top:.7rem;border-top:1px solid var(--linea);font-size:.95rem;margin-bottom:0}
+
+/* Plan */
+.plan{list-style:none;margin:0;padding:0 0 0 44px;position:relative;max-width:48rem}
+.plan>li:not(:last-child)::after{content:"";position:absolute;left:-28px;top:1.45rem;bottom:-.25rem;width:8px;background:repeating-linear-gradient(-55deg,var(--senal) 0 4px,#B0400D 4px 6px)}
+.plan>li{position:relative;padding-bottom:2.4rem}
+.plan>li:last-child{padding-bottom:0}
+.plan>li::before{content:"";position:absolute;left:-37px;top:.1rem;width:22px;height:22px;border-radius:50%;background:var(--yeso);border:4px solid var(--tinta)}
+.cuando{font-weight:700;color:var(--senal-osc);margin:0 0 .3rem}
+.plan h3{font-size:clamp(1.45rem,4.6vw,2rem);font-stretch:72%;font-weight:800;margin-bottom:.7rem}
+.plan ul{margin:.6rem 0 0;padding-left:1.1rem}
+.plan ul li{margin-bottom:.5rem;padding-left:.2rem}
+
+/* Guia de los 300 euros */
+.reparto{display:grid;gap:.75rem;margin-bottom:2rem}
+@media (min-width:760px){.reparto{grid-template-columns:repeat(3,1fr)}}
+.reparto div{background:var(--blanco);padding:.9rem 1rem;border-left:6px solid var(--linea)}
+.reparto div.c-alt{border-color:var(--alt)}.reparto div.c-fon{border-color:var(--fon)}.reparto div.c-sol{border-color:var(--sol)}
+.reparto dt{font-weight:750;font-stretch:85%}
+.reparto dd{margin:.15rem 0 0}
+.reparto .euros{font-size:1.9rem;font-weight:800;font-stretch:70%;line-height:1;font-variant-numeric:tabular-nums;display:block;margin-bottom:.2rem}
+.reparto .peq{font-size:.92rem;color:var(--gris)}
+
+.guia{background:var(--blanco);border:1px solid var(--linea)}
+.guia-cab{display:flex;flex-wrap:wrap;gap:.75rem 1rem;align-items:center;justify-content:space-between;padding:1rem 1.15rem;border-bottom:1px solid var(--linea);background:#EDEFEA}
+.guia-cab h3{font-size:1.1rem}
+.guia-pasos{display:flex;flex-wrap:wrap;gap:.3rem}
+.guia-pasos button{font:inherit;font-size:.9rem;font-weight:700;width:2.1rem;height:2.1rem;border-radius:4px;border:2px solid var(--linea);background:var(--blanco);color:var(--gris);cursor:pointer;font-variant-numeric:tabular-nums}
+.guia-pasos button[aria-current="true"]{background:var(--tinta);border-color:var(--tinta);color:#fff}
+.guia-cuerpo{padding:1.25rem 1.15rem}
+.guia-num{color:var(--senal-osc);font-weight:750;font-size:.95rem;margin:0 0 .2rem}
+.guia-cuerpo h4{margin:0 0 .8rem;font-size:1.35rem;font-stretch:78%;font-weight:800;line-height:1.15}
+.guia-campo{border-top:1px solid var(--linea);padding:.7rem 0;display:grid;gap:.15rem}
+@media (min-width:760px){.guia-campo{grid-template-columns:13rem 1fr;column-gap:1.25rem;align-items:baseline}}
+.guia-campo dt{color:var(--gris);font-size:.93rem}
+.guia-campo dd{margin:0;font-weight:700}
+.guia-campo dd code{font-family:"Archivo",monospace;font-weight:750;background:#EDEFEA;padding:.08em .35em;border-radius:3px;font-size:.96em}
+.guia-por{margin:1rem 0 0;padding:.75rem .9rem;background:#EDEFEA;border-left:4px solid var(--senal);font-size:.97rem}
+.guia-por p{margin:0}
+.guia-nav{display:flex;gap:.5rem;align-items:center;padding:.9rem 1.15rem;border-top:1px solid var(--linea);background:#EDEFEA}
+.guia-nav button{font:inherit;font-weight:700;font-size:.97rem;border:2px solid var(--tinta);background:var(--blanco);color:var(--tinta);border-radius:4px;padding:.5rem .95rem;cursor:pointer}
+.guia-nav button.principal{background:var(--tinta);color:#fff}
+.guia-nav button:disabled{opacity:.35;cursor:default}
+.guia-nav .cuenta{margin-left:auto;color:var(--gris);font-size:.92rem;font-variant-numeric:tabular-nums}
+.lista-kw{list-style:none;margin:.35rem 0 0;padding:0;display:flex;flex-wrap:wrap;gap:.35rem}
+.lista-kw li{background:#EDEFEA;border-radius:3px;padding:.2rem .5rem;font-size:.93rem;font-weight:650}
+.lista-kw li.neg{background:#F7E2DA}
+
+/* Calculadora */
+.calc{background:var(--tinta);color:#EEF1ED;border-radius:6px;padding:1.25rem}
+.calc-lineas{display:grid;grid-template-columns:repeat(3,1fr);gap:.5rem;margin-bottom:1.3rem}
+.calc-lineas button{font:inherit;font-weight:750;font-stretch:82%;font-size:.98rem;line-height:1.15;padding:.75rem .5rem;border:2px solid #47565F;background:transparent;color:inherit;border-radius:4px;cursor:pointer;display:flex;align-items:center;justify-content:center;text-align:center}
+.calc-lineas button[aria-pressed="true"]{background:#EEF1ED;color:var(--tinta);border-color:#EEF1ED}
+.calc-cuerpo{display:grid;gap:1.5rem}
+@media (min-width:900px){.calc{padding:2rem}.calc-cuerpo{grid-template-columns:1fr 1.05fr;gap:2.5rem;align-items:start}}
+.campo{margin-bottom:1.1rem}
+.campo-cab{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin-bottom:.3rem}
+.campo label{font-weight:600;line-height:1.3}
+.valor{display:flex;align-items:center;gap:.35rem;white-space:nowrap}
+.valor input{width:6.2rem;font:inherit;font-weight:750;text-align:right;padding:.3rem .45rem;border-radius:3px;border:1px solid #52616B;background:#22313B;color:#fff;font-variant-numeric:tabular-nums}
+.campo input[type=range]{width:100%;accent-color:var(--senal);margin:0}
+.calc-salidas{background:#F4F6F3;color:var(--tinta);border-radius:4px;padding:1.25rem}
+.frase{font-size:1.08rem;line-height:1.5;margin-bottom:0}
+.cifras{display:grid;grid-template-columns:1fr 1fr;gap:1rem 1.25rem;margin:1.25rem 0}
+.cifras div{border-top:1px solid var(--linea);padding-top:.45rem}
+.cifras dt{font-size:.89rem;color:var(--gris);line-height:1.3}
+.cifras dd{margin:.1rem 0 0;font-size:1.6rem;font-weight:800;font-stretch:74%;line-height:1.1;font-variant-numeric:tabular-nums}
+.cifras .clave{grid-column:1 / -1;border-top:2px solid var(--tinta)}
+.cifras .clave dd{font-size:clamp(2.2rem,10vw,3.2rem);font-stretch:66%}
+.cifras .clave.pierde dd{color:var(--senal-osc)}
+.supuestos{font-size:.92rem;color:var(--gris);margin:0}
+
+/* Tablas genericas */
+.tabla{width:100%;border-collapse:collapse;background:var(--blanco)}
+.tabla th,.tabla td{padding:.8rem 1rem;border-bottom:1px solid var(--linea);text-align:left;vertical-align:top}
+.tabla thead th{border-bottom:2px solid var(--tinta);font-stretch:85%;font-weight:750;line-height:1.2}
+.tabla .num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.tabla tfoot th,.tabla tfoot td{font-weight:800;font-size:1.12rem;border-bottom:0;border-top:2px solid var(--tinta)}
+.tabla.medir tbody th{width:32%}.tabla.medir td:nth-child(2){white-space:nowrap;width:8.5rem}
+.tabla small{display:block;color:var(--gris);font-size:.87rem;font-weight:400;margin-top:.15rem}
+.estado{font-weight:750;white-space:nowrap}
+.estado.no{color:var(--senal-osc)}
+.estado.si{color:var(--verde)}
+@media (max-width:759px){
+  .tabla thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  .tabla,.tabla tbody,.tabla tfoot,.tabla tr,.tabla th,.tabla td{display:block;width:auto}
+  .tabla{background:none}
+  .tabla tr{background:var(--blanco);border-top:2px solid var(--tinta);margin-bottom:1rem;padding:.2rem 0 .5rem}
+  .tabla th[scope=row]{border:0;padding:.7rem 1rem .3rem;font-size:1.03rem;width:auto}
+  .tabla td{border:0;padding:.25rem 1rem;display:block;min-width:0;overflow-wrap:anywhere}
+  .tabla td::before{content:attr(data-col);display:block;color:var(--gris);font-size:.9rem;text-align:left;white-space:normal}
+  .tabla td.num{display:flex;justify-content:space-between;gap:1rem;text-align:right}
+  .tabla td.num::before{display:inline;flex:none}
+  .tabla tfoot tr{border-top:3px solid var(--tinta)}
+  .tabla tfoot th,.tabla tfoot td{border:0}
+  .tabla.medir tbody th{width:auto}.tabla.medir td:nth-child(2){width:auto}
+  .tabla.medir td{display:block}
+  .tabla.medir td::before{display:block}
+}
+
+/* Redes */
+.videos{display:grid;gap:1.15rem;margin-bottom:1.9rem}
+@media (min-width:900px){.videos{grid-template-columns:repeat(3,1fr)}}
+.video-bloque{background:var(--blanco);border-top:6px solid var(--linea);padding:1rem 1.15rem 1.15rem}
+.video-bloque.c-alt{border-color:var(--alt)}.video-bloque.c-fon{border-color:var(--fon)}.video-bloque.c-sol{border-color:var(--sol)}
+.video-bloque ul{padding-left:1.1rem;margin:.6rem 0 0}
+.video-bloque li{margin-bottom:.45rem}
+.reglas{max-width:var(--prosa)}
+.reglas h3{margin-bottom:.6rem}
+.reglas ul{padding-left:1.1rem;margin:0}
+.reglas li{margin-bottom:.5rem}
+
+/* Evitar */
+.evitar{list-style:none;padding:0;margin:0;max-width:var(--prosa);border-top:2px solid var(--tinta)}
+.evitar li{padding:.9rem 0 .9rem 2rem;border-bottom:1px solid var(--linea);position:relative}
+.evitar li::before{content:"";position:absolute;left:0;top:1.5rem;width:1.1rem;height:4px;background:var(--senal)}
+
+/* Fuentes */
+.fuentes{font-size:.9rem;padding-left:1.6rem;margin:0}
+@media (min-width:900px){.fuentes{columns:2;column-gap:3rem}}
+.fuentes li{break-inside:avoid;margin-bottom:.55rem;padding:.1rem .3rem}
+.fuentes li:target{background:#FBE5D9;outline:2px solid var(--senal)}
+.fuentes a{word-break:break-word}
+
+footer{border-top:2px solid var(--tinta);padding:2rem 0 3rem;color:var(--gris);font-size:.94rem}
+
+/* Boton y modo presentacion */
+.presentar-caja{margin-top:1.4rem}
+.boton-presentar{font:inherit;font-weight:750;font-stretch:88%;font-size:1.03rem;background:var(--tinta);color:#fff;border:0;border-radius:4px;padding:.85rem 1.25rem;cursor:pointer}
+.boton-presentar:hover{background:#27363F}
+.ayuda-teclas{color:var(--gris);font-size:.9rem;margin:.6rem 0 0;max-width:34rem}
+.controles,.progreso{display:none}
+html.presentando{font-size:calc(.5vw + .85vh + 4px)}
+html.presentando body{overflow:hidden}
+html.presentando .diapo{position:fixed;inset:0;overflow-y:auto;overflow-x:hidden;display:none;flex-direction:column;background:var(--yeso);padding:6vh 0 13vh;margin:0;border:0}
+html.presentando .diapo.activa{display:flex}
+html.presentando .diapo>.wrap{margin-block:auto;width:100%}
+html.presentando .indice,html.presentando footer,html.presentando .presentar-caja{display:none}
+html.presentando .contexto{display:none}
+@media (max-height:620px){html.presentando .diapo{padding:4vh 0 10vh}}
+@media (min-aspect-ratio:4/3) and (min-width:700px){
+  html.presentando .hero>.wrap{display:grid;grid-template-columns:1.1fr 1fr;column-gap:3.5rem;align-items:center}
+  html.presentando .resumen{margin-top:0}
+  html.presentando .resumen div{grid-template-columns:1fr;gap:.25rem}
+  html.presentando .hero h1{font-size:clamp(2.6rem,7vw,5.2rem)}
+}
+/* En la tele, compactar para que quepa mas por pantalla */
+html.presentando .cabeza{margin-bottom:1.15rem}
+html.presentando .cabeza h2{margin-bottom:.5rem}
+html.presentando .cabeza p{font-size:.98rem;max-width:58rem}
+html.presentando .comp{gap:.8rem 1.4rem}
+html.presentando .comp-bloque{padding:.7rem .95rem .85rem}
+html.presentando .comp-lista li{margin-bottom:.35rem;font-size:.9rem}
+html.presentando .comp-bloque .lectura{font-size:.88rem;margin-top:.55rem;padding-top:.5rem}
+html.presentando .reparto{gap:.6rem;margin-bottom:1.1rem}
+html.presentando .reparto div{padding:.6rem .8rem}
+html.presentando .reparto .euros{font-size:1.5rem}
+html.presentando .reparto .peq{font-size:.85rem;line-height:1.4}
+html.presentando .guia-cab,html.presentando .guia-nav{padding:.65rem .95rem}
+html.presentando .guia-cuerpo{padding:.85rem .95rem}
+html.presentando .guia-campo{padding:.45rem 0}
+html.presentando .guia-por{margin-top:.7rem;padding:.6rem .8rem;font-size:.92rem}
+html.presentando .datos li{padding:.85rem 0}
+html.presentando .plan{padding-left:36px;max-width:64rem}
+html.presentando .plan>li{padding-bottom:1.25rem}
+html.presentando .plan h3{font-size:1.45rem;margin-bottom:.35rem}
+html.presentando .plan p{margin-bottom:.4rem;font-size:.95rem}
+html.presentando .plan ul{margin-top:.3rem}
+html.presentando .plan ul li{margin-bottom:.25rem;font-size:.95rem}
+html.presentando .plan>li::before{width:16px;height:16px;left:-31px}
+html.presentando .plan>li:not(:last-child)::after{left:-25px}
+html.presentando .escala{padding:1rem .9rem .8rem}
+html.presentando .fila{margin-bottom:1rem}
+html.presentando .tabla th,html.presentando .tabla td{padding:.55rem .75rem}
+html.presentando .evitar li{padding:.6rem 0 .6rem 2rem}
+html.presentando .evitar li::before{top:1.25rem}
+html.presentando .videos{gap:.8rem;margin-bottom:1.2rem}
+html.presentando .video-bloque{padding:.7rem .95rem .85rem}
+html.presentando .video-bloque li{margin-bottom:.28rem}
+html.presentando .calc{padding:1rem}
+html.presentando .campo{margin-bottom:.75rem}
+html.presentando .fuentes{font-size:.78rem}
+html.presentando .fuentes li{margin-bottom:.4rem}
+@media (min-width:1100px){html.presentando .fuentes{columns:3}}
+
+html.presentando .progreso{display:block;position:fixed;left:0;right:0;top:0;height:6px;background:rgba(24,36,46,.12);z-index:40}
+html.presentando .progreso span{display:block;height:100%;width:0;background:var(--senal);transition:width .3s}
+html.presentando .controles{transition:opacity .4s;display:flex;position:fixed;right:1rem;bottom:1rem;z-index:40;gap:.45rem;align-items:center;background:var(--tinta);color:#fff;border-radius:6px;padding:.4rem}
+.controles button{font:inherit;font-weight:700;font-size:1rem;line-height:1.1;background:transparent;color:#fff;border:2px solid #47565F;border-radius:4px;padding:.55rem .95rem;cursor:pointer}
+.controles #siguiente{background:#CE4412;border-color:#CE4412}
+.controles button:disabled{opacity:.35;cursor:default}
+#contador{font-variant-numeric:tabular-nums;padding:0 .35rem;min-width:5ch;text-align:center;font-weight:650}
+.destacada{background:#FBE5D9;outline:2px solid var(--senal)}
+html.presentando.quieto .controles{opacity:0}
+html.presentando.quieto{cursor:none}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .cuerda,.hero-texto{animation:none}
+  html.presentando .progreso span{transition:none}
+}
+@media print{.indice,.calc-lineas,.guia-nav,.guia-pasos{display:none}body{background:#fff}.cuerda{animation:none}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="hero-cabecera">
+      <div class="cuerda" aria-hidden="true"></div>
+      <div class="hero-texto">
+        <h1>El cliente no es el trabajo. Es el edificio.</h1>
+        <p class="entrada">Nadie busca «trabajos verticales». Buscan «pintar fachada», «humedades en el patio», «impermeabilizar azotea». La cuerda es cómo se llega, no lo que se vende. Y una vez dentro de un edificio, sin montar andamio, se puede pintar la fachada, cambiar la bajante y arreglar la barandilla en el mismo viaje. Siendo dos, eso no es una ventaja más: es la única forma de que un desplazamiento pague tres trabajos.</p>
+        <p class="contexto">Plan de captación para AMA. Base en Vecindario, Santa Lucía de Tirajana. 14 de septiembre de 2026. Cada cifra lleva un número pequeño que remite a su fuente, al final.</p>
+        <div class="presentar-caja">
+          <button type="button" class="boton-presentar" id="presentar">Presentar en pantalla grande</button>
+          <p class="ayuda-teclas">Pasa a pantalla completa con un apartado por pantalla. Se avanza con las flechas del teclado o del mando de la tele, deslizando el dedo o con los botones de abajo. Esc para salir.</p>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="sr-only">Las tres líneas de un vistazo</h2>
+    <dl class="resumen">
+      <div><dt><span class="m m-alt" aria-hidden="true"></span>Trabajos en altura</dt><dd><strong>El motor.</strong> Fachadas, azoteas, humedades y patios de luces. Ticket alto y, en Vecindario, tres fichas en el mapa. Aquí va todo el dinero de anuncios.</dd></div>
+      <div><dt><span class="m m-fon" aria-hidden="true"></span>Fontanería</dt><dd><strong>Ficha sí, anuncios no.</strong> En el sur el primero tiene 67 reseñas, no 604 como en la capital: se puede llegar arriba sin pagar. Lo que no aguanta el ticket es la puja.</dd></div>
+      <div><dt><span class="m m-sol" aria-hidden="true"></span>Soldadura</dt><dd><strong>Cero fichas.</strong> «Soldador» en Vecindario no devuelve ni una. Con la EN 1090 a la vista, ser el primero cuesta una tarde de trabajo.</dd></div>
+    </dl>
+  </div>
+
+  <nav class="indice" aria-label="Apartados del plan">
+    <div class="wrap">
+      <ul>
+        <li><a href="#compra">Quién compra</a></li>
+        <li><a href="#precios">Cuánto vale</a></li>
+        <li><a href="#porque">Por qué hay trabajo</a></li>
+        <li><a href="#competencia">Con quién compiten</a></li>
+        <li><a href="#plan">Plan en 90 días</a></li>
+        <li><a href="#trescientos">Los 300 €, paso a paso</a></li>
+        <li><a href="#calculadora">¿Sale a cuenta?</a></li>
+        <li><a href="#presupuesto">Cuánto cuesta</a></li>
+        <li><a href="#impuestos">IGIC y ayudas</a></li>
+        <li><a href="#criba">Criba del Kit Digital</a></li>
+        <li><a href="#redes">Redes</a></li>
+        <li><a href="#medir">Cómo medirlo</a></li>
+        <li><a href="#evitar">Lo que no haríamos</a></li>
+        <li><a href="#fuentes">Fuentes</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+<!-- QUIEN COMPRA -->
+<section id="compra">
+  <div class="wrap">
+    <div class="cabeza">
+      <h2>Quién compra y cómo decide</h2>
+      <p>No es lo mismo vender un aviso de 90 € que una fachada que se aprueba en junta. Estas diferencias mandan sobre todo lo demás del plan.</p>
+    </div>
+
+    <table class="lineas">
+      <caption class="sr-only">Comparación de las tres líneas de trabajo</caption>
+      <thead>
+        <tr>
+          <th scope="col"><span class="sr-only">Aspecto</span></th>
+          <th scope="col" class="c-alt">Trabajos en altura</th>
+          <th scope="col" class="c-fon">Fontanería</th>
+          <th scope="col" class="c-sol">Soldadura</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Qué incluye</th>
+          <td class="c-alt" data-linea="Trabajos en altura">Pintura de fachadas y patios, impermeabilización de azoteas, humedades, limpieza de fachadas y cristales, canalones y bajantes. La cuerda es el acceso, no el servicio.</td>
+          <td class="c-fon" data-linea="Fontanería">Fugas, desatascos, grifería, puntos de agua, cambio de bajantes y de tuberías del edificio.</td>
+          <td class="c-sol" data-linea="Soldadura">Rejas, puertas metálicas, barandillas, reparación in situ y estructura de taller con marcado CE.</td>
+        </tr>
+        <tr>
+          <th scope="row">Quién paga</th>
+          <td class="c-alt" data-linea="Trabajos en altura">Comunidades de propietarios, a través del administrador de fincas. También hoteles y complejos de apartamentos.</td>
+          <td class="c-fon" data-linea="Fontanería">Particulares y comunidades. La comunidad, cuando toca bajante o tubería general.</td>
+          <td class="c-sol" data-linea="Soldadura">Particulares para rejas y barandillas. Constructoras, talleres y hoteles para lo demás.</td>
+        </tr>
+        <tr>
+          <th scope="row">Cuánto tarda en decidir</th>
+          <td class="c-alt" data-linea="Trabajos en altura">Semanas o meses. Pide tres presupuestos y lo aprueba la junta.</td>
+          <td class="c-fon" data-linea="Fontanería">Minutos si es urgente. Llama al primero que contesta.</td>
+          <td class="c-sol" data-linea="Soldadura">Días. Suele pedir precio mandando fotos por WhatsApp.</td>
+        </tr>
+        <tr>
+          <th scope="row">Precios publicados</th>
+          <td class="c-alt peq" data-linea="Trabajos en altura">Pintar fachada en Canarias: media de 1.020 € y hasta 1.850 € en vivienda; de 1.500 a 6.000 € en fachada de edificio.<sup class="ref"><a href="#f3">3</a></sup> De 14 a 35 €/m², y el extremo alto es con andamio.<sup class="ref"><a href="#f5">5</a></sup> Impermeabilizar azotea, de 15 a 35 €/m².<sup class="ref"><a href="#f11">11</a></sup></td>
+          <td class="c-fon peq" data-linea="Fontanería">En Las Palmas: 13–22 €/h. Cambiar un grifo, 50–150 €. Punto de agua, 150–300 €. Cambio completo de tuberías, 1.500–6.000 €.<sup class="ref"><a href="#f6">6</a></sup></td>
+          <td class="c-sol peq" data-linea="Soldadura">Datos de España: 30–60 €/h, reja de ventana 150–400 €, puerta metálica 300–800 €.<sup class="ref"><a href="#f9">9</a></sup></td>
+        </tr>
+        <tr>
+          <th scope="row">Qué busca en Google</th>
+          <td class="c-alt" data-linea="Trabajos en altura">«pintar fachada», «impermeabilizar azotea», «humedades pared», «rehabilitación de fachadas» y el municipio.</td>
+          <td class="c-fon" data-linea="Fontanería">«fontanero cerca», «desatascos urgente». Desde el móvil, en el momento.</td>
+          <td class="c-sol" data-linea="Soldadura">«soldador», «cerrajería metálica», «barandillas a medida» y el municipio.</td>
+        </tr>
+        <tr>
+          <th scope="row">Qué le convence</th>
+          <td class="c-alt" data-linea="Trabajos en altura">Ahorrarse el andamio: menos dinero, menos días y menos molestias a vecinos y comercios. Fotos de antes y después. Certificados de altura y seguro.</td>
+          <td class="c-fon" data-linea="Fontanería">Que alguien coja el teléfono y llegue pronto. Reseñas recientes.</td>
+          <td class="c-sol" data-linea="Soldadura">Fotos de acabados y, en estructura de taller, marcado CE por la EN 1090 con soldadores cualificados.<sup class="ref"><a href="#f21">21</a></sup></td>
+        </tr>
+        <tr>
+          <th scope="row">Canal principal</th>
+          <td class="c-alt" data-linea="Trabajos en altura">Visita a administradores de fincas y jefes de mantenimiento de hotel, más una página por servicio.</td>
+          <td class="c-fon" data-linea="Fontanería">Venta cruzada dentro del edificio ya ganado. Nada de anuncios todavía.</td>
+          <td class="c-sol" data-linea="Soldadura">Ficha de Google bien puesta y trato directo con empresas.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- PRECIOS -->
+<section id="precios">
+  <div class="wrap">
+    <div class="cabeza">
+      <h2>Cuánto vale cada trabajo</h2>
+      <p>La escala multiplica por diez en cada línea, porque las cifras se separan mucho. Todos los precios son de Canarias salvo los de soldadura, que no los encontré publicados por islas.</p>
+    </div>
+
+    <div class="escala" role="img" aria-label="Rangos de precio publicados: pintar fachada de edificio, de 1.500 a 6.000 euros; impermeabilizar una azotea de 100 metros cuadrados, de 1.500 a 3.500 euros; cambio completo de tuberías, de 1.500 a 6.000 euros; pintar fachada de vivienda, de 300 a 1.850 euros; puerta metálica, de 300 a 800 euros; reja de ventana, de 150 a 400 euros; avisos sueltos de fontanería, de 30 a 300 euros.">
+      <div class="fila" data-min="1500" data-max="6000">
+        <div class="nombre"><span class="m m-alt" aria-hidden="true"></span>Fachada de edificio</div>
+        <div class="pista"><div class="barra c-alt"></div></div>
+        <div class="rango">1.500–6.000 €</div>
+        <p class="nota">Presupuestos reales en Canarias para pintar la fachada de un edificio; la media de esos presupuestos fue de 3.625 €.<sup class="ref"><a href="#f3">3</a></sup></p>
+      </div>
+      <div class="fila" data-min="1500" data-max="3500">
+        <div class="nombre"><span class="m m-alt" aria-hidden="true"></span>Impermeabilizar azotea</div>
+        <div class="pista"><div class="barra c-alt"></div></div>
+        <div class="rango">1.500–3.500 €</div>
+        <p class="nota">Cálculo propio: una azotea de 100 m² a los 15–35 €/m² publicados.<sup class="ref"><a href="#f11">11</a></sup></p>
+      </div>
+      <div class="fila" data-min="1500" data-max="6000">
+        <div class="nombre"><span class="m m-fon" aria-hidden="true"></span>Cambio de tuberías</div>
+        <div class="pista"><div class="barra c-fon"></div></div>
+        <div class="rango">1.500–6.000 €</div>
+        <p class="nota">Precio publicado para Las Palmas de Gran Canaria. Es el único trabajo de fontanería con ticket de comunidad.<sup class="ref"><a href="#f6">6</a></sup></p>
+      </div>
+      <div class="fila" data-min="300" data-max="1850">
+        <div class="nombre"><span class="m m-alt" aria-hidden="true"></span>Fachada de vivienda</div>
+        <div class="pista"><div class="barra c-alt"></div></div>
+        <div class="rango">300–1.850 €</div>
+        <p class="nota">Presupuestos reales en Canarias, con una media de 1.020 €.<sup class="ref"><a href="#f3">3</a></sup></p>
+      </div>
+      <div class="fila" data-min="300" data-max="800">
+        <div class="nombre"><span class="m m-sol" aria-hidden="true"></span>Puerta metálica</div>
+        <div class="pista"><div class="barra c-sol"></div></div>
+        <div class="rango">300–800 €</div>
+        <p class="nota">Precios de España. No hay datos publicados por islas.<sup class="ref"><a href="#f9">9</a></sup></p>
+      </div>
+      <div class="fila" data-min="150" data-max="400">
+        <div class="nombre"><span class="m m-sol" aria-hidden="true"></span>Reja de ventana</div>
+        <div class="pista"><div class="barra c-sol"></div></div>
+        <div class="rango">150–400 €</div>
+        <p class="nota">Precios de España.<sup class="ref"><a href="#f9">9</a></sup></p>
+      </div>
+      <div class="fila" data-min="30" data-max="300">
+        <div class="nombre"><span class="m m-fon" aria-hidden="true"></span>Aviso de fontanería</div>
+        <div class="pista"><div class="barra c-fon"></div></div>
+        <div class="rango">30–300 €</div>
+        <p class="nota">De arreglar una cisterna a poner un punto de agua, en Las Palmas de Gran Canaria.<sup class="ref"><a href="#f6">6</a></sup></p>
+      </div>
+      <div class="fila-eje" aria-hidden="true">
+        <div class="eje">
+          <span data-v="30">30 €</span>
+          <span data-v="100" class="menor">100</span>
+          <span data-v="300">300 €</span>
+          <span data-v="1000">1.000 €</span>
+          <span data-v="3000" class="menor">3.000</span>
+          <span data-v="10000">10.000 €</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="prosa" style="margin-top:1.5rem">
+      <p><strong>El argumento del andamio.</strong> Pintar una fachada va de 14 a 35 €/m², y la propia fuente atribuye el extremo alto al montaje de andamio. Además, alquilar un andamio cuesta de 30 a 40 € al día, y ahí se queda semanas.<sup class="ref"><a href="#f5">5</a></sup> Ante una junta de vecinos, eso no se cuenta con porcentajes: se cuenta diciendo cuántos días de alquiler se ahorran y que la acera y el portal quedan libres.</p>
+    </div>
+  </div>
+</section>
+
+<!-- POR QUE HAY TRABAJO -->
+<section id="porque">
+  <div class="wrap">
+    <div class="cabeza">
+      <h2>Por qué hay trabajo ahí fuera</h2>
+      <p>Primero lo de aquí, que es lo que convence en una junta. Después lo de España, que sirve de contexto.</p>
+    </div>
+
+    <ul class="datos">
+      <li class="separador">Su zona: Vecindario y el sur</li>
+      <li>
+        <div class="cifra">33</div>
+        <p class="dato">administradores de fincas colegiados ejercen en el sur y el sureste de la isla: 8 en San Bartolomé de Tirajana, 6 en Vecindario, 5 en Playa del Inglés y Maspalomas, 4 en Mogán, y el resto entre Agüimes, Ingenio, Arinaga, Aldea Blanca y Santa Lucía. El colegio publica el listado con buscador por localidad.<sup class="ref"><a href="#f13">13</a></sup></p>
+        <p class="implica"><span class="afecta" role="img" aria-label="Afecta a trabajos en altura y fontanería"><span class="m m-alt"></span><span class="m m-fon"></span></span><strong>Siendo dos, esta es la cifra que manda.</strong> A tres visitas por semana están todos vistos en el trimestre. Con los 204 de toda la isla no daba la vida; con 33, sí. Telde suma otros 13 de camino a la capital.</p>
+      </li>
+      <li>
+        <div class="cifra">91,45 %</div>
+        <p class="dato">de ocupación hotelera tuvo el sur de Gran Canaria en el primer trimestre de 2026, con un RevPAR de 147,21 €, según datos de Gloval y el INE. Es la segunda zona turística más rentable de España.<sup class="ref"><a href="#f16">16</a></sup></p>
+        <p class="implica"><span class="afecta" role="img" aria-label="Afecta a las tres líneas"><span class="m m-alt"></span><span class="m m-fon"></span><span class="m m-sol"></span></span>Maspalomas les queda a un cuarto de hora. Con los hoteles llenos, cerrar una zona sale carísimo: un trabajo por cuerda que no monta andamio ni corta el paso vale más de lo que cuesta.</p>
+      </li>
+      <li>
+        <div class="cifra">8.000</div>
+        <p class="dato">habitaciones hay en Canarias en procesos de creación, modernización o reposicionamiento, repartidas en 49 proyectos. En el primer semestre de 2026 las Islas concentraron el 18 % de toda la inversión hotelera de España.<sup class="ref"><a href="#f17">17</a></sup></p>
+        <p class="implica"><span class="afecta" role="img" aria-label="Afecta a trabajos en altura y soldadura"><span class="m m-alt"></span><span class="m m-sol"></span></span>Obra de reforma hotelera: fachadas, barandillas, pasarelas. Ahí el interlocutor es el jefe de mantenimiento, no el administrador. Y la soldadura entra por esa puerta.</p>
+      </li>
+
+      <li class="separador">Cuidado con la inspección de edificios</li>
+      <li>
+        <div class="cifra">80 años</div>
+        <p class="dato">es el umbral de la inspección técnica de edificaciones en los municipios que no tienen ordenanza propia, según la Ley del Suelo de Canarias. La inspección la hace técnico competente y <strong>tiene una eficacia de veinte años</strong>.<sup class="ref"><a href="#f47b">47b</a></sup></p>
+        <p class="implica"><span class="afecta" role="img" aria-label="Afecta a trabajos en altura"><span class="m m-alt"></span></span><strong>En Vecindario esto no les sirve de gancho.</strong> El casco creció en los años sesenta y setenta: casi ningún edificio llega a los 80 años. No usen este argumento aquí.</p>
+      </li>
+      <li>
+        <div class="cifra">10 años</div>
+        <p class="dato">bastan, en cambio, en <strong>Las Palmas de Gran Canaria</strong>, cuya ordenanza obliga a toda edificación de más de diez años a pasar y superar la inspección técnica de fachadas, repetida cada diez. Si el propietario no entrega el informe, el Ayuntamiento la hace de oficio y se la cobra.<sup class="ref"><a href="#f1">1</a></sup> Allí, además, el 61,5 % de las viviendas tiene 40 años o más.<sup class="ref"><a href="#f2">2</a></sup></p>
+        <p class="implica"><span class="afecta" role="img" aria-label="Afecta a trabajos en altura"><span class="m m-alt"></span></span>Este argumento solo vale cuando suban a la capital. <strong>Antes de usarlo en cualquier otro municipio, hay que llamar a su ayuntamiento y preguntar si tiene ordenanza propia.</strong> En Santa Lucía de Tirajana no hemos encontrado ninguna publicada: hay que confirmarlo en el 928 72 72 00.</p>
+      </li>
+      <li>
+        <div class="cifra">Siempre</div>
+        <p class="dato">puede el ayuntamiento dictar <strong>órdenes de ejecución</strong> para garantizar la seguridad, la salubridad y el ornato de un edificio, haya inspección o no. Y si no se cumplen, hay multa y la obra se hace a costa del propietario.<sup class="ref"><a href="#f47b">47b</a></sup><sup class="ref"><a href="#f1">1</a></sup></p>
+        <p class="implica"><span class="afecta" role="img" aria-label="Afecta a trabajos en altura"><span class="m m-alt"></span></span><strong>Este sí es el argumento universal</strong>, y funciona en cualquier municipio de la isla. Una fachada que suelta trozos a la acera no espera a cumplir 80 años para traer problemas al administrador.</p>
+      </li>
+      <li class="separador">España</li>
+      <li>
+        <div class="cifra">3,4 millones</div>
+        <p class="dato">de siniestros por daños de agua en viviendas aseguradas en 2024, la causa más frecuente.<sup class="ref"><a href="#f19">19</a></sup> Son el 38,2 % de todos los partes del seguro de hogar.<sup class="ref"><a href="#f20">20</a></sup></p>
+        <p class="implica"><span class="afecta" role="img" aria-label="Afecta a fontanería y trabajos en altura"><span class="m m-fon"></span><span class="m m-alt"></span></span>Hay 1,5 millones de percances en comunidades, y dos de cada tres son goteras, bajantes y conducciones.<sup class="ref"><a href="#f19">19</a></sup> Cuando la bajante va por fachada o patio de luces, el trabajo es de las dos líneas a la vez.</p>
+      </li>
+      <li>
+        <div class="cifra">2014</div>
+        <p class="dato">es el año desde el que la estructura de acero fabricada en taller necesita marcado CE por la norma EN 1090, con soldadores cualificados. Lo que se suelda en obra va por otra vía.<sup class="ref"><a href="#f21">21</a></sup></p>
+        <p class="implica"><span class="afecta" role="img" aria-label="Afecta a soldadura"><span class="m m-sol"></span></span>Ustedes lo tienen. Ninguno de los talleres que salen en el mapa lo enseña en su ficha. Es la mejor carta que hay sobre la mesa y no la están jugando.</p>
+      </li>
+      <li>
+        <div class="cifra">700.000</div>
+        <p class="dato">trabajadores necesitará incorporar la construcción en los próximos años.<sup class="ref"><a href="#f22">22</a></sup></p>
+        <p class="implica"><span class="afecta" role="img" aria-label="Afecta a las tres líneas"><span class="m m-alt"></span><span class="m m-fon"></span><span class="m m-sol"></span></span>Las redes también sirven para fichar oficiales, no solo para vender.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- COMPETENCIA -->
+<section id="competencia">
+  <div class="wrap">
+    <div class="cabeza">
+      <h2>Con quién compiten de verdad</h2>
+      <p>Esto es lo que salía en Google Maps buscando desde <strong>Vecindario</strong> el 14 de septiembre de 2026. Las barras son las reseñas de cada ficha.<sup class="ref"><a href="#f12">12</a></sup> El sur no se parece en nada a la capital, y esa es la mejor noticia del documento.</p>
+    </div>
+
+    <div class="comp">
+      <div class="comp-bloque c-alt">
+        <h3>«pintar fachada» en Vecindario</h3>
+        <p class="fichas">6 fichas · el objetivo</p>
+        <ul class="comp-lista" data-max="101">
+          <li><span class="comp-nombre">Progesol Canarias <b>61</b></span><span class="comp-barra"><span data-v="61"></span></span></li>
+          <li><span class="comp-nombre">Pintores y trabajos verticales <b>58</b></span><span class="comp-barra"><span data-v="58"></span></span></li>
+          <li><span class="comp-nombre">Pintura y Reforma Canaria <b>13</b></span><span class="comp-barra"><span data-v="13"></span></span></li>
+          <li><span class="comp-nombre">Alvarado Restauro <b>13</b></span><span class="comp-barra"><span data-v="13"></span></span></li>
+          <li><span class="comp-nombre">Frontislimpieza <b>11</b></span><span class="comp-barra"><span data-v="11"></span></span></li>
+        </ul>
+        <p class="lectura">Del tercer puesto para abajo, <strong>trece reseñas</strong>. Eso se alcanza en unos meses pidiéndoselas a todos los clientes. En la capital el tercero tiene 263.</p>
+      </div>
+
+      <div class="comp-bloque c-sol">
+        <h3>«soldador» en Vecindario</h3>
+        <p class="fichas">Cero fichas. Ninguna.</p>
+        <ul class="comp-lista" data-max="101">
+          <li><span class="comp-nombre">— <b>0</b></span><span class="comp-barra"><span data-v="0"></span></span></li>
+        </ul>
+        <p class="lectura">Google no devuelve ni un solo negocio. Los cinco resultados de «cerrajería metálica» son cerrajeros de urgencia que abren puertas, no talleres. <strong>Abrir la ficha ya es ser el primero</strong>, y con la EN 1090 encima.</p>
+      </div>
+
+      <div class="comp-bloque c-fon">
+        <h3>«fontanero»: sur contra capital</h3>
+        <p class="fichas">9 fichas en el sur · 11 en la capital</p>
+        <ul class="comp-lista" data-max="604">
+          <li><span class="comp-nombre">Capital · Desatascos Mario López <b>604</b></span><span class="comp-barra"><span data-v="604"></span></span></li>
+          <li><span class="comp-nombre">Capital · Desatascos Bonilla <b>573</b></span><span class="comp-barra"><span data-v="573"></span></span></li>
+          <li><span class="comp-nombre">Sur · Fontlux <b>67</b></span><span class="comp-barra"><span data-v="67"></span></span></li>
+          <li><span class="comp-nombre">Sur · Desatascos Maspalomas <b>19</b></span><span class="comp-barra"><span data-v="19"></span></span></li>
+          <li><span class="comp-nombre">Sur · Fontaenersol <b>14</b></span><span class="comp-barra"><span data-v="14"></span></span></li>
+        </ul>
+        <p class="lectura">En la capital era un muro. Aquí no. <strong>La ficha de fontanería sí se puede subir sin pagar</strong>, pero los anuncios siguen sin salir: miren la aceptación mínima en la calculadora.</p>
+      </div>
+
+      <div class="comp-bloque c-alt">
+        <h3>Los huecos</h3>
+        <p class="fichas">Mismo mapa, otras palabras</p>
+        <ul class="comp-lista" data-max="9">
+          <li><span class="comp-nombre">«fontanero» (sur) <b>9 fichas</b></span><span class="comp-barra"><span data-v="9"></span></span></li>
+          <li><span class="comp-nombre">«impermeabilizar azotea» <b>7 fichas</b></span><span class="comp-barra"><span data-v="7"></span></span></li>
+          <li><span class="comp-nombre">«pintar fachada» <b>6 fichas</b></span><span class="comp-barra"><span data-v="6"></span></span></li>
+          <li><span class="comp-nombre">«trabajos verticales» <b>3 fichas</b></span><span class="comp-barra"><span data-v="3"></span></span></li>
+          <li><span class="comp-nombre">«soldador» <b>0 fichas</b></span><span class="comp-barra"><span data-v="0"></span></span></li>
+        </ul>
+        <p class="lectura">«Humedades» en Santa Lucía no devuelve ni una empresa: solo el humedal y la presa. <strong>Todo el sur está por ocupar</strong>, y ustedes ya viven ahí.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PLAN -->
+<section id="plan">
+  <div class="wrap">
+    <div class="cabeza">
+      <h2>El plan en 90 días</h2>
+      <p>Cinco pasos. Los dos primeros cuestan tiempo, no dinero, y son los que más pesan.</p>
+    </div>
+
+    <ol class="plan">
+      <li>
+        <p class="cuando">Semanas 1 y 2</p>
+        <h3>La base, sin gastar un euro</h3>
+        <p>Lo que más pesa para salir en Google Maps es gratis. En el informe de 2026, la categoría principal de la ficha es el factor número uno, por delante incluso de la cercanía.<sup class="ref"><a href="#f25">25</a></sup></p>
+        <ul>
+          <li><strong>Una sola ficha de Google</strong> para AMA. Google no admite perfiles duplicados de la misma empresa y la ficha puede acabar suspendida.<sup class="ref"><a href="#f38">38</a></sup></li>
+          <li>Categoría principal: <strong>«Empresa de impermeabilización»</strong> o <strong>«Trabajos en altura»</strong>, que es lo que usan las fichas que ya salen en el sur.<sup class="ref"><a href="#f12">12</a></sup> Secundarias, y esto importa: <strong>«Soldador»</strong> —que en Vecindario no la tiene nadie—, «Pintor» y «Fontanero».</li>
+          <li>Horario real de 8:00 a 20:00. «Negocio abierto en el momento de la búsqueda» es el quinto factor de posicionamiento local.<sup class="ref"><a href="#f25">25</a></sup> Siendo dos, no pongan un horario que no puedan sostener.</li>
+          <li>Dirección en Vecindario y zona de servicio con los municipios reales. La proximidad al punto de búsqueda es el segundo factor,<sup class="ref"><a href="#f25">25</a></sup> así que estar en el sur les da ventaja en el sur y se la quita en la capital: es otra razón para empezar por casa.</li>
+          <li>Fotos de obras reales. <strong>Nada generado con inteligencia artificial</strong>: el informe lo cuenta como riesgo de suspensión de la ficha.<sup class="ref"><a href="#f25">25</a></sup></li>
+          <li>Enlace y código QR para pedir la reseña al terminar cada trabajo. A todos, sin excepción.</li>
+          <li>Una hoja donde se apunte cada llamada, de dónde vino y en qué acabó. Sin eso, el día 90 no hay nada que revisar.</li>
+        </ul>
+      </li>
+      <li>
+        <p class="cuando">Semanas 3 a 6</p>
+        <h3>Una página por servicio, no por oficio</h3>
+        <p>La web es donde el administrador comprueba que saben hacerlo. Y el cliente busca su problema, no la técnica de ustedes.</p>
+        <ul>
+          <li>Una página para cada cosa: <em>pintar fachada</em>, <em>impermeabilizar azotea</em>, <em>humedades y goteras</em>, <em>limpieza de fachadas y cristales</em>, <em>canalones y bajantes</em>, <em>rejas y barandillas</em>, <em>fontanería</em>.</li>
+          <li><strong>Una página aparte que explique el acceso por cuerda</strong>, enlazada desde todas las demás. Ahí va lo del andamio, la seguridad y los certificados. Ahí, y no en el título de los anuncios.</li>
+          <li>Fichas de obras con municipio, qué se hizo, cuántos días y fotos de antes y después.</li>
+          <li>Certificados a la vista: formación de altura, soldadores cualificados, marcado CE por la EN 1090<sup class="ref"><a href="#f21">21</a></sup> y la póliza de responsabilidad civil.</li>
+          <li>Preguntas frecuentes con los rangos de precio de esta página. Quien publica precios recibe menos llamadas, pero mejores.</li>
+        </ul>
+      </li>
+      <li>
+        <p class="cuando">Semanas 5 a 8</p>
+        <h3>Los anuncios, concentrados en una cosa</h3>
+        <p>Con 300 € al mes no se pueden abrir tres frentes. Todo a trabajos en altura. El apartado siguiente lo detalla campo por campo.</p>
+        <ul>
+          <li>Una campaña de Búsqueda, dos grupos de anuncios: fachadas por un lado, azoteas y humedades por otro.</li>
+          <li>Red de Display y socios de búsqueda desactivados.<sup class="ref"><a href="#f30">30</a></sup></li>
+          <li>Anuncios solo de 8:00 a 20:00, que es cuando hay alguien para coger el teléfono. Siendo dos, un clic a deshora es dinero tirado.<sup class="ref"><a href="#f35">35</a></sup></li>
+          <li><span class="etq etq-sol">Soldadura:</span> ficha, categoría y fotos. Cero euros. Con nadie en el mapa, pagar sería absurdo.</li>
+          <li><span class="etq etq-fon">Fontanería:</span> ficha y reseñas sí, anuncios no. En el sur se puede subir sin pagar, pero el ticket no aguanta la puja: hace falta cerrar el 37,5 % de los presupuestos solo para no perder dinero. Los Anuncios de Servicios Locales, además, piden cinco reseñas y póliza de 150.000 €.<sup class="ref"><a href="#f28">28</a></sup></li>
+        </ul>
+      </li>
+      <li>
+        <p class="cuando">Semanas 6 a 12</p>
+        <h3>Salir a la calle a ver a quien decide</h3>
+        <p>Las obras grandes no llegan por Google. Llegan porque alguien se acuerda de ustedes cuando se cae un trozo de fachada. Y siendo dos, esto es lo que más rinde por hora invertida.</p>
+        <ul>
+          <li><span class="etq etq-alt">Administradores:</span> los <strong>33 del sur y el sureste</strong>, empezando por los 6 de Vecindario y los 8 de San Bartolomé.<sup class="ref"><a href="#f13">13</a></sup> <strong>Tres visitas por semana</strong> y en el trimestre están todos vistos. Un dosier de una hoja: obras hechas, seguridad, seguros, plazos y lo que se ahorran en andamio.</li>
+          <li><span class="etq etq-alt">El gancho que abre la puerta:</span> no la inspección técnica —que en el sur casi no aplica—, sino las <strong>órdenes de ejecución</strong>. El ayuntamiento puede obligar a reparar por seguridad, salubridad u ornato en cualquier momento, y si no se cumple hay multa y obra a costa del propietario.<sup class="ref"><a href="#f47b">47b</a></sup> Un administrador entiende eso a la primera.</li>
+          <li><span class="etq etq-alt">Hoteles y apartamentos:</span> jefes de mantenimiento de Maspalomas, Playa del Inglés y Mogán, que los tienen al lado. El argumento es que no se cierra ninguna zona ni se molesta al cliente.</li>
+          <li><span class="etq etq-sol">Soldadura:</span> talleres, naves del polígono de Arinaga y mantenimiento hotelero, enseñando la EN 1090. Con cero competencia en el mapa, aquí la puerta fría rinde más que en ningún sitio.</li>
+          <li>Llamada de seguimiento a los siete días de cada presupuesto enviado. Sin excepción. Es lo primero que se cae cuando se está liado, y es lo que más cierra.</li>
+        </ul>
+      </li>
+      <li>
+        <p class="cuando">Día 90</p>
+        <h3>Números sobre la mesa</h3>
+        <p>Con tres meses de datos se decide dónde poner más y qué apagar. No antes.</p>
+        <ul>
+          <li>Coste real de cada contacto y de cada trabajo, canal por canal.</li>
+          <li>Cuántos presupuestos se aceptaron de los enviados.</li>
+          <li>Si la de altura sale a cuenta, subir a 400–500 € y abrir soldadura con 80 €.</li>
+          <li>Si con veinte reseñas ya se está arriba en soldadura, no hace falta pagar nada ahí.</li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- LOS 300 EUROS -->
+<section id="trescientos">
+  <div class="wrap">
+    <div class="cabeza">
+      <h2>Los 300 €, paso a paso</h2>
+      <p>«Pon 300 € en Google» no es un plan. Esto es la configuración campo por campo, con lo que hay que escribir en cada casilla y por qué. Los valores de ejemplo se recalculan si cambian el presupuesto.</p>
+    </div>
+
+    <h3 class="sr-only">Reparto del dinero</h3>
+    <dl class="reparto">
+      <div class="c-alt"><dt><span class="m m-alt" aria-hidden="true"></span>Trabajos en altura</dt><dd><span class="euros" id="rep-alt">300 €</span><span class="peq">Todo el presupuesto los dos primeros meses. Es la línea con ticket alto y seis competidores.</span></dd></div>
+      <div class="c-sol"><dt><span class="m m-sol" aria-hidden="true"></span>Soldadura</dt><dd><span class="euros">0 €</span><span class="peq">Cero fichas en el mapa: pagar por salir primero cuando no hay segundo sería tirar el dinero. Solo ficha, categoría y fotos.</span></dd></div>
+      <div class="c-fon"><dt><span class="m m-fon" aria-hidden="true"></span>Fontanería</dt><dd><span class="euros">0 €</span><span class="peq">Ficha y reseñas sí. Anuncios no: el ticket obliga a cerrar el 37,5 % solo para empatar.</span></dd></div>
+    </dl>
+
+    <div class="guia">
+      <div class="guia-cab">
+        <h3 id="guia-titulo">Configurar la campaña</h3>
+        <div class="guia-pasos" role="tablist" aria-labelledby="guia-titulo" id="guia-pasos"></div>
+      </div>
+      <div class="guia-cuerpo" id="guia-cuerpo" role="tabpanel" aria-live="polite"></div>
+      <div class="guia-nav">
+        <button type="button" id="guia-ant">Anterior</button>
+        <button type="button" id="guia-sig" class="principal">Siguiente</button>
+        <span class="cuenta" id="guia-cuenta"></span>
+      </div>
+    </div>
+
+    <div class="campo" style="max-width:26rem;margin-top:1.5rem">
+      <div class="campo-cab">
+        <label for="n-mes">Si cambian el presupuesto del mes</label>
+        <span class="valor"><input id="n-mes" type="number" inputmode="decimal" min="60" max="3000" step="10" value="300"> €</span>
+      </div>
+      <input id="r-mes" type="range" min="60" max="1500" step="10" value="300" aria-label="Presupuesto mensual en euros">
+      <p class="supuestos" style="margin-top:.5rem">Los importes del paso del presupuesto y el reparto de arriba se recalculan solos.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CALCULADORA -->
+<section id="calculadora">
+  <div class="wrap">
+    <div class="cabeza">
+      <h2>¿Sale a cuenta pagar anuncios?</h2>
+      <p>Elijan una línea y cambien los números por los suyos. <strong>Los valores de partida son supuestos, no promesas</strong>: los reales se sabrán tras seis u ocho semanas. La nota de abajo dice de dónde sale cada uno.</p>
+    </div>
+
+    <div class="calc">
+      <div class="calc-lineas" role="group" aria-label="Elegir línea de trabajo">
+        <button type="button" data-linea="alt" aria-pressed="true">Trabajos en altura</button>
+        <button type="button" data-linea="fon" aria-pressed="false">Fontanería</button>
+        <button type="button" data-linea="sol" aria-pressed="false">Soldadura</button>
+      </div>
+
+      <div class="calc-cuerpo">
+        <div class="calc-entradas">
+          <div class="campo">
+            <div class="campo-cab"><label for="n-inv">Inversión en anuncios al mes</label><span class="valor"><input id="n-inv" type="number" inputmode="decimal" min="0" step="10"> €</span></div>
+            <input id="r-inv" type="range" min="50" max="1500" step="10" aria-label="Inversión en anuncios al mes">
+          </div>
+          <div class="campo">
+            <div class="campo-cab"><label for="n-cpl">Coste de cada contacto</label><span class="valor"><input id="n-cpl" type="number" inputmode="decimal" min="1" step="1"> €</span></div>
+            <input id="r-cpl" type="range" min="5" max="150" step="1" aria-label="Coste de cada contacto">
+          </div>
+          <div class="campo">
+            <div class="campo-cab"><label for="n-cierre">Presupuestos que se aceptan</label><span class="valor"><input id="n-cierre" type="number" inputmode="decimal" min="0" max="100" step="1"> %</span></div>
+            <input id="r-cierre" type="range" min="1" max="90" step="1" aria-label="Presupuestos que se aceptan">
+          </div>
+          <div class="campo">
+            <div class="campo-cab"><label for="n-ticket">Precio medio del trabajo</label><span class="valor"><input id="n-ticket" type="number" inputmode="decimal" min="0" step="10"> €</span></div>
+            <input id="r-ticket" type="range" min="50" max="8000" step="10" aria-label="Precio medio del trabajo">
+          </div>
+          <div class="campo">
+            <div class="campo-cab"><label for="n-margen">Margen que les queda de cada trabajo</label><span class="valor"><input id="n-margen" type="number" inputmode="decimal" min="0" max="100" step="1"> %</span></div>
+            <input id="r-margen" type="range" min="5" max="70" step="1" aria-label="Margen que les queda de cada trabajo">
+          </div>
+        </div>
+
+        <div class="calc-salidas" aria-live="polite">
+          <p class="frase" id="frase"></p>
+          <dl class="cifras">
+            <div><dt>Contactos al mes</dt><dd id="o-contactos"></dd></div>
+            <div><dt>Trabajos al mes</dt><dd id="o-trabajos"></dd></div>
+            <div><dt>Facturación al mes</dt><dd id="o-factura"></dd></div>
+            <div><dt>Aceptación mínima para no perder dinero</dt><dd id="o-minimo"></dd></div>
+            <div class="clave" id="caja-resultado"><dt id="o-resultado-etq">Queda al mes después de pagar los anuncios</dt><dd id="o-resultado"></dd></div>
+          </dl>
+          <p class="supuestos" id="supuestos"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRESUPUESTO -->
+<section id="presupuesto">
+  <div class="wrap">
+    <div class="cabeza">
+      <h2>Cuánto cuesta ponerlo en marcha</h2>
+      <p>Dos formas de arrancar, con precios de mercado publicados en 2026. «Con lo justo» supone que la web la montan ustedes y que llevan los anuncios ustedes. «Con apoyo» es contratarlo todo fuera.</p>
+    </div>
+
+    <table class="tabla">
+      <caption class="sr-only">Presupuesto orientativo del primer año</caption>
+      <thead>
+        <tr>
+          <th scope="col">Concepto</th>
+          <th scope="col">Precio de mercado</th>
+          <th scope="col" class="num">Con lo justo</th>
+          <th scope="col" class="num">Con apoyo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Ficha de Google, reseñas y visitas a administradores<small>Solo tiempo</small></th>
+          <td data-col="Precio de mercado">0 €</td>
+          <td class="num" data-col="Con lo justo">0 €</td>
+          <td class="num" data-col="Con apoyo">0 €</td>
+        </tr>
+        <tr>
+          <th scope="row">Web con una página por servicio<small>Pago único</small></th>
+          <td data-col="Precio de mercado">800–2.500 €<sup class="ref"><a href="#f23b">23b</a></sup></td>
+          <td class="num" data-col="Con lo justo">0 €</td>
+          <td class="num" data-col="Con apoyo">2.500 €</td>
+        </tr>
+        <tr>
+          <th scope="row">Dominio y alojamiento<small>Al año</small></th>
+          <td data-col="Precio de mercado">Dominio 10–25 € y alojamiento 60–300 €<sup class="ref"><a href="#f23b">23b</a></sup></td>
+          <td class="num" data-col="Con lo justo">85 €</td>
+          <td class="num" data-col="Con apoyo">325 €</td>
+        </tr>
+        <tr>
+          <th scope="row">Anuncios en Google<small>Al mes, lo que se paga a Google</small></th>
+          <td data-col="Precio de mercado">200–800 € en campañas locales<sup class="ref"><a href="#f29b">29b</a></sup></td>
+          <td class="num" data-col="Con lo justo">300 €</td>
+          <td class="num" data-col="Con apoyo">600 €</td>
+        </tr>
+        <tr>
+          <th scope="row">Gestión de los anuncios<small>Al mes, si la lleva una agencia</small></th>
+          <td data-col="Precio de mercado">75–400 €<sup class="ref"><a href="#f29">29</a></sup></td>
+          <td class="num" data-col="Con lo justo">0 €</td>
+          <td class="num" data-col="Con apoyo">250 €</td>
+        </tr>
+        <tr>
+          <th scope="row">SEO local<small>Al mes, si se contrata</small></th>
+          <td data-col="Precio de mercado">150–450 € para un negocio local<sup class="ref"><a href="#f26b">26b</a></sup></td>
+          <td class="num" data-col="Con lo justo">0 €</td>
+          <td class="num" data-col="Con apoyo">300 €</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th scope="row">Total del primer año</th>
+          <td data-col=""><span class="sr-only">No aplica</span></td>
+          <td class="num" data-col="Con lo justo">3.685 €</td>
+          <td class="num" data-col="Con apoyo">16.825 €</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <div class="prosa" style="margin-top:1.5rem">
+      <p><strong>Cuántos trabajos hacen falta para pagarlo.</strong> Con los supuestos de la calculadora, una fachada de 1.800 € al 30 % de margen deja 540 €. Al escenario «con lo justo» le bastan <strong>siete fachadas en todo el año</strong>. Al de «con apoyo» le hacen falta <strong>treinta y una</strong>. Ese salto es la razón de empezar por abajo.</p>
+      <p>Y una cosa más: en «con lo justo» la web sale a cero porque la montan en casa. Si eso cambia, hay que sumarle entre 800 y 2.500 €.<sup class="ref"><a href="#f23b">23b</a></sup></p>
+    </div>
+  </div>
+</section>
+
+<!-- IMPUESTOS Y AYUDAS -->
+<section id="impuestos">
+  <div class="wrap">
+    <div class="cabeza">
+      <h2>IGIC y ayudas: lo que hay y lo que no</h2>
+      <p>Aquí no se paga IVA, se paga IGIC. Y a día de hoy no hay ninguna ayuda abierta que sirva para esto. Mejor saberlo ahora que después de firmar con una agencia que lo prometa.</p>
+    </div>
+
+    <h3 style="margin-bottom:.9rem">Impuestos</h3>
+    <table class="tabla">
+      <caption class="sr-only">Tipos de IGIC aplicables</caption>
+      <thead><tr><th scope="col">Caso</th><th scope="col">Tipo</th><th scope="col">Qué significa</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Tipo general</th><td data-col="Tipo"><strong>7 %</strong></td><td data-col="Qué significa">Lo normal en la mayoría de trabajos y servicios.<sup class="ref"><a href="#f23">23</a></sup></td></tr>
+        <tr><th scope="row">Reparación de vivienda habitual</th><td data-col="Tipo"><strong>3 %</strong></td><td data-col="Qué significa">Tipo reducido. Conviene saber cuándo aplica antes de presupuestar.<sup class="ref"><a href="#f23">23</a></sup></td></tr>
+        <tr><th scope="row">Facturas de Google Ads y Meta Ads</th><td data-col="Tipo"><strong>Inversión del sujeto pasivo</strong></td><td data-col="Qué significa">Vienen de fuera de Canarias. Es un error habitual tratarlas como una factura cualquiera. Que lo vea la gestoría antes del primer pago.<sup class="ref"><a href="#f24">24</a></sup></td></tr>
+      </tbody>
+    </table>
+
+    <h3 style="margin:2rem 0 .9rem">Ayudas, comprobadas el 14 de septiembre de 2026</h3>
+    <table class="tabla">
+      <caption class="sr-only">Estado de las ayudas a la digitalización y a la rehabilitación</caption>
+      <thead><tr><th scope="col">Ayuda</th><th scope="col">Estado hoy</th><th scope="col">Qué significa para AMA</th></tr></thead>
+      <tbody>
+        <tr>
+          <th scope="row">Kit Digital</th>
+          <td data-col="Estado hoy"><span class="estado no">Cerrada</span></td>
+          <td data-col="Qué significa">La página oficial lo dice con estas palabras: «Las convocatorias del Programa Kit Digital han finalizado».<sup class="ref"><a href="#f43">43</a></sup> La última, la del segmento de 0 a 3 empleados, cerró el <strong>31 de octubre de 2025</strong>. Lo que se movió en 2026 fue una orden para repartir fondos sobrantes <strong>entre quienes ya estaban en lista de espera</strong>, no una convocatoria nueva.<sup class="ref"><a href="#f42">42</a></sup> Si alguien se lo ofrece hoy, no tiene dónde tramitarlo.</td>
+        </tr>
+        <tr>
+          <th scope="row">DigiEmpresas (Gobierno de Canarias, ACIISI)</th>
+          <td data-col="Estado hoy"><span class="estado no">Cerrada</span></td>
+          <td data-col="Qué significa">El plazo fue del 7 al 21 de abril de 2026. Además <strong>no subvencionaba el desarrollo de páginas web</strong>: iba de ERP, CRM y business intelligence.<sup class="ref"><a href="#f44">44</a></sup></td>
+        </tr>
+        <tr>
+          <th scope="row">Cámara de Comercio de Gran Canaria</th>
+          <td data-col="Estado hoy"><span class="estado no">Nada de digitalización</span></td>
+          <td data-col="Qué significa">Todo lo que tiene abierto ahora mismo es de internacionalización y ferias: misiones a Perú y China, WTM London, Metstrade.<sup class="ref"><a href="#f45">45</a></sup> Nada que sirva para una web o para anuncios.</td>
+        </tr>
+        <tr>
+          <th scope="row">Rehabilitación de edificios (Next Generation)</th>
+          <td data-col="Estado hoy"><span class="estado no">Fuera de plazo</span></td>
+          <td data-col="Qué significa">El programa de rehabilitación a nivel de edificio cerró el 15 de diciembre de 2023.<sup class="ref"><a href="#f46">46</a></sup> <strong>No prometan a ninguna comunidad que hay subvención</strong> sin comprobarlo ese mismo día en la sede del Gobierno de Canarias.</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+</section>
+
+<!-- CRIBA KIT DIGITAL -->
+<section id="criba">
+  <div class="wrap">
+    <div class="cabeza">
+      <h2>Criba: ¿entraría AMA cuando vuelva a abrir?</h2>
+      <p>No sabemos qué forma jurídica tiene AMA, así que esto lo criban ustedes, que son quienes tienen los papeles. Son los requisitos que el Kit Digital ha pedido en sus convocatorias anteriores. Si alguno falla, ya saben que no hay nada que hacer aunque reabra mañana.</p>
+    </div>
+    <table class="tabla">
+      <caption class="sr-only">Requisitos de elegibilidad del Kit Digital para repasar</caption>
+      <thead><tr><th scope="col">Requisito</th><th scope="col">Qué hay que mirar</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Forma jurídica</th><td data-col="Qué hay que mirar">Vale autónomo, SL o SA. Las comunidades de bienes, sociedades civiles con objeto mercantil, sociedades civiles profesionales y explotaciones agrarias de titularidad compartida tuvieron convocatoria propia.<sup class="ref"><a href="#f42">42</a></sup> <strong>Miren la escritura o el alta censal.</strong></td></tr>
+        <tr><th scope="row">Número de empleados</th><td data-col="Qué hay que mirar">Siendo dos, AMA cae en el <strong>segmento III (de 0 a menos de 3)</strong>. En la última convocatoria de ese segmento el bono fue de <strong>2.000 €</strong>.<sup class="ref"><a href="#f42">42</a></sup> Cuenta la plantilla media del último ejercicio cerrado, no la de hoy.</td></tr>
+        <tr><th scope="row">Antigüedad en el censo</th><td data-col="Qué hay que mirar">Hay que llevar dados de alta <strong>al menos seis meses</strong> en el censo de empresarios de Hacienda.<sup class="ref"><a href="#f42">42</a></sup></td></tr>
+        <tr><th scope="row">Al corriente de pagos</th><td data-col="Qué hay que mirar">Sin deudas con Hacienda ni con la Seguridad Social. Lo mira la gestoría en un minuto.<sup class="ref"><a href="#f48">48</a></sup></td></tr>
+        <tr><th scope="row">No ser empresa en crisis</th><td data-col="Qué hay que mirar">Según la definición del reglamento europeo. Con dos personas y cuentas normales no suele ser problema.<sup class="ref"><a href="#f48">48</a></sup></td></tr>
+        <tr><th scope="row">Límite de ayudas de minimis</th><td data-col="Qué hay que mirar">No haber pasado de <strong>300.000 €</strong> en ayudas de minimis en los tres últimos ejercicios.<sup class="ref"><a href="#f48">48</a></sup> Si nunca han pedido subvenciones, esto está cubierto.</td></tr>
+        <tr><th scope="row">Test de autodiagnóstico</th><td data-col="Qué hay que mirar">Hay que hacerlo en <code>acelerapyme.gob.es</code>. Son quince minutos y se puede hacer ya, sin esperar a que abran.<sup class="ref"><a href="#f48">48</a></sup></td></tr>
+      </tbody>
+    </table>
+
+    <div class="prosa" style="margin-top:1.5rem">
+      <p><strong>Esto caduca, y rápido.</strong> Antes de dar por buena cualquiera de estas filas hay que mirarlo <strong>ese mismo día</strong> en la sede de Red.es, en la Base de Datos Nacional de Subvenciones, en la sede del Gobierno de Canarias y en la Cámara de Comercio. Y una regla sencilla: <strong>si una agencia les ofrece hoy tramitar el Kit Digital, está vendiendo humo</strong>, porque no hay convocatoria donde presentarlo.</p>
+      <p>Mientras tanto, el plan no depende de ninguna ayuda. El escenario «con lo justo» son 3.685 € en todo el año, y eso no lo paga una subvención: lo pagan siete fachadas.</p>
+    </div>
+  </div>
+</section>
+
+<!-- REDES -->
+<section id="redes">
+  <div class="wrap">
+    <div class="cabeza">
+      <h2>Qué grabar en cada línea</h2>
+      <p>Instagram lo usa el 77 % de los internautas en España cada mes; Facebook, el 56 %.<sup class="ref"><a href="#f39">39</a></sup> Desde julio de 2025, las publicaciones de cuentas profesionales públicas pueden salir en Google, así que en cada pie hay que escribir el servicio y el municipio.<sup class="ref"><a href="#f40">40</a></sup> El número de seguidores, en cambio, está en el puesto 187 de los factores de posicionamiento local: no es un objetivo.<sup class="ref"><a href="#f25">25</a></sup></p>
+    </div>
+
+    <div class="videos">
+      <div class="video-bloque c-alt">
+        <h3>Trabajos en altura</h3>
+        <ul>
+          <li>El descuelgue desde la azotea, grabado desde arriba y desde la calle.</li>
+          <li>Antes y después de una fachada, un patio de luces o una medianera.</li>
+          <li>La acera sin cortar y el portal libre, al lado de una foto de un andamio.</li>
+          <li>Cómo se colocan y se comprueban los anclajes.</li>
+        </ul>
+      </div>
+      <div class="video-bloque c-fon">
+        <h3>Fontanería</h3>
+        <ul>
+          <li>Localizar una fuga con cámara o detector.</li>
+          <li>Cambiar una bajante colgados de la cuerda, sin tocar la vivienda de nadie.</li>
+          <li>Dónde está la llave de paso y qué hacer mientras llega el fontanero.</li>
+        </ul>
+      </div>
+      <div class="video-bloque c-sol">
+        <h3>Soldadura</h3>
+        <ul>
+          <li>Chispas a cámara lenta, con todo el equipo de protección puesto.</li>
+          <li>Una reja o una barandilla, antes y después.</li>
+          <li>El sello de la EN 1090 y el certificado del soldador. Eso no lo enseña nadie más.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="reglas">
+      <h3>Tres reglas antes de publicar</h3>
+      <ul>
+        <li><strong>Permiso por escrito de cada trabajador que salga en imagen.</strong> La Agencia Española de Protección de Datos ha multado con 5.000 € a una empresa por publicar la foto de una extrabajadora sin consentimiento válido.<sup class="ref"><a href="#f41">41</a></sup></li>
+        <li>Permiso del cliente para grabar su casa o su edificio, y que no se vea el número del portal.</li>
+        <li>Nadie en altura sin arnés ni casco en un vídeo. Lo que se sube es público y lo ve también quien inspecciona.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- MEDIR -->
+<section id="medir">
+  <div class="wrap">
+    <div class="cabeza">
+      <h2>Cómo sabremos si funciona</h2>
+      <p>Seis números, apuntados siempre en el mismo sitio. Sin esto, el día 90 no se puede decidir nada.</p>
+    </div>
+
+    <table class="tabla medir">
+      <caption class="sr-only">Indicadores del primer trimestre</caption>
+      <thead><tr><th scope="col">Qué apuntar</th><th scope="col">Cada cuánto</th><th scope="col">Objetivo del primer trimestre</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Llamadas y mensajes, con su origen</th><td data-col="Cada cuánto">Cada semana</td><td data-col="Objetivo">Que ninguno quede sin anotar de dónde vino</td></tr>
+        <tr><th scope="row">Coste por contacto de los anuncios</th><td data-col="Cada cuánto">Cada mes</td><td data-col="Objetivo">Por debajo del límite que marca la calculadora</td></tr>
+        <tr><th scope="row">Presupuestos aceptados</th><td data-col="Cada cuánto">Cada mes</td><td data-col="Objetivo">Subirlo con la llamada de seguimiento a los siete días</td></tr>
+        <tr><th scope="row">Reseñas nuevas en Google</th><td data-col="Cada cuánto">Cada mes</td><td data-col="Objetivo">Tres o cuatro al mes. Es el noveno factor de posicionamiento local<sup class="ref"><a href="#f25">25</a></sup></td></tr>
+        <tr><th scope="row">Llamadas sin contestar en horario</th><td data-col="Cada cuánto">Cada semana</td><td data-col="Objetivo">Ninguna entre las 8:00 y las 20:00</td></tr>
+        <tr><th scope="row">Administradores visitados</th><td data-col="Cada cuánto">Cada semana</td><td data-col="Objetivo">Tres por semana: los 33 del sur, vistos todos en el trimestre<sup class="ref"><a href="#f13">13</a></sup></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- EVITAR -->
+<section id="evitar">
+  <div class="wrap">
+    <div class="cabeza">
+      <h2>Lo que no haríamos todavía</h2>
+      <p>Cada una de estas cuesta dinero de verdad.</p>
+    </div>
+    <ul class="evitar">
+      <li><strong>Anunciarse como «trabajos verticales».</strong> Tres fichas se pelean en Vecindario por una búsqueda que casi nadie hace.<sup class="ref"><a href="#f12">12</a></sup> La cuerda va en la página que la explica, no en el título del anuncio.</li>
+      <li><strong>Meter dinero en anuncios de fontanería.</strong> El clic de «fontanero urgente» sale a 2,10 €, más del doble que el de reformas,<sup class="ref"><a href="#f29">29</a></sup> y el ticket obliga a cerrar el 37,5 % solo para empatar. La ficha, en cambio, es gratis y en el sur sí se puede subir.</li>
+      <li><strong>Usar la inspección técnica como argumento en el sur.</strong> Lo de los diez años es una ordenanza de Las Palmas de Gran Canaria.<sup class="ref"><a href="#f1">1</a></sup> Donde no hay ordenanza propia rigen los 80 años de la Ley del Suelo.<sup class="ref"><a href="#f47b">47b</a></sup> Decírselo mal a un administrador es perderlo para siempre.</li>
+      <li><strong>Abrir campañas en toda la isla o en otras islas todavía.</strong> Con 300 € y dos personas, el dinero se diluye y los desplazamientos se comen el margen. Primero el sur, que es donde viven y donde la proximidad juega a favor.<sup class="ref"><a href="#f25">25</a></sup></li>
+      <li><strong>Abrir una ficha de Google por cada línea.</strong> Google no admite perfiles duplicados de la misma empresa.<sup class="ref"><a href="#f38">38</a></sup></li>
+      <li><strong>Dejar la Red de Display encendida.</strong> Viene activada por defecto y trae clics que no sirven.<sup class="ref"><a href="#f30">30</a></sup></li>
+      <li><strong>Usar «Maximizar clics» sin poner límite de CPC.</strong> Sin tope, Google puede pagar varios euros por un solo clic para gastarse el presupuesto del día.<sup class="ref"><a href="#f37">37</a></sup></li>
+      <li><strong>Firmar con quien prometa tramitar el Kit Digital.</strong> Las convocatorias están cerradas y no hay dónde presentarlo.<sup class="ref"><a href="#f43">43</a></sup></li>
+      <li><strong>Prometer subvenciones a una comunidad de vecinos.</strong> El programa de rehabilitación de edificios lleva cerrado desde diciembre de 2023.<sup class="ref"><a href="#f46">46</a></sup></li>
+      <li><strong>Poner fotos generadas con inteligencia artificial en la ficha.</strong> Cuentan como riesgo de suspensión.<sup class="ref"><a href="#f25">25</a></sup></li>
+      <li><strong>Comprar seguidores o reseñas.</strong> Los seguidores están en el puesto 187 de los factores de posicionamiento<sup class="ref"><a href="#f25">25</a></sup> y las reseñas falsas pueden costar la ficha entera.</li>
+      <li><strong>Publicar vídeos sin permiso por escrito</strong> de trabajadores y clientes.<sup class="ref"><a href="#f41">41</a></sup></li>
+    </ul>
+  </div>
+</section>
+
+<!-- FUENTES -->
+<section id="fuentes">
+  <div class="wrap">
+    <div class="cabeza">
+      <h2>Fuentes</h2>
+      <p>Consultadas el 14 de septiembre de 2026. Los precios son rangos publicados por plataformas y empresas: cada obra tiene el suyo. Lo que es cálculo propio o supuesto está dicho en el sitio donde aparece.</p>
+    </div>
+    <ol class="fuentes">
+      <li id="f1">Ayuntamiento de Las Palmas de Gran Canaria, Ordenanza Especial sobre Conservación y Estado Ruinoso de las Edificaciones. Artículo 5 (ITF a partir de diez años y cada diez), artículo 8 (inspección de oficio a costa del interesado), artículo 20 (medianeras al descubierto) y artículo 23 (multa y ejecución subsidiaria). <a href="https://sedeelectronica.laspalmasgc.es/textos/2/OM_ConservacionyEstadoRuinosoEdif_LasPalmasGC.pdf">sedeelectronica.laspalmasgc.es</a></li>
+      <li id="f2">idealista/news, envejecimiento del parque de viviendas con datos de Catastro: 61,5 % de las viviendas de Las Palmas de Gran Canaria tiene 40 años o más (octubre de 2021). <a href="https://www.idealista.com/news/inmobiliario/vivienda/2021/09/21/792446-el-parque-de-viviendas-envejece-una-de-cada-dos-casas-tiene-mas-de-40-anos">idealista.com</a></li>
+      <li id="f3">HAZMEPRECIO, presupuestos reales de pintar fachada en Tenerife: media de 1.020 €, rango de 300 a 1.850 €; fachada de edificio de 800 m², media de 3.625 € y rango de 1.500 a 6.000 €. <a href="https://www.hazmeprecio.com/presupuesto/pintar-fachada/tenerife">hazmeprecio.com</a></li>
+      <li id="f4">HAZMEPRECIO, presupuestos reales de pintar fachada en Las Palmas: 5–12 €/m² en trabajo básico y un ejemplo de 1.950 € con reparación previa. <a href="https://www.hazmeprecio.com/presupuesto/pintar-fachada/las-palmas">hazmeprecio.com</a></li>
+      <li id="f5">habitissimo, precio de pintar fachada: media de 20 €/m², rango de 14 a 35 €/m² con el extremo alto atribuido al andamio, unifamiliar 14 €/m², edificio de cinco plantas unos 8.000 € y alquiler de andamio de 30 a 40 € al día. <a href="https://habitissimo.es/presupuestos/pintar-fachada/las-palmas/las-palmas-de-gran-canaria">habitissimo.es</a></li>
+      <li id="f6">Cronoshare, precios de fontanero en Las Palmas de Gran Canaria: 13–22 €/h, grifo 50–150 €, punto de agua 150–300 €, desatasco 30–200 €, cambio completo de tuberías 1.500–6.000 €. <a href="https://www.cronoshare.com/cuanto-cuesta/fontanero/las-palmas-de-gran-canaria">cronoshare.com</a></li>
+      <li id="f7">Cronoshare, precios de fontanero en Santa Cruz de Tenerife: 13–21 €/h. <a href="https://www.cronoshare.com/cuanto-cuesta/fontanero/santa-cruz-de-tenerife">cronoshare.com</a></li>
+      <li id="f8">Motor de Presupuestos, oficial de 1.ª fontanero en Las Palmas calculado desde el convenio provincial: 37–50 €/h. <a href="https://motordepresupuestos.com/cuanto-cobra/fontaneros/las-palmas">motordepresupuestos.com</a></li>
+      <li id="f9">Tutti, precios habituales de soldador en España: 30–60 €/h, reja de ventana 150–400 €, puerta metálica 300–800 €. No hay datos publicados por islas. <a href="https://soytutti.com/guias/plantilla-presupuesto-soldador">soytutti.com</a></li>
+      <li id="f10">Cronoshare, precio de impermeabilización: 20–35 €/m² por empresa especializada. <a href="https://www.cronoshare.com/cuanto-cuesta/impermeabilizacion">cronoshare.com</a></li>
+      <li id="f11">Humedades.com, precio de impermeabilizar azotea en 2026: 15–35 €/m², hasta 80 €/m² si es transitable con solado nuevo. <a href="https://humedades.com/guia-precios/impermeabilizacion/impermeabilizar-azotea/">humedades.com</a></li>
+      <li id="f12"><strong>Elaboración propia.</strong> Consulta de Google Maps el 14 de septiembre de 2026 para «trabajos verticales», «pintar fachada», «impermeabilizar azotea», «humedades», «fontanero», «soldador» y «cerrajería metálica», buscando <strong>desde Vecindario y Santa Lucía de Tirajana</strong>, y repetida desde Las Palmas de Gran Canaria para comparar. Número de fichas, reseñas y categorías recogidos ese día. Las cifras cambian: conviene repetir la consulta cada trimestre. <a href="https://www.google.com/maps">google.com/maps</a></li>
+      <li id="f13">Colegio Oficial de Administradores de Fincas de Las Palmas, buscador público de colegiados (consultado el 14 de septiembre de 2026): 256 en total, 204 en Gran Canaria. En el sur y el sureste, 33: San Bartolomé de Tirajana 8, Vecindario 6, Playa del Inglés 5, Mogán 4, Agüimes 2, Aldea Blanca 2, Santa Lucía de Tirajana 2, Maspalomas 1, Ingenio 1, Arinaga 1, Cruce de Arinaga 1. Telde suma 13. <a href="https://www.caflaspalmas.es/informacion/colegiados/">caflaspalmas.es</a></li>
+      <li id="f14">Colegio de Administradores de Fincas de Santa Cruz de Tenerife, renovación del Consejo Canario: unos 600 colegiados en todo el archipiélago. <a href="https://caftenerife.org/noticias/renovado-el-consejo-canario-de-colegios-de-administradores-de-fincas/">caftenerife.org</a></li>
+      <li id="f15">Colegio de Administradores de Fincas de Santa Cruz de Tenerife, Decreto 23/2026: las juntas de vivienda protegida en alquiler del Icavi pueden contratar administrador colegiado. <a href="https://caftenerife.org/noticias/los-adjudicatarios-de-vivienda-protegida-podran-contratar-por-primera-vez-un-administrador-de-fincas-colegiado/">caftenerife.org</a></li>
+      <li id="f16">Maspalomas24h, ocupación del sur de Gran Canaria en el primer trimestre de 2026: 91,45 % y RevPAR de 147,21 €, con datos de Gloval y el INE. <a href="https://maspalomas24h.com/art/10445/el-sur-de-gran-canaria-lidera-la-ocupacion-hotelera-en-espana-con-un-record-del-91-en-2026">maspalomas24h.com</a></li>
+      <li id="f17">Atlántico Hoy, transformación de la oferta hotelera canaria: 49 proyectos y más de 8.000 habitaciones; el 18 % de la inversión hotelera de España en el primer semestre de 2026. <a href="https://www.atlanticohoy.com/economia/canarias-transforma-su-oferta-hotelera-mas-8000-habitaciones-entre-proyectos-lujo-reformas_1565330_102.html">atlanticohoy.com</a></li>
+      <li id="f18">Promotur Turismo de Canarias, barómetro de rentabilidad y empleo de Gran Canaria 2025: 81,7 % de ocupación y RevPAR de 108,02 €. <a href="https://investigacion.turismodeislascanarias.com/sites/default/files/2026-02/Promotur_Bar%C3%B3metro%20rentabilidad%20y%20empleo_Gran%20Canaria_2025.pdf">turismodeislascanarias.com</a></li>
+      <li id="f19">UNESPA, siniestros en inmuebles asegurados con datos de 2024. <a href="https://www.unespa.es/notasdeprensa/siniestros-inmuebles-asegurados-datos-2024/">unespa.es</a></li>
+      <li id="f20">ICEA, los daños por agua fueron el 38,2 % de los siniestros de hogar en 2024. <a href="https://www.icea.es/es-ES/noticias/Noticias/Noticias0625/Dia-25/multirriesgos.aspx">icea.es</a></li>
+      <li id="f21">SEAS, homologación de soldadores y marcado CE según la norma EN 1090 desde 2014. <a href="https://www.seas.es/blog/produccion-mantenimiento/la-homologacion-de-soldadores-es-obligatoria/">seas.es</a></li>
+      <li id="f22">El Español, la construcción necesitará unos 700.000 trabajadores (agosto de 2026). <a href="https://www.elespanol.com/sociedad/20260806/espana-necesita-trabajadores-construccion-faltan-albaniles-pagan-sueldos-euros-ano/1003744344830_0.html">elespanol.com</a></li>
+      <li id="f23">Guía Fiscal, tipos de IGIC en Canarias 2026: general 7 %, reducido 3 % en reparación de vivienda habitual. <a href="https://guiafiscal.es/guias/igic-canarias-2026/">guiafiscal.es</a></li>
+      <li id="f23b">Neolo y LPB Digital, precios de web para pyme en España 2026: 800–2.500 € una web corporativa, dominio 10–25 € al año y alojamiento de 60 a 300 € al año. <a href="https://www.neolo.com/blog/precio-pagina-web-espana.php">neolo.com</a>, <a href="https://lpbdigital.com/blog/cuanto-cuesta-pagina-web-espana/">lpbdigital.com</a></li>
+      <li id="f24">Asesoría Yanes, guía del IGIC: las facturas de servicios de fuera de Canarias van por inversión del sujeto pasivo. <a href="https://asesoriayanes.com/igic-canarias-guia-completa-2026/">asesoriayanes.com</a></li>
+      <li id="f25">Whitespark, Local Search Ranking Factors 2026 (publicado el 6 de noviembre de 2025, encuesta a 47 especialistas). Categoría principal de la ficha, primer factor con 227 puntos; negocio abierto en el momento de la búsqueda, quinto; dirección visible, séptimo; número de reseñas, noveno; fotos o vídeos generados con IA, factor de riesgo de suspensión con 45 puntos; número de seguidores en redes, puesto 187. <a href="https://whitespark.ca/local-search-ranking-factors/">whitespark.ca</a></li>
+      <li id="f26">BrightLocal, Local Consumer Review Survey 2026 (panel de 1.002 adultos de EE. UU.): el 97 % lee reseñas, el 45 % ya usa herramientas de IA para recomendaciones locales frente al 6 % del año anterior, y el uso de Google para buscar negocios locales baja del 83 % al 71 %. <a href="https://www.brightlocal.com/research/local-consumer-review-survey/">brightlocal.com</a></li>
+      <li id="f26b">danielfounder.es, precios de SEO local en España 2026: 150–450 € al mes para un negocio local; 150–300 € un profesional independiente y 300–600 € una agencia pequeña. <a href="https://danielfounder.es/blog/cuanto-cuesta-seo-local/">danielfounder.es</a></li>
+      <li id="f27">Google, introducción a los Anuncios de Servicios Locales: se paga por contacto recibido y el ranking empeora si se dejan llamadas o mensajes sin responder. <a href="https://support.google.com/localservices/answer/6224841?hl=es&amp;co=GENIE.CountryCode%3DES">support.google.com</a></li>
+      <li id="f28">Adentity, requisitos de los Anuncios de Servicios Locales: ficha verificada, mínimo de cinco reseñas y seguro de responsabilidad civil de al menos 150.000 €. <a href="https://adentity.es/anuncios-servicios-locales-google/">adentity.es</a></li>
+      <li id="f29">adberg, cuánto cuesta Google Ads en España en 2026: coste por clic estimado de 2,10 € en «fontanero urgente» frente a 0,95 € en «reformas integrales»; gestión de agencia de 75 a 400 € al mes. <a href="https://adberg.agency/blog/cuanto-cuesta-google-ads">adberg.agency</a></li>
+      <li id="f29b">ScalixLab, presupuestos de Google Ads en España 2026: entre 200 y 800 € al mes en campañas locales sencillas. <a href="https://scalixlab.com/blog/cuanto-cuesta-google-ads-precios-presupuestos/">scalixlab.com</a></li>
+      <li id="f30">Organik Marketing, la Red de Display viene activada por defecto en Google Ads y trae clics poco cualificados. <a href="https://www.organikmarketing.es/cuanto-cuesta-google-ads-espana/">organikmarketing.es</a></li>
+      <li id="f31">Google Ads, opciones avanzadas de ubicación. «Presencia o interés» es la predeterminada; «Presencia» muestra los anuncios solo a quien está o va con frecuencia a la zona elegida. <a href="https://support.google.com/google-ads/answer/1722038?hl=es">support.google.com</a></li>
+      <li id="f32">Google Ads, presupuesto medio diario: el límite de inversión diaria es el doble del presupuesto diario medio y el límite mensual es 30,4 veces ese presupuesto. <a href="https://support.google.com/google-ads/answer/6385083?hl=es">support.google.com</a></li>
+      <li id="f33">Google Ads, tipos de concordancia de palabras clave: amplia sin símbolos (la predeterminada), de frase entre comillas y exacta entre corchetes. <a href="https://support.google.com/google-ads/answer/7478529?hl=es">support.google.com</a></li>
+      <li id="f34">Google Ads, palabras clave negativas: se pueden poner a nivel de campaña o de grupo de anuncios y <strong>no funcionan con variaciones cercanas</strong>, así que hay que añadir a mano los plurales y las variantes. <a href="https://support.google.com/google-ads/answer/2453972?hl=es">support.google.com</a></li>
+      <li id="f35">Google Ads, programación de anuncios: por defecto las campañas se muestran «Todo el día»; se puede limitar a días y horas concretos. <a href="https://support.google.com/google-ads/answer/2404244?hl=es">support.google.com</a></li>
+      <li id="f36">Google Ads, recursos de llamada: en opciones avanzadas se programan para que solo aparezcan cuando hay alguien para contestar el teléfono. <a href="https://support.google.com/google-ads/answer/2453991?hl=es">support.google.com</a></li>
+      <li id="f37">Google Ads, estrategia de puja Maximizar clics y límite de CPC máximo. Si no se pone tope, Google ajusta las pujas para gastar el presupuesto. <a href="https://support.google.com/google-ads/answer/6268626?hl=es">support.google.com</a></li>
+      <li id="f38">Google, directrices para representar tu empresa en Google: dirección y zonas de servicio. <a href="https://support.google.com/business/answer/3038177?hl=es">support.google.com</a></li>
+      <li id="f39">IAB Spain, Estudio de Redes Sociales 2026: Instagram lo usa el 77 % de los internautas cada mes y Facebook el 56 %. <a href="https://iabspain.es/iab-spain-presenta-estudio-rrss-2026/">iabspain.es</a></li>
+      <li id="f40">Unagi Productions, indexación de publicaciones de Instagram en Google desde julio de 2025. <a href="https://unagiproductions.com/indexacion-publicaciones-instagram-google/">unagiproductions.com</a></li>
+      <li id="f41">Escura, la AEPD multa con 5.000 € a una empresa por publicar la foto de una extrabajadora sin consentimiento válido. <a href="https://www.escura.com/es/la-entidad-no-puede-publicar/">escura.com</a></li>
+      <li id="f42">Red.es, convocatoria de Kit Digital para comunidades de bienes, sociedades civiles con objeto mercantil, sociedades civiles profesionales y explotaciones agrarias de titularidad compartida de menos de 50 empleados. Bonos de 12.000 € (segmento I, 10–49 empleados), 6.000 € (II, 3–9) y 2.000 € (III, 0–2); exigía seis meses de antigüedad en el censo tributario y test de autodiagnóstico. <strong>Plazo cerrado.</strong> <a href="https://www.red.es/es/actualidad/noticias/nueva-convocatoria-de-kit-digital-destinada-comunidades-de-bienes-explotaciones">red.es</a></li>
+      <li id="f43">Acelera Pyme (Red.es), portal oficial del Kit Digital, consultado el 14 de septiembre de 2026: «Las convocatorias del Programa Kit Digital han finalizado». La del segmento III (0 a 3 empleados) cerró el 31 de octubre de 2025; la Orden TDF/39/2026 reparte fondos remanentes entre solicitudes ya en lista de espera, no abre plazo nuevo. <a href="https://www.acelerapyme.gob.es/kit-digital">acelerapyme.gob.es</a></li>
+      <li id="f44">OCTSI, convocatoria DigiEmpresas 2026 del Gobierno de Canarias: 700.000 €, ayudas de 10.000 a 30.000 €, plazo del 7 al 21 de abril de 2026, para ERP, CRM y business intelligence. <a href="https://www.octsi.es/actualidad/noticias-del-octsi/convocatoria-2026-ayudas-proyectos-digitalizacion-empresas-canarias">octsi.es</a></li>
+      <li id="f45">Sede electrónica de la Cámara de Comercio de Gran Canaria, convocatorias abiertas el 14 de septiembre de 2026: misiones comerciales a Perú y China, WTM London y Metstrade. Ninguna de digitalización. <a href="https://sede.camara.es/sede/grancanaria">sede.camara.es</a></li>
+      <li id="f46">Sede electrónica del Gobierno de Canarias, programa de ayuda a las actuaciones de rehabilitación a nivel de edificio (fondos Next Generation): plazo del 15 de septiembre de 2022 al 15 de diciembre de 2023, fuera de plazo. <a href="https://sede.gobiernodecanarias.org/sede/tramites/7249">sede.gobiernodecanarias.org</a></li>
+      <li id="f47">Cámara de Comercio de Santa Cruz de Tenerife, Pyme Digital 2026: hasta el 85 % con un máximo de 7.490 € por empresa, plazo cerrado el 30 de junio de 2026. Es de la provincia de Tenerife. <a href="https://camaratenerife.com/secretaria/las-empresas-de-la-provincia-podran-acceder-a-nuevas-ayudas-de-digitalizacion-con-pyme-digital-2026/">camaratenerife.com</a></li>
+      <li id="f47b">Ley 4/2017, de 13 de julio, del Suelo y de los Espacios Naturales Protegidos de Canarias. <strong>Artículo 269</strong>: la inspección técnica de edificaciones la realiza técnico competente y «tendrá una eficacia de veinte años»; el apartado 5 mantiene las órdenes de ejecución para garantizar seguridad, salubridad y ornato. <strong>Disposición adicional tercera</strong>: se someten a inspección las edificaciones de vivienda colectiva y de uso colectivo no residencial cuya antigüedad a 30 de junio de 2018 fuese igual o superior a <strong>80 años</strong>, y las demás según vayan cumpliendo los 80. <strong>Artículo 272</strong>: órdenes de ejecución de obras de conservación. <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2017-10295">boe.es</a></li>
+      <li id="f48">Requisitos generales del Kit Digital recogidos en sus bases: domicilio fiscal en España, estar al corriente con Hacienda y la Seguridad Social, no ser empresa en crisis, no superar el límite de ayudas de minimis de 300.000 € en tres ejercicios y haber hecho el test de autodiagnóstico digital en acelerapyme.gob.es. <a href="https://millennialsconsulting.es/requisitos-kit-digital/">millennialsconsulting.es</a>, <a href="https://www.acelerapyme.gob.es/kit-digital">acelerapyme.gob.es</a></li>
+    </ol>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="prosa">Plan preparado el 14 de septiembre de 2026 para AMA, con base en Vecindario, Santa Lucía de Tirajana. La competencia se midió desde allí; los datos de la capital están solo como comparación. <strong>La única ordenanza municipal verificada es la de Las Palmas de Gran Canaria</strong>: en Santa Lucía de Tirajana no hemos encontrado ordenanza propia de inspección de edificios publicada, así que rige la Ley del Suelo de Canarias, y conviene confirmarlo llamando al ayuntamiento (928 72 72 00). Las ayudas y los datos de competencia caducan rápido: conviene repasarlos cada trimestre.</p>
+  </div>
+</footer>
+
+<div class="progreso" id="progreso" aria-hidden="true"><span></span></div>
+<div class="controles" id="controles">
+  <button type="button" id="anterior">Anterior</button>
+  <span id="contador" aria-live="polite"></span>
+  <button type="button" id="siguiente">Siguiente</button>
+  <button type="button" id="salir">Salir</button>
+</div>
+
+<script>
+/* ---------- Escala logaritmica de precios ---------- */
+(function(){
+  var MIN=30, MAX=10000, L=Math.log(MIN), R=Math.log(MAX);
+  function pos(v){ return (Math.log(v)-L)/(R-L)*100; }
+  var filas=document.querySelectorAll('.fila[data-min]');
+  for (var i=0;i<filas.length;i++){
+    var f=filas[i], a=+f.getAttribute('data-min'), b=+f.getAttribute('data-max');
+    var barra=f.querySelector('.barra');
+    barra.style.left=pos(a)+'%';
+    barra.style.width=Math.max(pos(b)-pos(a),1.5)+'%';
+  }
+  var marcas=document.querySelectorAll('.eje span[data-v]');
+  for (var j=0;j<marcas.length;j++){ marcas[j].style.left=pos(+marcas[j].getAttribute('data-v'))+'%'; }
+})();
+
+/* ---------- Barras de competencia ---------- */
+(function(){
+  var listas=document.querySelectorAll('.comp-lista[data-max]');
+  for (var i=0;i<listas.length;i++){
+    var max=+listas[i].getAttribute('data-max');
+    var bs=listas[i].querySelectorAll('.comp-barra span');
+    for (var j=0;j<bs.length;j++){
+      var v=+bs[j].getAttribute('data-v');
+      bs[j].style.width=(v<=0 ? 0 : Math.max(v/max*100,1.5))+'%';
+    }
+  }
+})();
+
+/* ---------- Utilidades de numero ---------- */
+function $(id){ return document.getElementById(id); }
+function miles(n){
+  var s=Math.round(Math.abs(n)).toString().replace(/\B(?=(\d{3})+(?!\d))/g,'.');
+  return (n<0?'−':'')+s;
+}
+function corto(n){
+  if (Math.abs(n)<10){ return (Math.round(n*10)/10).toString().replace('.',','); }
+  return miles(n);
+}
+function dec2(n){ return (Math.round(n*100)/100).toFixed(2).replace('.',','); }
+
+/* ---------- Guia de configuracion ---------- */
+(function(){
+  var mensual=300;
+
+  function pasos(){
+    var diario=mensual/30.4;
+    var topeDia=diario*2;
+    var topeMes=diario*30.4;
+    var cpcTope=Math.max(0.5, Math.round(diario/5.5*100)/100);
+    return [
+    { t:'Abrir la cuenta en modo experto',
+      campos:[
+        ['Dónde','En <code>ads.google.com</code>, al crear la cuenta, buscar abajo <code>Cambiar al modo experto</code>'],
+        ['Qué NO hacer','No quedarse en el modo inteligente. No deja tocar redes, concordancias ni programación'],
+        ['Moneda y zona','Euro y Canarias. No se puede cambiar después']
+      ],
+      por:'El modo sencillo de Google no permite desactivar la Red de Display ni poner palabras clave negativas. Es decir, no permite hacer nada de lo que viene en los pasos siguientes.' },
+
+    { t:'Tipo de campaña: Búsqueda',
+      campos:[
+        ['Objetivo','<code>Crear una campaña sin objetivo concreto</code>'],
+        ['Tipo','<code>Búsqueda</code>'],
+        ['Formas de conseguir clientes','Marcar <code>Llamadas telefónicas</code> y poner el teléfono de la empresa'],
+        ['Nombre de la campaña','<code>Altura · Fachadas y azoteas</code>']
+      ],
+      por:'Si se elige un objetivo, Google empuja hacia campañas automáticas que reparten el dinero donde él quiere. Con 300 € al mes hace falta control, no automatismo.' },
+
+    { t:'Redes: apagar lo que sobra',
+      campos:[
+        ['Red de Display','<strong>Desmarcar</strong>'],
+        ['Incluir socios de búsqueda de Google','<strong>Desmarcar</strong>'],
+        ['Dónde está','En <code>Configuración de la campaña</code> → <code>Redes</code>. Viene plegado, hay que abrirlo']
+      ],
+      por:'La Red de Display viene activada por defecto y saca los anuncios en páginas de terceros mientras la gente navega. Trae clics baratos que no llaman a nadie.<sup class="ref"><a href="#f30">30</a></sup>' },
+
+    { t:'Ubicación: solo quien está aquí',
+      campos:[
+        ['Ubicaciones','<code>Santa Lucía de Tirajana</code>, <code>San Bartolomé de Tirajana</code>, <code>Agüimes</code>, <code>Ingenio</code> y <code>Mogán</code>. Nada de «Gran Canaria» entera'],
+        ['Opciones de ubicación','Abrir <code>Opciones de ubicación</code> y marcar <code>Presencia</code>'],
+        ['Qué NO dejar','La opción predeterminada es <code>Presencia o interés</code>. Cambiarla'],
+        ['Cuándo ampliar','La capital, solo cuando el sur ya dé trabajo. Son 50 km y otro mercado']
+      ],
+      por:'Dos cosas. Una: con la opción predeterminada el anuncio también se le enseña a quien está en Madrid buscando información sobre Gran Canaria.<sup class="ref"><a href="#f31">31</a></sup> Dos: con 300 € repartidos por toda la isla no se compra nada. La proximidad es el segundo factor de posicionamiento local,<sup class="ref"><a href="#f25">25</a></sup> y ustedes la tienen en el sur, no en Las Palmas.' },
+
+    { t:'Presupuesto: la cifra exacta',
+      campos:[
+        ['Presupuesto medio diario','<code>' + dec2(diario) + ' €</code>'],
+        ['Lo que Google puede gastar en un día','Hasta <strong>' + dec2(topeDia) + ' €</strong>'],
+        ['Tope del mes','<strong>' + dec2(topeMes) + ' €</strong>, que es el presupuesto de ' + miles(mensual) + ' €'],
+        ['Cómo se calcula','Presupuesto del mes ÷ 30,4']
+      ],
+      por:'Google no pide mínimo, pero conviene saber que puede gastar el doble del diario en un día bueno y compensar en otro. Lo que no se pasa es el mes: el límite mensual es 30,4 veces el diario.<sup class="ref"><a href="#f32">32</a></sup>' },
+
+    { t:'Puja: con tope, siempre',
+      campos:[
+        ['Estrategia','<code>Clics</code> → <code>Maximizar clics</code>'],
+        ['Límite de puja de CPC máximo','Marcar la casilla y poner <code>' + dec2(cpcTope) + ' €</code>'],
+        ['Cuándo cambiarla','Cuando haya 30 conversiones al mes, y no antes']
+      ],
+      por:'Sin tope, Google puede pagar varios euros por un clic para gastarse el presupuesto del día.<sup class="ref"><a href="#f37">37</a></sup> Y las estrategias automáticas de conversión no funcionan sin historial: una cuenta nueva no tiene datos que darles.' },
+
+    { t:'Horario: solo cuando hay alguien',
+      campos:[
+        ['Dónde','Menú lateral → <code>Programación de anuncios</code>'],
+        ['Qué poner','<code>De lunes a viernes, de 8:00 a 20:00</code>'],
+        ['Por defecto viene','<code>Todo el día</code>, hay que cambiarlo']
+      ],
+      por:'Un clic a las tres de la madrugada se cobra igual y no lo contesta nadie. Si algún sábado hay guardia, se añade ese tramo y ya.<sup class="ref"><a href="#f35">35</a></sup>' },
+
+    { t:'Palabras clave: el problema, no la técnica',
+      campos:[
+        ['Grupo 1 · Fachadas','<ul class="lista-kw"><li>"pintar fachada"</li><li>[pintar fachada comunidad]</li><li>"rehabilitación de fachadas"</li><li>"reparar fachada edificio"</li><li>"pintar fachada edificio"</li></ul>'],
+        ['Grupo 2 · Azoteas y humedades','<ul class="lista-kw"><li>"impermeabilizar azotea"</li><li>"impermeabilización cubierta"</li><li>"arreglar humedades pared"</li><li>"goteras techo"</li><li>[eliminar humedades vivienda]</li></ul>'],
+        ['Concordancias','Comillas = de frase. Corchetes = exacta. Sin símbolos = amplia, que es la predeterminada'],
+        ['Lo que NO se pone','<code>trabajos verticales</code>. Solo lo buscan seis competidores entre ellos']
+      ],
+      por:'La concordancia amplia sin control se come el presupuesto en búsquedas que no son de ustedes.<sup class="ref"><a href="#f33">33</a></sup> Con 300 € al mes se empieza cerrado y se abre después, no al revés.' },
+
+    { t:'Palabras clave negativas',
+      campos:[
+        ['Dónde','Menú lateral → <code>Palabras clave</code> → pestaña <code>Negativas</code> → nivel campaña'],
+        ['Lista de partida','<ul class="lista-kw"><li class="neg">gratis</li><li class="neg">curso</li><li class="neg">cursos</li><li class="neg">empleo</li><li class="neg">trabajo</li><li class="neg">sueldo</li><li class="neg">salario</li><li class="neg">oferta de empleo</li><li class="neg">como pintar</li><li class="neg">tutorial</li><li class="neg">alquiler de andamios</li><li class="neg">segunda mano</li><li class="neg">peritaje</li><li class="neg">seguro</li></ul>'],
+        ['Ojo con los plurales','Hay que poner singular y plural por separado']
+      ],
+      por:'Las negativas no entienden variaciones ni plurales, al revés que las normales: si se pone «curso» no bloquea «cursos».<sup class="ref"><a href="#f34">34</a></sup> Media hora al mes revisando el informe de términos de búsqueda ahorra más que cualquier otra cosa.' },
+
+    { t:'Los anuncios',
+      campos:[
+        ['Titulares','<code>Pintar fachada sin andamio</code> · <code>Comunidades en Vecindario y el sur</code> · <code>Presupuesto en 48 horas</code> · <code>Con seguro y certificados</code>'],
+        ['Descripciones','<code>Bajamos por cuerda: sin andamio, sin cortar la acera y con menos días de obra. Fachadas, azoteas y humedades.</code>'],
+        ['URL','La página del servicio concreto, nunca la portada'],
+        ['Cuántos','Dos anuncios por grupo, para poder compararlos']
+      ],
+      por:'Mandar todos los clics a la portada es tirar la mitad. Quien busca «impermeabilizar azotea» tiene que caer en la página de azoteas, con las fotos de azoteas.' },
+
+    { t:'Recursos: el teléfono en el anuncio',
+      campos:[
+        ['Recurso de llamada','Añadir el número de la empresa'],
+        ['Programación del recurso','En <code>Opciones avanzadas</code>, limitarlo a <code>8:00–20:00</code>'],
+        ['Enlaces de sitio','Cuatro: <code>Fachadas</code>, <code>Azoteas</code>, <code>Humedades</code>, <code>Cómo trabajamos por cuerda</code>'],
+        ['Recurso de ubicación','Vincular la ficha de Google Business']
+      ],
+      por:'El botón de llamar sube los clics, pero si suena y no lo coge nadie se ha pagado por nada. Por eso se programa igual que el anuncio.<sup class="ref"><a href="#f36">36</a></sup>' },
+
+    { t:'Medir: que se cuenten las llamadas',
+      campos:[
+        ['Dónde','<code>Objetivos</code> → <code>Conversiones</code> → <code>Nueva acción de conversión</code>'],
+        ['Qué crear','<code>Llamadas desde anuncios</code>, contando solo las de <strong>60 segundos o más</strong>'],
+        ['Además','Un formulario en la web que también cuente como conversión']
+      ],
+      por:'Una llamada de ocho segundos es alguien que se equivocó. Poniendo el mínimo en 60 segundos, el dato se parece a la realidad y sirve para decidir el día 90.' },
+
+    { t:'La media hora del lunes',
+      campos:[
+        ['Informe de términos de búsqueda','Ver por qué se está pagando de verdad y añadir negativas'],
+        ['Llamadas sin contestar','Si hay alguna en horario, es lo primero que hay que arreglar'],
+        ['Coste por contacto','Compararlo con el límite que da la calculadora del apartado siguiente'],
+        ['Qué no tocar','No cambiar pujas ni presupuesto cada dos días. Dos semanas mínimo entre cambios']
+      ],
+      por:'Casi todo el dinero mal gastado en Google Ads se ve en el informe de términos de búsqueda, y casi nadie lo abre. Media hora los lunes vale más que pagar a una agencia por los primeros meses.' }
+    ];
+  }
+
+  var i=0, lista=pasos();
+  var cuerpo=$('guia-cuerpo'), botonera=$('guia-pasos');
+
+  function pintarBotonera(){
+    botonera.innerHTML='';
+    for (var k=0;k<lista.length;k++){
+      var b=document.createElement('button');
+      b.type='button';
+      b.textContent=(k+1);
+      b.setAttribute('role','tab');
+      b.setAttribute('aria-current', k===i ? 'true':'false');
+      b.setAttribute('aria-label','Paso '+(k+1)+': '+lista[k].t);
+      (function(n){ b.addEventListener('click', function(){ i=n; pintar(); }); })(k);
+      botonera.appendChild(b);
+    }
+  }
+  function pintar(){
+    lista=pasos();
+    var p=lista[i], h='';
+    h+='<p class="guia-num">Paso '+(i+1)+' de '+lista.length+'</p>';
+    h+='<h4>'+p.t+'</h4><dl>';
+    for (var k=0;k<p.campos.length;k++){
+      h+='<div class="guia-campo"><dt>'+p.campos[k][0]+'</dt><dd>'+p.campos[k][1]+'</dd></div>';
+    }
+    h+='</dl><div class="guia-por"><p><strong>Por qué:</strong> '+p.por+'</p></div>';
+    cuerpo.innerHTML=h;
+    $('guia-cuenta').textContent=(i+1)+' / '+lista.length;
+    $('guia-ant').disabled=(i===0);
+    $('guia-sig').disabled=(i===lista.length-1);
+    var bs=botonera.querySelectorAll('button');
+    for (var q=0;q<bs.length;q++){ bs[q].setAttribute('aria-current', q===i ? 'true':'false'); }
+  }
+  $('guia-ant').addEventListener('click', function(){ if(i>0){ i--; pintar(); } });
+  $('guia-sig').addEventListener('click', function(){ if(i<lista.length-1){ i++; pintar(); } });
+
+  function ponerMensual(v){
+    mensual=Math.max(60, Math.min(3000, v||300));
+    $('rep-alt').textContent=miles(mensual)+' €';
+    pintar();
+  }
+  $('r-mes').addEventListener('input', function(){ $('n-mes').value=this.value; ponerMensual(+this.value); });
+  $('n-mes').addEventListener('input', function(){
+    var x=parseFloat(String(this.value).replace(',','.'));
+    if (isFinite(x)){ $('r-mes').value=x; ponerMensual(x); }
+  });
+
+  pintarBotonera();
+  pintar();
+})();
+
+/* ---------- Calculadora ---------- */
+(function(){
+  var P={
+    alt:{inv:300,cpl:45,cierre:25,ticket:1800,margen:30,tmin:300,tmax:8000,tstep:50,
+      nota:'<strong>Supuestos, no datos.</strong> Coste por contacto de 45 €: el clic de reformas ronda 0,95 €<sup class="ref"><a href="#f29">29</a></sup> y se supone que uno de cada treinta clics deja un contacto. Trabajo medio de 1.800 €, entre la media de 1.020 € de una fachada de vivienda y los 3.625 € de una de edificio.<sup class="ref"><a href="#f3">3</a></sup> Aceptación del 25 %: una comunidad pide tres presupuestos. Margen del 30 %: pónganlo ustedes, que lo saben mejor que nadie. Es la línea con más colchón: aunque se acepte poco, sigue saliendo.'},
+    fon:{inv:150,cpl:30,cierre:55,ticket:200,margen:40,tmin:50,tmax:2000,tstep:10,
+      nota:'<strong>Esto está aquí para que vean por qué la ficha sí y los anuncios no.</strong> El clic de «fontanero urgente» sale a 2,10 €, más del doble que el de reformas.<sup class="ref"><a href="#f29">29</a></sup> Aviso medio de 200 €, según los precios publicados.<sup class="ref"><a href="#f6">6</a></sup> Miren la aceptación mínima para no perder dinero y compárenla con la de altura: con un ticket así, casi cuatro de cada diez presupuestos tienen que salir solo para empatar. En el sur la ficha se puede subir sin pagar —el primero tiene 67 reseñas, no 604 como en la capital—,<sup class="ref"><a href="#f12">12</a></sup> y eso es gratis.'},
+    sol:{inv:80,cpl:35,cierre:35,ticket:450,margen:40,tmin:50,tmax:3000,tstep:10,
+      nota:'<strong>Supuestos.</strong> Trabajo medio de 450 €, entre una reja de ventana y una puerta metálica.<sup class="ref"><a href="#f9">9</a></sup> Aceptación del 35 %: se pide precio por WhatsApp y se compara menos. Pero antes de gastar un euro aquí: <strong>«soldador» en Vecindario no devuelve ni una ficha</strong>.<sup class="ref"><a href="#f12">12</a></sup> Pagar por ser el primero cuando no hay segundo no tiene sentido. Abran la ficha con la categoría «Soldador» y enseñen la EN 1090.'}
+  };
+  var campos=['inv','cpl','cierre','ticket','margen'];
+
+  function leer(){
+    var v={};
+    for (var k=0;k<campos.length;k++){
+      var c=campos[k], x=parseFloat(String($('n-'+c).value).replace(',','.'));
+      v[c]=isFinite(x)?x:0;
+    }
+    return v;
+  }
+  function cantidad(n, uno, varios){
+    if (n<0.95) return 'menos de un '+uno;
+    if (n<1.05) return 'un '+uno;
+    return 'unos '+corto(n)+' '+varios;
+  }
+  function calcular(){
+    var v=leer();
+    var contactos=v.cpl>0 ? v.inv/v.cpl : 0;
+    var trabajos=contactos*v.cierre/100;
+    var factura=trabajos*v.ticket;
+    var margen=factura*v.margen/100;
+    var resultado=margen-v.inv;
+    var base=v.ticket*v.margen/100;
+    var minimo=base>0 ? v.cpl/base*100 : Infinity;
+
+    $('o-contactos').textContent=corto(contactos);
+    $('o-trabajos').textContent=corto(trabajos);
+    $('o-factura').textContent=miles(factura)+' €';
+    $('o-minimo').textContent=(minimo>100 || !isFinite(minimo)) ? 'No sale'
+      : (Math.round(minimo*10)/10).toFixed(1).replace('.',',')+' %';
+
+    var caja=$('caja-resultado');
+    if (resultado>=0){
+      caja.classList.remove('pierde');
+      $('o-resultado-etq').textContent='Queda al mes después de pagar los anuncios';
+      $('o-resultado').textContent=miles(resultado)+' €';
+    } else {
+      caja.classList.add('pierde');
+      $('o-resultado-etq').textContent='Se pierde al mes después de pagar los anuncios';
+      $('o-resultado').textContent=miles(-resultado)+' €';
+    }
+
+    $('frase').textContent='Con '+miles(v.inv)+' € al mes y '+miles(v.cpl)+' € por contacto llegan '+cantidad(contactos,'contacto','contactos')+'. '+
+      'Si se acepta el '+corto(v.cierre)+' % de los presupuestos, salen '+cantidad(trabajos,'trabajo','trabajos')+' y '+miles(factura)+' € de facturación. '+
+      (resultado>=0 ? 'Después de pagar los anuncios quedan unos '+miles(resultado)+' € de margen.' : 'Después de pagar los anuncios se pierden unos '+miles(-resultado)+' € al mes.');
+  }
+  function cargar(clave){
+    var p=P[clave];
+    var rt=$('r-ticket'); rt.min=p.tmin; rt.max=p.tmax; rt.step=p.tstep;
+    for (var k=0;k<campos.length;k++){
+      var c=campos[k];
+      $('n-'+c).value=p[c];
+      $('r-'+c).value=p[c];
+    }
+    $('supuestos').innerHTML=p.nota;
+    var botones=document.querySelectorAll('.calc-lineas button');
+    for (var b=0;b<botones.length;b++){
+      botones[b].setAttribute('aria-pressed', botones[b].getAttribute('data-linea')===clave ? 'true':'false');
+    }
+    calcular();
+  }
+  campos.forEach(function(c){
+    $('r-'+c).addEventListener('input', function(){ $('n-'+c).value=this.value; calcular(); });
+    $('n-'+c).addEventListener('input', function(){
+      var x=parseFloat(String(this.value).replace(',','.'));
+      if (isFinite(x)) $('r-'+c).value=x;
+      calcular();
+    });
+  });
+  var bs=document.querySelectorAll('.calc-lineas button');
+  for (var q=0;q<bs.length;q++){
+    bs[q].addEventListener('click', function(){ cargar(this.getAttribute('data-linea')); });
+  }
+  cargar('alt');
+})();
+
+/* ---------- Modo presentacion ---------- */
+(function(){
+  var raiz=document.documentElement;
+  var diapos=[document.querySelector('header.hero')].concat(Array.prototype.slice.call(document.querySelectorAll('main > section')));
+  diapos.forEach(function(d){ d.classList.add('diapo'); });
+  var actual=0, activo=false;
+  var bAnt=$('anterior'), bSig=$('siguiente');
+  var contador=$('contador'), barra=document.querySelector('#progreso span');
+  var suave=window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
+
+  function estado(){
+    var d=diapos[actual];
+    var alFinal=d.scrollHeight-d.clientHeight-d.scrollTop<=4;
+    bAnt.disabled=(actual===0 && d.scrollTop<=4);
+    bSig.disabled=(actual===diapos.length-1 && alFinal);
+  }
+  function mostrar(i){
+    actual=Math.max(0,Math.min(diapos.length-1,i));
+    diapos.forEach(function(d,k){ d.classList.toggle('activa',k===actual); });
+    diapos[actual].scrollTop=0;
+    contador.textContent=(actual+1)+' / '+diapos.length;
+    barra.style.width=((actual+1)/diapos.length*100)+'%';
+    estado();
+  }
+  function siguiente(){
+    var d=diapos[actual];
+    if (d.scrollHeight-d.clientHeight-d.scrollTop>4){ d.scrollBy({top:Math.round(d.clientHeight*.75),behavior:suave}); return; }
+    if (actual<diapos.length-1) mostrar(actual+1);
+  }
+  function anterior(){
+    var d=diapos[actual];
+    if (d.scrollTop>4){ d.scrollBy({top:-Math.round(d.clientHeight*.75),behavior:suave}); return; }
+    if (actual>0) mostrar(actual-1);
+  }
+  var temporizador=null;
+  function despertar(){
+    raiz.classList.remove('quieto');
+    clearTimeout(temporizador);
+    if (activo) temporizador=setTimeout(function(){
+      if (activo && !document.querySelector('.controles:hover')) raiz.classList.add('quieto');
+    },3000);
+  }
+  ['mousemove','keydown','touchstart','pointerdown'].forEach(function(ev){ window.addEventListener(ev,despertar,{passive:true}); });
+
+  function entrar(desdeInicio){
+    activo=true;
+    despertar();
+    raiz.classList.add('presentando');
+    mostrar(desdeInicio ? 0 : actual);
+    try{
+      if (raiz.requestFullscreen){ var pr=raiz.requestFullscreen(); if (pr && pr.catch) pr.catch(function(){}); }
+      else if (raiz.webkitRequestFullscreen){ raiz.webkitRequestFullscreen(); }
+    }catch(e){}
+    bSig.focus({preventScroll:true});
+  }
+  function salir(){
+    if (!activo) return;
+    activo=false;
+    clearTimeout(temporizador); raiz.classList.remove('quieto');
+    var volverA=diapos[actual];
+    raiz.classList.remove('presentando');
+    diapos.forEach(function(d){ d.classList.remove('activa'); });
+    try{
+      if (document.fullscreenElement && document.exitFullscreen){ var pr=document.exitFullscreen(); if (pr && pr.catch) pr.catch(function(){}); }
+      else if (document.webkitFullscreenElement && document.webkitExitFullscreen){ document.webkitExitFullscreen(); }
+    }catch(e){}
+    if (location.hash==='#presentar' && history.replaceState){ history.replaceState(null,'',location.pathname+location.search); }
+    requestAnimationFrame(function(){ volverA.scrollIntoView({block:'start'}); });
+  }
+
+  $('presentar').addEventListener('click',function(){ entrar(true); });
+  bSig.addEventListener('click',siguiente);
+  bAnt.addEventListener('click',anterior);
+  $('salir').addEventListener('click',salir);
+  diapos.forEach(function(d){ d.addEventListener('scroll',function(){ if(activo) estado(); },{passive:true}); });
+
+  document.addEventListener('keydown',function(e){
+    if (!activo) return;
+    var tag=e.target && e.target.tagName;
+    var enCampo=(tag==='INPUT'||tag==='TEXTAREA'||tag==='SELECT');
+    var enBoton=(tag==='BUTTON');
+    switch(e.key){
+      case 'ArrowRight': case 'ArrowDown': case 'PageDown':
+        if (enCampo) return; e.preventDefault(); siguiente(); break;
+      case 'ArrowLeft': case 'ArrowUp': case 'PageUp':
+        if (enCampo) return; e.preventDefault(); anterior(); break;
+      case ' ': case 'Spacebar':
+        if (enCampo||enBoton) return; e.preventDefault(); siguiente(); break;
+      case 'Home': if (enCampo) return; e.preventDefault(); mostrar(0); break;
+      case 'End': if (enCampo) return; e.preventDefault(); mostrar(diapos.length-1); break;
+      case 'Escape': salir(); break;
+    }
+  });
+
+  var x0=null, y0=null;
+  window.addEventListener('touchstart',function(e){
+    if (!activo || e.touches.length!==1) return;
+    var t=e.target;
+    if (t.closest && t.closest('input,button,a,label')) { x0=null; return; }
+    x0=e.touches[0].clientX; y0=e.touches[0].clientY;
+  },{passive:true});
+  window.addEventListener('touchend',function(e){
+    if (!activo || x0===null) return;
+    var dx=e.changedTouches[0].clientX-x0, dy=e.changedTouches[0].clientY-y0;
+    x0=null;
+    if (Math.abs(dx)>60 && Math.abs(dx)>Math.abs(dy)*1.5){ if (dx<0) siguiente(); else anterior(); }
+  },{passive:true});
+
+  /* Los numeros de fuente saltan a la diapositiva de fuentes */
+  document.addEventListener('click',function(e){
+    if (!activo) return;
+    var a=e.target.closest && e.target.closest('a[href^="#"]');
+    if (!a) return;
+    var el=document.getElementById(a.getAttribute('href').slice(1));
+    if (!el) return;
+    e.preventDefault();
+    for (var k=0;k<diapos.length;k++){ if (diapos[k].contains(el)){ mostrar(k); break; } }
+    var prev=document.querySelector('.destacada'); if (prev) prev.classList.remove('destacada');
+    el.classList.add('destacada');
+    el.scrollIntoView({block:'center'});
+  });
+
+  if (location.hash==='#presentar'){ entrar(true); }
+})();
+</script>
+</body>
+</html>
