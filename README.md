@@ -1,8 +1,9 @@
 # AMA · Plan de captación en Gran Canaria
 
 Plan de captación de clientes y posicionamiento en buscadores para AMA, pyme de construcción
-con base en **Vecindario (Santa Lucía de Tirajana)**, Gran Canaria. Dos personas y tres líneas
-de trabajo: trabajos en altura, fontanería y soldadura.
+con base en **Vecindario (Santa Lucía de Tirajana)** y trabajo en toda Gran Canaria. Tres
+líneas en el plan: pintura, fontanería con contra incendios y trabajos en altura. La soldadura
+sigue en el negocio, pero llega por cartera y queda fuera del plan.
 
 Una sola página HTML, sin dependencias salvo la fuente Archivo de Google Fonts.
 
@@ -24,15 +25,17 @@ Al llamarse `index.html` no hace falta configurar nada más.
 
 ## Qué hay dentro
 
-Quince apartados: portada, quién compra, precios, por qué hay trabajo, competencia real,
-plan en 90 días, guía interactiva para configurar 300 € en Google Ads, calculadora de
-rentabilidad, presupuesto, IGIC y ayudas, criba del Kit Digital, redes, indicadores,
-lo que no haríamos y fuentes.
+Dieciséis apartados: portada (con lo que cambió el 3 de octubre), quién compra, precios,
+por qué hay trabajo, competencia real, estudio de mercado de contra incendios, plan en 90 días,
+dos guías interactivas (ficha de Google desde cero y anuncios de Google, con el reparto de
+300 €), cambiar de línea, calculadora de rentabilidad, presupuesto, IGIC y subvenciones, redes,
+indicadores, lo que no haríamos y fuentes.
 
 ## Dos avisos sobre el contenido
 
 - **Los datos caducan.** La competencia de Google Maps, las ayudas y las ordenanzas se
-  comprobaron el 14 de septiembre de 2026. Conviene repasarlos cada trimestre.
+  comprobaron el 14 de septiembre de 2026; pintura, contra incendios y Google Ads, el 3 de
+  octubre de 2026. Conviene repasarlos cada trimestre.
 - **Dos regímenes distintos de inspección de edificios.** En Las Palmas de Gran Canaria la
   ordenanza municipal obliga a inspección técnica de fachadas desde los diez años de
   antigüedad, repetida cada diez. En los municipios sin ordenanza propia rige la Ley 4/2017

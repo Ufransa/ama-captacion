@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>AMA · Plan de captación en Gran Canaria</title>
-<meta name="description" content="Plan de captación de clientes y posicionamiento en buscadores para AMA: trabajos en altura, fontanería y soldadura en Gran Canaria.">
+<meta name="description" content="Plan de captación de clientes y posicionamiento en buscadores para AMA: pintura, fontanería con contra incendios y trabajos en altura en Gran Canaria.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap" rel="stylesheet">
@@ -21,8 +21,8 @@
   --alt-osc:#6F5200;
   --fon:#1F7EA1;
   --fon-osc:#11566F;
-  --sol:#6552D1;
-  --sol-osc:#402F96;
+  --pin:#6552D1;
+  --pin-osc:#402F96;
   --verde:#2E7D46;
   --ancho:72rem;
   --prosa:42rem;
@@ -45,9 +45,9 @@ sup.ref{font-size:.68em;line-height:0;vertical-align:super;margin-left:.12em;whi
 sup.ref a{text-decoration:none;color:var(--gris);font-weight:650}
 sup.ref a:hover{color:var(--tinta);text-decoration:underline}
 .m{display:inline-block;width:.78em;height:.78em;border-radius:2px;margin-right:.45em;vertical-align:-.02em;flex:none}
-.m-alt{background:var(--alt)}.m-fon{background:var(--fon)}.m-sol{background:var(--sol)}
+.m-alt{background:var(--alt)}.m-fon{background:var(--fon)}.m-pin{background:var(--pin)}
 .etq{font-weight:750}
-.etq-alt{color:var(--alt-osc)}.etq-fon{color:var(--fon-osc)}.etq-sol{color:var(--sol-osc)}
+.etq-alt{color:var(--alt-osc)}.etq-fon{color:var(--fon-osc)}.etq-pin{color:var(--pin-osc)}
 
 /* Portada */
 .hero{position:relative;overflow:hidden;padding:3rem 0 0}
@@ -88,7 +88,7 @@ main section:first-child{border-top:0}
 .lineas thead th{font-stretch:78%;font-size:1.2rem;font-weight:800;line-height:1.1;border-bottom:2px solid var(--tinta);padding-top:1.3rem}
 .lineas thead th.c-alt{box-shadow:inset 0 7px 0 var(--alt)}
 .lineas thead th.c-fon{box-shadow:inset 0 7px 0 var(--fon)}
-.lineas thead th.c-sol{box-shadow:inset 0 7px 0 var(--sol)}
+.lineas thead th.c-pin{box-shadow:inset 0 7px 0 var(--pin)}
 .lineas tbody th{font-weight:700;font-stretch:88%;width:11rem}
 .lineas thead th:first-child{width:11rem}
 .lineas .peq{font-size:.95rem}
@@ -100,7 +100,7 @@ main section:first-child{border-top:0}
   .lineas tbody th{padding:.8rem 1rem .5rem;border:0;font-size:1.15rem;font-stretch:80%;font-weight:800;width:auto}
   .lineas td{border:0;border-left:4px solid var(--linea);margin:0 1rem .7rem;padding:.1rem 0 .1rem .8rem}
   .lineas td::before{content:attr(data-linea);display:block;font-weight:700;font-size:.9rem}
-  .lineas td.c-alt{border-color:var(--alt)}.lineas td.c-fon{border-color:var(--fon)}.lineas td.c-sol{border-color:var(--sol)}
+  .lineas td.c-alt{border-color:var(--alt)}.lineas td.c-fon{border-color:var(--fon)}.lineas td.c-pin{border-color:var(--pin)}
 }
 
 /* Escala de precios */
@@ -111,7 +111,7 @@ main section:first-child{border-top:0}
   background:linear-gradient(90deg,var(--linea) 0 1px,transparent 1px) 0 0/33.333% 100% repeat-x;
   border-right:1px solid var(--linea)}
 .barra{position:absolute;top:.2rem;bottom:.2rem;border-radius:3px}
-.barra.c-alt{background:var(--alt)}.barra.c-fon{background:var(--fon)}.barra.c-sol{background:var(--sol)}
+.barra.c-alt{background:var(--alt)}.barra.c-fon{background:var(--fon)}.barra.c-pin{background:var(--pin)}
 .rango{font-weight:800;font-stretch:80%;font-size:1.12rem;font-variant-numeric:tabular-nums;white-space:nowrap}
 .fila .nota{color:var(--gris);font-size:.9rem;margin:0}
 .fila-eje{display:grid;grid-template-columns:1fr;margin-top:-.4rem}
@@ -142,7 +142,7 @@ main section:first-child{border-top:0}
 .comp{display:grid;gap:1.25rem}
 @media (min-width:900px){.comp{grid-template-columns:repeat(2,1fr);gap:1.5rem 2rem}}
 .comp-bloque{background:var(--blanco);border-top:6px solid var(--linea);padding:1rem 1.15rem 1.15rem}
-.comp-bloque.c-alt{border-color:var(--alt)}.comp-bloque.c-fon{border-color:var(--fon)}.comp-bloque.c-sol{border-color:var(--sol)}
+.comp-bloque.c-alt{border-color:var(--alt)}.comp-bloque.c-fon{border-color:var(--fon)}.comp-bloque.c-pin{border-color:var(--pin)}
 .comp-bloque h3{margin-bottom:.15rem}
 .comp-bloque .fichas{color:var(--gris);font-size:.9rem;margin:0 0 .7rem}
 .comp-lista{list-style:none;margin:0;padding:0}
@@ -153,7 +153,7 @@ main section:first-child{border-top:0}
 .comp-barra span{display:block;height:100%;border-radius:4px;background:var(--gris)}
 .comp-bloque.c-alt .comp-barra span{background:var(--alt)}
 .comp-bloque.c-fon .comp-barra span{background:var(--fon)}
-.comp-bloque.c-sol .comp-barra span{background:var(--sol)}
+.comp-bloque.c-pin .comp-barra span{background:var(--pin)}
 .lectura{margin-top:.8rem;padding-top:.7rem;border-top:1px solid var(--linea);font-size:.95rem;margin-bottom:0}
 
 /* Plan */
@@ -171,7 +171,7 @@ main section:first-child{border-top:0}
 .reparto{display:grid;gap:.75rem;margin-bottom:2rem}
 @media (min-width:760px){.reparto{grid-template-columns:repeat(3,1fr)}}
 .reparto div{background:var(--blanco);padding:.9rem 1rem;border-left:6px solid var(--linea)}
-.reparto div.c-alt{border-color:var(--alt)}.reparto div.c-fon{border-color:var(--fon)}.reparto div.c-sol{border-color:var(--sol)}
+.reparto div.c-alt{border-color:var(--alt)}.reparto div.c-fon{border-color:var(--fon)}.reparto div.c-pin{border-color:var(--pin)}
 .reparto dt{font-weight:750;font-stretch:85%}
 .reparto dd{margin:.15rem 0 0}
 .reparto .euros{font-size:1.9rem;font-weight:800;font-stretch:70%;line-height:1;font-variant-numeric:tabular-nums;display:block;margin-bottom:.2rem}
@@ -258,7 +258,7 @@ main section:first-child{border-top:0}
 .videos{display:grid;gap:1.15rem;margin-bottom:1.9rem}
 @media (min-width:900px){.videos{grid-template-columns:repeat(3,1fr)}}
 .video-bloque{background:var(--blanco);border-top:6px solid var(--linea);padding:1rem 1.15rem 1.15rem}
-.video-bloque.c-alt{border-color:var(--alt)}.video-bloque.c-fon{border-color:var(--fon)}.video-bloque.c-sol{border-color:var(--sol)}
+.video-bloque.c-alt{border-color:var(--alt)}.video-bloque.c-fon{border-color:var(--fon)}.video-bloque.c-pin{border-color:var(--pin)}
 .video-bloque ul{padding-left:1.1rem;margin:.6rem 0 0}
 .video-bloque li{margin-bottom:.45rem}
 .reglas{max-width:var(--prosa)}
@@ -270,6 +270,34 @@ main section:first-child{border-top:0}
 .evitar{list-style:none;padding:0;margin:0;max-width:var(--prosa);border-top:2px solid var(--tinta)}
 .evitar li{padding:.9rem 0 .9rem 2rem;border-bottom:1px solid var(--linea);position:relative}
 .evitar li::before{content:"";position:absolute;left:0;top:1.5rem;width:1.1rem;height:4px;background:var(--senal)}
+
+/* Novedades de la version */
+.cambios{margin-top:2rem;background:var(--blanco);border:2px solid var(--tinta);padding:1rem 1.15rem}
+.cambios h2{font-size:1.25rem;font-stretch:85%;margin-bottom:.5rem}
+.cambios p{font-size:.95rem;margin-bottom:.6rem}
+.cambios ul{margin:0;padding-left:1.1rem;font-size:.95rem}
+.cambios li{margin-bottom:.35rem}
+.nuevo{display:inline-block;font-size:.72rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase;background:var(--senal);color:#fff;border-radius:3px;padding:.1rem .4rem;margin-right:.4rem;vertical-align:.12em}
+html.presentando .cambios{display:none}
+
+/* Contra incendios */
+.m-pci{background:var(--senal)}
+.etq-pci{color:var(--senal-osc)}
+.requisitos{list-style:none;margin:0;padding:0;border-top:2px solid var(--tinta);background:var(--blanco)}
+.requisitos li{display:grid;grid-template-columns:1.6rem 1fr;gap:.6rem;padding:.8rem 1rem;border-bottom:1px solid var(--linea)}
+.requisitos li::before{content:"";width:1.05rem;height:1.05rem;border:2px solid var(--tinta);border-radius:3px;margin-top:.2rem}
+.requisitos small{display:block;color:var(--gris);font-size:.88rem}
+.veredicto{margin-top:1.75rem;padding:1rem 1.15rem;background:var(--tinta);color:#EEF1ED;border-radius:6px;max-width:48rem}
+.veredicto h3{color:#fff;margin-bottom:.5rem}
+.veredicto p{margin-bottom:.6rem}
+.veredicto p:last-child{margin-bottom:0}
+.dos-col{display:grid;gap:1.5rem}
+@media (min-width:900px){.dos-col{grid-template-columns:1fr 1fr;gap:2rem}}
+.dos-col h3{margin-bottom:.8rem}
+.sub{margin:2.25rem 0 .9rem}
+.guia + .guia{margin-top:2rem}
+.guia-campo dd ol{margin:.2rem 0 0;padding-left:1.2rem;font-weight:600}
+.guia-campo dd ol li{margin-bottom:.25rem}
 
 /* Fuentes */
 .fuentes{font-size:.9rem;padding-left:1.6rem;margin:0}
@@ -365,8 +393,8 @@ html.presentando.quieto{cursor:none}
       <div class="cuerda" aria-hidden="true"></div>
       <div class="hero-texto">
         <h1>El cliente no es el trabajo. Es el edificio.</h1>
-        <p class="entrada">Nadie busca «trabajos verticales». Buscan «pintar fachada», «humedades en el patio», «impermeabilizar azotea». La cuerda es cómo se llega, no lo que se vende. Y una vez dentro de un edificio, sin montar andamio, se puede pintar la fachada, cambiar la bajante y arreglar la barandilla en el mismo viaje. Siendo dos, eso no es una ventaja más: es la única forma de que un desplazamiento pague tres trabajos.</p>
-        <p class="contexto">Plan de captación para AMA. Base en Vecindario, Santa Lucía de Tirajana. 14 de septiembre de 2026. Cada cifra lleva un número pequeño que remite a su fuente, al final.</p>
+        <p class="entrada">Un edificio pide tres cosas: que la fachada aguante y se vea bien, que el agua llegue y se vaya por donde debe y que, si hay fuego, todo funcione. Eso es pintura, fontanería y contra incendios. La cuerda sirve para llegar a los tres sin montar andamio. Y el mantenimiento contra incendios es lo único de la lista que se cobra todos los años, se acuerde el cliente o no.</p>
+        <p class="contexto">Plan de captación para AMA. Base en Vecindario, Santa Lucía de Tirajana; trabajan en toda Gran Canaria. Primera versión del 14 de septiembre de 2026, actualizada el 3 de octubre de 2026. Cada cifra lleva un número pequeño que remite a su fuente, al final.</p>
         <div class="presentar-caja">
           <button type="button" class="boton-presentar" id="presentar">Presentar en pantalla grande</button>
           <p class="ayuda-teclas">Pasa a pantalla completa con un apartado por pantalla. Se avanza con las flechas del teclado o del mando de la tele, deslizando el dedo o con los botones de abajo. Esc para salir.</p>
@@ -376,10 +404,26 @@ html.presentando.quieto{cursor:none}
 
     <h2 class="sr-only">Las tres líneas de un vistazo</h2>
     <dl class="resumen">
-      <div><dt><span class="m m-alt" aria-hidden="true"></span>Trabajos en altura</dt><dd><strong>El motor.</strong> Fachadas, azoteas, humedades y patios de luces. Ticket alto y, en Vecindario, tres fichas en el mapa. Aquí va todo el dinero de anuncios.</dd></div>
-      <div><dt><span class="m m-fon" aria-hidden="true"></span>Fontanería</dt><dd><strong>Ficha sí, anuncios no.</strong> En el sur el primero tiene 67 reseñas, no 604 como en la capital: se puede llegar arriba sin pagar. Lo que no aguanta el ticket es la puja.</dd></div>
-      <div><dt><span class="m m-sol" aria-hidden="true"></span>Soldadura</dt><dd><strong>Cero fichas.</strong> «Soldador» en Vecindario no devuelve ni una. Con la EN 1090 a la vista, ser el primero cuesta una tarde de trabajo.</dd></div>
+      <div><dt><span class="m m-pin" aria-hidden="true"></span>Pintura</dt><dd><strong>El motor de Google.</strong> Fachadas, interiores de pisos y locales e industrial. La buscan particulares, comunidades y empresas, es lo que mejor les está funcionando ahora y donde la competencia, del tercer puesto para abajo, se puede alcanzar. Dos tercios del dinero de anuncios.</dd></div>
+      <div><dt><span class="m m-fon" aria-hidden="true"></span>Fontanería y <span class="etq etq-pci">&nbsp;contra incendios</span></dt><dd><strong>Contra incendios con anuncios; la fontanería suelta, sin ellos.</strong> Contra incendios tiene el ticket que la fontanería suelta no tiene: un contrato de mantenimiento que se renueva cada año por obligación legal. El otro tercio del dinero.</dd></div>
+      <div><dt><span class="m m-alt" aria-hidden="true"></span>Trabajos en altura</dt><dd><strong>La forma de llegar, no un producto.</strong> Hay pocos encargos que sean solo de altura. «Sin andamio» se vende dentro de cada fachada y cada bajante, no en un anuncio propio.</dd></div>
     </dl>
+    <p class="contexto" style="margin-top:1rem"><strong>Soldadura sigue en el negocio, pero fuera de este plan.</strong> Llega por cartera y contactos, y nadie la busca en Google por esa vía. No se le dedica ni un euro de anuncios.</p>
+
+    <aside class="cambios" aria-labelledby="cambios-titulo">
+      <h2 id="cambios-titulo">Qué ha cambiado el 3 de octubre</h2>
+      <p>Si ya vieron la primera versión, esto es lo único que hay que volver a mirar:</p>
+      <ul>
+        <li><a href="#compra">Quién compra</a> y <a href="#precios">Cuánto vale</a>: sale soldadura y entran pintura y contra incendios.</li>
+        <li><a href="#competencia">Con quién compiten</a>: nueva medición en Maps de pintura y de contra incendios.</li>
+        <li><span class="nuevo">Nuevo</span><a href="#incendios">Contra incendios: estudio de mercado</a>. Qué exige la ley, quién paga, cuánto, quién compite y si sale a cuenta.</li>
+        <li><a href="#plan">Plan en 90 días</a>: rehecho con las tres líneas nuevas.</li>
+        <li><a href="#trescientos">Los 300 €</a>: nuevo reparto, con <span class="nuevo">Nuevo</span>guía de la ficha de Google desde cero y la de anuncios rehecha paso a paso para quien empieza.</li>
+        <li><span class="nuevo">Nuevo</span><a href="#pivotar">Cambiar de línea</a>: qué deja hacer Google cuando quieran mover el dinero de una línea a otra.</li>
+        <li><a href="#calculadora">Calculadora</a>, <a href="#redes">Redes</a>, <a href="#medir">Cómo medirlo</a> y <a href="#evitar">Lo que no haríamos</a>: adaptados.</li>
+        <li>Fuera: soldadura y todo lo del Kit Digital.</li>
+      </ul>
+    </aside>
   </div>
 
   <nav class="indice" aria-label="Apartados del plan">
@@ -389,12 +433,13 @@ html.presentando.quieto{cursor:none}
         <li><a href="#precios">Cuánto vale</a></li>
         <li><a href="#porque">Por qué hay trabajo</a></li>
         <li><a href="#competencia">Con quién compiten</a></li>
+        <li><a href="#incendios">Contra incendios</a></li>
         <li><a href="#plan">Plan en 90 días</a></li>
         <li><a href="#trescientos">Los 300 €, paso a paso</a></li>
+        <li><a href="#pivotar">Cambiar de línea</a></li>
         <li><a href="#calculadora">¿Sale a cuenta?</a></li>
         <li><a href="#presupuesto">Cuánto cuesta</a></li>
-        <li><a href="#impuestos">IGIC y ayudas</a></li>
-        <li><a href="#criba">Criba del Kit Digital</a></li>
+        <li><a href="#impuestos">IGIC y subvenciones</a></li>
         <li><a href="#redes">Redes</a></li>
         <li><a href="#medir">Cómo medirlo</a></li>
         <li><a href="#evitar">Lo que no haríamos</a></li>
@@ -419,53 +464,53 @@ html.presentando.quieto{cursor:none}
       <thead>
         <tr>
           <th scope="col"><span class="sr-only">Aspecto</span></th>
+          <th scope="col" class="c-pin">Pintura</th>
+          <th scope="col" class="c-fon">Fontanería y contra incendios</th>
           <th scope="col" class="c-alt">Trabajos en altura</th>
-          <th scope="col" class="c-fon">Fontanería</th>
-          <th scope="col" class="c-sol">Soldadura</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <th scope="row">Qué incluye</th>
-          <td class="c-alt" data-linea="Trabajos en altura">Pintura de fachadas y patios, impermeabilización de azoteas, humedades, limpieza de fachadas y cristales, canalones y bajantes. La cuerda es el acceso, no el servicio.</td>
-          <td class="c-fon" data-linea="Fontanería">Fugas, desatascos, grifería, puntos de agua, cambio de bajantes y de tuberías del edificio.</td>
-          <td class="c-sol" data-linea="Soldadura">Rejas, puertas metálicas, barandillas, reparación in situ y estructura de taller con marcado CE.</td>
+          <td class="c-pin" data-linea="Pintura">Fachadas y patios de luces, interiores de pisos, locales y oficinas, e industrial: naves, estructura metálica y suelos. También la pintura intumescente, que protege del fuego la estructura de acero.</td>
+          <td class="c-fon" data-linea="Fontanería y contra incendios">Fugas, bajantes y tuberías del edificio. Contra incendios: instalación y mantenimiento de extintores, bocas de incendio, grupos de presión, columna seca, rociadores y detección.</td>
+          <td class="c-alt" data-linea="Trabajos en altura">Impermeabilización de azoteas, limpieza de fachadas y cristales, canalones, medianeras y cualquier trabajo de las otras dos líneas en sitios donde no llega un andamio.</td>
         </tr>
         <tr>
           <th scope="row">Quién paga</th>
-          <td class="c-alt" data-linea="Trabajos en altura">Comunidades de propietarios, a través del administrador de fincas. También hoteles y complejos de apartamentos.</td>
-          <td class="c-fon" data-linea="Fontanería">Particulares y comunidades. La comunidad, cuando toca bajante o tubería general.</td>
-          <td class="c-sol" data-linea="Soldadura">Particulares para rejas y barandillas. Constructoras, talleres y hoteles para lo demás.</td>
+          <td class="c-pin" data-linea="Pintura">Comunidades a través del administrador en fachada; particulares en interiores; naves, talleres y hoteles en industrial.</td>
+          <td class="c-fon" data-linea="Fontanería y contra incendios">Particulares en la fontanería suelta. En contra incendios, los titulares: comunidades con garaje o bocas de incendio, hoteles y apartamentos, naves, locales y oficinas.</td>
+          <td class="c-alt" data-linea="Trabajos en altura">Comunidades, hoteles y complejos de apartamentos, casi siempre a través del administrador o del jefe de mantenimiento.</td>
         </tr>
         <tr>
           <th scope="row">Cuánto tarda en decidir</th>
-          <td class="c-alt" data-linea="Trabajos en altura">Semanas o meses. Pide tres presupuestos y lo aprueba la junta.</td>
-          <td class="c-fon" data-linea="Fontanería">Minutos si es urgente. Llama al primero que contesta.</td>
-          <td class="c-sol" data-linea="Soldadura">Días. Suele pedir precio mandando fotos por WhatsApp.</td>
+          <td class="c-pin" data-linea="Pintura">Una fachada, semanas: lo aprueba la junta. Un piso, días: pide dos o tres precios.</td>
+          <td class="c-fon" data-linea="Fontanería y contra incendios">Una fuga, minutos. Un contrato de mantenimiento, semanas, y luego se renueva solo año tras año si el servicio cumple.</td>
+          <td class="c-alt" data-linea="Trabajos en altura">Semanas o meses. Pide tres presupuestos.</td>
         </tr>
         <tr>
           <th scope="row">Precios publicados</th>
-          <td class="c-alt peq" data-linea="Trabajos en altura">Pintar fachada en Canarias: media de 1.020 € y hasta 1.850 € en vivienda; de 1.500 a 6.000 € en fachada de edificio.<sup class="ref"><a href="#f3">3</a></sup> De 14 a 35 €/m², y el extremo alto es con andamio.<sup class="ref"><a href="#f5">5</a></sup> Impermeabilizar azotea, de 15 a 35 €/m².<sup class="ref"><a href="#f11">11</a></sup></td>
-          <td class="c-fon peq" data-linea="Fontanería">En Las Palmas: 13–22 €/h. Cambiar un grifo, 50–150 €. Punto de agua, 150–300 €. Cambio completo de tuberías, 1.500–6.000 €.<sup class="ref"><a href="#f6">6</a></sup></td>
-          <td class="c-sol peq" data-linea="Soldadura">Datos de España: 30–60 €/h, reja de ventana 150–400 €, puerta metálica 300–800 €.<sup class="ref"><a href="#f9">9</a></sup></td>
+          <td class="c-pin peq" data-linea="Pintura">Fachada de edificio en Canarias, de 1.500 a 6.000 €.<sup class="ref"><a href="#f3">3</a></sup> Piso de 90 m² en Las Palmas, de 700 a 1.200 €.<sup class="ref"><a href="#f54">54</a></sup> Nave: paredes de 5 a 7 €/m² y suelo de 15 a 25 €/m².<sup class="ref"><a href="#f55">55</a></sup> Intumescente aplicada, de 45 a 70 €/m².<sup class="ref"><a href="#f56">56</a></sup></td>
+          <td class="c-fon peq" data-linea="Fontanería y contra incendios">Aviso de fontanería en Las Palmas, de 30 a 300 €.<sup class="ref"><a href="#f6">6</a></sup> Mantenimiento contra incendios al año: comunidad mediana de 300 a 700 €, nave de 800 a 3.500 €, hotel mediano de 1.500 a 4.000 €.<sup class="ref"><a href="#f53">53</a></sup></td>
+          <td class="c-alt peq" data-linea="Trabajos en altura">Impermeabilizar azotea, de 15 a 35 €/m².<sup class="ref"><a href="#f11">11</a></sup> Lo que vale la cuerda se ve en el andamio que se ahorra: de 30 a 40 € al día.<sup class="ref"><a href="#f5">5</a></sup></td>
         </tr>
         <tr>
           <th scope="row">Qué busca en Google</th>
-          <td class="c-alt" data-linea="Trabajos en altura">«pintar fachada», «impermeabilizar azotea», «humedades pared», «rehabilitación de fachadas» y el municipio.</td>
-          <td class="c-fon" data-linea="Fontanería">«fontanero cerca», «desatascos urgente». Desde el móvil, en el momento.</td>
-          <td class="c-sol" data-linea="Soldadura">«soldador», «cerrajería metálica», «barandillas a medida» y el municipio.</td>
+          <td class="c-pin" data-linea="Pintura">«pintar fachada», «pintores», «pintar piso», «pintar nave», «pintura suelo industrial», «pintura intumescente» y el municipio.</td>
+          <td class="c-fon" data-linea="Fontanería y contra incendios">«fontanero» desde el móvil, con prisa. En contra incendios: «mantenimiento extintores», «revisión extintores», «empresa mantenedora contra incendios», «revisión bocas de incendio».</td>
+          <td class="c-alt" data-linea="Trabajos en altura">Casi nadie busca «trabajos verticales». Se busca el problema: «impermeabilizar azotea», «limpiar cristales edificio».</td>
         </tr>
         <tr>
           <th scope="row">Qué le convence</th>
-          <td class="c-alt" data-linea="Trabajos en altura">Ahorrarse el andamio: menos dinero, menos días y menos molestias a vecinos y comercios. Fotos de antes y después. Certificados de altura y seguro.</td>
-          <td class="c-fon" data-linea="Fontanería">Que alguien coja el teléfono y llegue pronto. Reseñas recientes.</td>
-          <td class="c-sol" data-linea="Soldadura">Fotos de acabados y, en estructura de taller, marcado CE por la EN 1090 con soldadores cualificados.<sup class="ref"><a href="#f21">21</a></sup></td>
+          <td class="c-pin" data-linea="Pintura">Fotos de antes y después, plazo cerrado y, en fachada, no tener andamio delante del portal semanas.</td>
+          <td class="c-fon" data-linea="Fontanería y contra incendios">En contra incendios: que la empresa esté habilitada, que no se le pase ninguna revisión, que lleve el registro al día para cuando pase el inspector y que conteste cuando algo falla.</td>
+          <td class="c-alt" data-linea="Trabajos en altura">Ahorrarse el andamio: menos dinero, menos días, acera libre. Certificados de altura y seguro.</td>
         </tr>
         <tr>
           <th scope="row">Canal principal</th>
-          <td class="c-alt" data-linea="Trabajos en altura">Visita a administradores de fincas y jefes de mantenimiento de hotel, más una página por servicio.</td>
-          <td class="c-fon" data-linea="Fontanería">Venta cruzada dentro del edificio ya ganado. Nada de anuncios todavía.</td>
-          <td class="c-sol" data-linea="Soldadura">Ficha de Google bien puesta y trato directo con empresas.</td>
+          <td class="c-pin" data-linea="Pintura">Google, con anuncios y ficha, más una página por servicio. En fachada, además, los administradores.</td>
+          <td class="c-fon" data-linea="Fontanería y contra incendios">Contra incendios: administradores, hoteles y naves, a puerta fría, con Google de apoyo. Fontanería: venta cruzada dentro del edificio ya ganado.</td>
+          <td class="c-alt" data-linea="Trabajos en altura">Dentro de los otros dos. Una página que explique la cuerda, enlazada desde todas.</td>
         </tr>
       </tbody>
     </table>
@@ -477,45 +522,45 @@ html.presentando.quieto{cursor:none}
   <div class="wrap">
     <div class="cabeza">
       <h2>Cuánto vale cada trabajo</h2>
-      <p>La escala multiplica por diez en cada línea, porque las cifras se separan mucho. Todos los precios son de Canarias salvo los de soldadura, que no los encontré publicados por islas.</p>
+      <p>La escala multiplica por diez en cada tramo, porque las cifras se separan mucho. Los precios de pintura de piso y de fachada son de Canarias. Los de nave, intumescente y contra incendios son de España, porque no hay datos publicados por islas.</p>
     </div>
 
-    <div class="escala" role="img" aria-label="Rangos de precio publicados: pintar fachada de edificio, de 1.500 a 6.000 euros; impermeabilizar una azotea de 100 metros cuadrados, de 1.500 a 3.500 euros; cambio completo de tuberías, de 1.500 a 6.000 euros; pintar fachada de vivienda, de 300 a 1.850 euros; puerta metálica, de 300 a 800 euros; reja de ventana, de 150 a 400 euros; avisos sueltos de fontanería, de 30 a 300 euros.">
+    <div class="escala" role="img" aria-label="Rangos de precio publicados: pintar fachada de edificio, de 1.500 a 6.000 euros; mantenimiento contra incendios de un hotel mediano, de 1.500 a 4.000 euros al año; intumescente en 100 metros cuadrados de estructura, de 4.500 a 7.000 euros; mantenimiento contra incendios de una nave, de 800 a 3.500 euros al año; pintar un piso de 90 metros cuadrados, de 700 a 1.200 euros; mantenimiento contra incendios de una comunidad mediana, de 300 a 700 euros al año; avisos sueltos de fontanería, de 30 a 300 euros.">
       <div class="fila" data-min="1500" data-max="6000">
-        <div class="nombre"><span class="m m-alt" aria-hidden="true"></span>Fachada de edificio</div>
-        <div class="pista"><div class="barra c-alt"></div></div>
+        <div class="nombre"><span class="m m-pin" aria-hidden="true"></span>Fachada de edificio</div>
+        <div class="pista"><div class="barra c-pin"></div></div>
         <div class="rango">1.500–6.000 €</div>
-        <p class="nota">Presupuestos reales en Canarias para pintar la fachada de un edificio; la media de esos presupuestos fue de 3.625 €.<sup class="ref"><a href="#f3">3</a></sup></p>
+        <p class="nota">Presupuestos reales en Canarias para pintar la fachada de un edificio; la media fue de 3.625 €.<sup class="ref"><a href="#f3">3</a></sup></p>
       </div>
-      <div class="fila" data-min="1500" data-max="3500">
-        <div class="nombre"><span class="m m-alt" aria-hidden="true"></span>Impermeabilizar azotea</div>
-        <div class="pista"><div class="barra c-alt"></div></div>
-        <div class="rango">1.500–3.500 €</div>
-        <p class="nota">Cálculo propio: una azotea de 100 m² a los 15–35 €/m² publicados.<sup class="ref"><a href="#f11">11</a></sup></p>
+      <div class="fila" data-min="4500" data-max="7000">
+        <div class="nombre"><span class="m m-pin" aria-hidden="true"></span>Intumescente, 100 m²</div>
+        <div class="pista"><div class="barra c-pin"></div></div>
+        <div class="rango">4.500–7.000 €</div>
+        <p class="nota">Cálculo propio: 100 m² de estructura metálica a los 45–70 €/m² publicados para una protección R60 aplicada.<sup class="ref"><a href="#f56">56</a></sup> Es pintura y es contra incendios a la vez.</p>
       </div>
-      <div class="fila" data-min="1500" data-max="6000">
-        <div class="nombre"><span class="m m-fon" aria-hidden="true"></span>Cambio de tuberías</div>
-        <div class="pista"><div class="barra c-fon"></div></div>
-        <div class="rango">1.500–6.000 €</div>
-        <p class="nota">Precio publicado para Las Palmas de Gran Canaria. Es el único trabajo de fontanería con ticket de comunidad.<sup class="ref"><a href="#f6">6</a></sup></p>
+      <div class="fila" data-min="1500" data-max="4000">
+        <div class="nombre"><span class="m m-pci" aria-hidden="true"></span>Hotel mediano, al año</div>
+        <div class="pista"><div class="barra" style="background:var(--senal)"></div></div>
+        <div class="rango">1.500–4.000 €</div>
+        <p class="nota">Contrato anual de mantenimiento contra incendios.<sup class="ref"><a href="#f53">53</a></sup> <strong>Cada año</strong>, no una vez.</p>
       </div>
-      <div class="fila" data-min="300" data-max="1850">
-        <div class="nombre"><span class="m m-alt" aria-hidden="true"></span>Fachada de vivienda</div>
-        <div class="pista"><div class="barra c-alt"></div></div>
-        <div class="rango">300–1.850 €</div>
-        <p class="nota">Presupuestos reales en Canarias, con una media de 1.020 €.<sup class="ref"><a href="#f3">3</a></sup></p>
+      <div class="fila" data-min="800" data-max="3500">
+        <div class="nombre"><span class="m m-pci" aria-hidden="true"></span>Nave industrial, al año</div>
+        <div class="pista"><div class="barra" style="background:var(--senal)"></div></div>
+        <div class="rango">800–3.500 €</div>
+        <p class="nota">Contrato anual de mantenimiento contra incendios.<sup class="ref"><a href="#f53">53</a></sup></p>
       </div>
-      <div class="fila" data-min="300" data-max="800">
-        <div class="nombre"><span class="m m-sol" aria-hidden="true"></span>Puerta metálica</div>
-        <div class="pista"><div class="barra c-sol"></div></div>
-        <div class="rango">300–800 €</div>
-        <p class="nota">Precios de España. No hay datos publicados por islas.<sup class="ref"><a href="#f9">9</a></sup></p>
+      <div class="fila" data-min="700" data-max="1200">
+        <div class="nombre"><span class="m m-pin" aria-hidden="true"></span>Piso de 90 m²</div>
+        <div class="pista"><div class="barra c-pin"></div></div>
+        <div class="rango">700–1.200 €</div>
+        <p class="nota">Pintar un piso entero en Las Palmas de Gran Canaria. Por metro, de 5 a 12 €/m².<sup class="ref"><a href="#f54">54</a></sup></p>
       </div>
-      <div class="fila" data-min="150" data-max="400">
-        <div class="nombre"><span class="m m-sol" aria-hidden="true"></span>Reja de ventana</div>
-        <div class="pista"><div class="barra c-sol"></div></div>
-        <div class="rango">150–400 €</div>
-        <p class="nota">Precios de España.<sup class="ref"><a href="#f9">9</a></sup></p>
+      <div class="fila" data-min="300" data-max="700">
+        <div class="nombre"><span class="m m-pci" aria-hidden="true"></span>Comunidad, al año</div>
+        <div class="pista"><div class="barra" style="background:var(--senal)"></div></div>
+        <div class="rango">300–700 €</div>
+        <p class="nota">Contrato anual de una comunidad mediana. Una pequeña, de 150 a 350 €; una grande, de 700 a 2.500 €.<sup class="ref"><a href="#f53">53</a></sup></p>
       </div>
       <div class="fila" data-min="30" data-max="300">
         <div class="nombre"><span class="m m-fon" aria-hidden="true"></span>Aviso de fontanería</div>
@@ -536,7 +581,8 @@ html.presentando.quieto{cursor:none}
     </div>
 
     <div class="prosa" style="margin-top:1.5rem">
-      <p><strong>El argumento del andamio.</strong> Pintar una fachada va de 14 a 35 €/m², y la propia fuente atribuye el extremo alto al montaje de andamio. Además, alquilar un andamio cuesta de 30 a 40 € al día, y ahí se queda semanas.<sup class="ref"><a href="#f5">5</a></sup> Ante una junta de vecinos, eso no se cuenta con porcentajes: se cuenta diciendo cuántos días de alquiler se ahorran y que la acera y el portal quedan libres.</p>
+      <p><strong>Lo que la escala no enseña.</strong> Una fachada se cobra una vez y vuelve a tocar dentro de diez años. Un contrato de contra incendios de 500 € se cobra este año, el que viene y el siguiente: en tres años son 1.500 €, sin volver a buscar al cliente. Por eso en la <a href="#calculadora">calculadora</a> se mide el contrato a tres años y no a uno.</p>
+      <p><strong>El argumento del andamio sigue valiendo.</strong> Pintar una fachada va de 14 a 35 €/m², y la propia fuente atribuye el extremo alto al andamio, que se alquila a 30 o 40 € al día.<sup class="ref"><a href="#f5">5</a></sup> Ante una junta no se cuentan porcentajes: se dice cuántos días de alquiler se ahorran.</p>
     </div>
   </div>
 </section>
@@ -550,54 +596,66 @@ html.presentando.quieto{cursor:none}
     </div>
 
     <ul class="datos">
-      <li class="separador">Su zona: Vecindario y el sur</li>
+      <li class="separador">Gran Canaria</li>
       <li>
-        <div class="cifra">33</div>
-        <p class="dato">administradores de fincas colegiados ejercen en el sur y el sureste de la isla: 8 en San Bartolomé de Tirajana, 6 en Vecindario, 5 en Playa del Inglés y Maspalomas, 4 en Mogán, y el resto entre Agüimes, Ingenio, Arinaga, Aldea Blanca y Santa Lucía. El colegio publica el listado con buscador por localidad.<sup class="ref"><a href="#f13">13</a></sup></p>
-        <p class="implica"><span class="afecta" role="img" aria-label="Afecta a trabajos en altura y fontanería"><span class="m m-alt"></span><span class="m m-fon"></span></span><strong>Siendo dos, esta es la cifra que manda.</strong> A tres visitas por semana están todos vistos en el trimestre. Con los 204 de toda la isla no daba la vida; con 33, sí. Telde suma otros 13 de camino a la capital.</p>
+        <div class="cifra">204</div>
+        <p class="dato">administradores de fincas colegiados hay en Gran Canaria. <strong>33</strong> en el sur y el sureste: 8 en San Bartolomé de Tirajana, 6 en Vecindario, 5 en Playa del Inglés y Maspalomas, 4 en Mogán y el resto entre Agüimes, Ingenio, Arinaga, Aldea Blanca y Santa Lucía. Telde suma 13. El colegio publica el listado con buscador por localidad.<sup class="ref"><a href="#f13">13</a></sup></p>
+        <p class="implica"><span class="afecta" role="img" aria-label="Afecta a pintura, fontanería y contra incendios, y trabajos en altura"><span class="m m-pin"></span><span class="m m-fon"></span><span class="m m-alt"></span></span><strong>Siendo dos, esta es la cifra que manda.</strong> Un administrador lleva decenas de comunidades, y cada una tiene fachada, bajantes y, si tiene garaje, extintores que revisar cada año. Empezar por los 33 del sur, que están al lado, y subir después hacia Telde y la capital.</p>
       </li>
       <li>
         <div class="cifra">91,45 %</div>
-        <p class="dato">de ocupación hotelera tuvo el sur de Gran Canaria en el primer trimestre de 2026, con un RevPAR de 147,21 €, según datos de Gloval y el INE. Es la segunda zona turística más rentable de España.<sup class="ref"><a href="#f16">16</a></sup></p>
-        <p class="implica"><span class="afecta" role="img" aria-label="Afecta a las tres líneas"><span class="m m-alt"></span><span class="m m-fon"></span><span class="m m-sol"></span></span>Maspalomas les queda a un cuarto de hora. Con los hoteles llenos, cerrar una zona sale carísimo: un trabajo por cuerda que no monta andamio ni corta el paso vale más de lo que cuesta.</p>
+        <p class="dato">de ocupación hotelera tuvo el sur de Gran Canaria en el primer trimestre de 2026, con un RevPAR de 147,21 €, según datos de Gloval y el INE.<sup class="ref"><a href="#f16">16</a></sup></p>
+        <p class="implica"><span class="afecta" role="img" aria-label="Afecta a las tres líneas"><span class="m m-pin"></span><span class="m m-fon"></span><span class="m m-alt"></span></span>Con los hoteles llenos, cerrar una zona sale carísimo. Y todo hotel tiene contra incendios que mantener por ley, con contrato anual de 1.500 a 4.000 € en uno mediano.<sup class="ref"><a href="#f53">53</a></sup></p>
       </li>
       <li>
         <div class="cifra">8.000</div>
-        <p class="dato">habitaciones hay en Canarias en procesos de creación, modernización o reposicionamiento, repartidas en 49 proyectos. En el primer semestre de 2026 las Islas concentraron el 18 % de toda la inversión hotelera de España.<sup class="ref"><a href="#f17">17</a></sup></p>
-        <p class="implica"><span class="afecta" role="img" aria-label="Afecta a trabajos en altura y soldadura"><span class="m m-alt"></span><span class="m m-sol"></span></span>Obra de reforma hotelera: fachadas, barandillas, pasarelas. Ahí el interlocutor es el jefe de mantenimiento, no el administrador. Y la soldadura entra por esa puerta.</p>
+        <p class="dato">habitaciones hay en Canarias en procesos de creación, modernización o reposicionamiento, repartidas en 49 proyectos.<sup class="ref"><a href="#f17">17</a></sup></p>
+        <p class="implica"><span class="afecta" role="img" aria-label="Afecta a pintura y contra incendios"><span class="m m-pin"></span><span class="m m-pci"></span></span>Una reforma hotelera es pintura y, casi siempre, adecuar la instalación contra incendios. El interlocutor es el jefe de mantenimiento, no el administrador.</p>
       </li>
 
-      <li class="separador">Cuidado con la inspección de edificios</li>
+      <li class="separador">Contra incendios: lo que obliga la ley</li>
       <li>
-        <div class="cifra">80 años</div>
-        <p class="dato">es el umbral de la inspección técnica de edificaciones en los municipios que no tienen ordenanza propia, según la Ley del Suelo de Canarias. La inspección la hace técnico competente y <strong>tiene una eficacia de veinte años</strong>.<sup class="ref"><a href="#f47b">47b</a></sup></p>
-        <p class="implica"><span class="afecta" role="img" aria-label="Afecta a trabajos en altura"><span class="m m-alt"></span></span><strong>En Vecindario esto no les sirve de gancho.</strong> El casco creció en los años sesenta y setenta: casi ningún edificio llega a los 80 años. No usen este argumento aquí.</p>
+        <div class="cifra">Cada año</div>
+        <p class="dato">tiene que pasar por una empresa mantenedora habilitada cada instalación de protección activa contra incendios: extintores, bocas de incendio, detección y lo demás. El titular hace sus propias revisiones cada tres meses, y los extintores se retimbran cada cinco años.<sup class="ref"><a href="#f51">51</a></sup><sup class="ref"><a href="#f53">53</a></sup></p>
+        <p class="implica"><span class="afecta" role="img" aria-label="Afecta a contra incendios"><span class="m m-pci"></span></span><strong>Es la única demanda del plan que no depende de que al cliente se le rompa algo.</strong> Existe porque lo manda el reglamento.</p>
       </li>
       <li>
         <div class="cifra">10 años</div>
-        <p class="dato">bastan, en cambio, en <strong>Las Palmas de Gran Canaria</strong>, cuya ordenanza obliga a toda edificación de más de diez años a pasar y superar la inspección técnica de fachadas, repetida cada diez. Si el propietario no entrega el informe, el Ayuntamiento la hace de oficio y se la cobra.<sup class="ref"><a href="#f1">1</a></sup> Allí, además, el 61,5 % de las viviendas tiene 40 años o más.<sup class="ref"><a href="#f2">2</a></sup></p>
-        <p class="implica"><span class="afecta" role="img" aria-label="Afecta a trabajos en altura"><span class="m m-alt"></span></span>Este argumento solo vale cuando suban a la capital. <strong>Antes de usarlo en cualquier otro municipio, hay que llamar a su ayuntamiento y preguntar si tiene ordenanza propia.</strong> En Santa Lucía de Tirajana no hemos encontrado ninguna publicada: hay que confirmarlo en el 928 72 72 00.</p>
+        <p class="dato">es el plazo máximo entre inspecciones de un organismo de control, que el titular tiene que pedir para su instalación contra incendios. Quedan fuera las viviendas, los comercios y aparcamientos de menos de 500 m² y lo que solo tiene extintores, alumbrado de emergencia o planos.<sup class="ref"><a href="#f51">51</a></sup> El reglamento entró en vigor el 12 de diciembre de 2017, y las instalaciones existentes con más de diez años tuvieron que pasar su primera inspección en uno, dos o tres años según su antigüedad.<sup class="ref"><a href="#f51">51</a></sup></p>
+        <p class="implica"><span class="afecta" role="img" aria-label="Afecta a contra incendios"><span class="m m-pci"></span></span><strong>Cálculo propio: esa primera tanda se hizo entre 2018 y 2020, así que la segunda cae entre 2028 y 2030.</strong> Cada inspección deja una lista de defectos que alguien tiene que corregir. Conviene estar ya dentro de esas comunidades y hoteles cuando llegue.</p>
+      </li>
+      <li>
+        <div class="cifra">5 años</div>
+        <p class="dato">es, desde el 10 de noviembre de 2025, la periodicidad de inspección de todos los establecimientos industriales con el nuevo reglamento, el Real Decreto 164/2025. Antes era de dos, tres o cinco años según el riesgo.<sup class="ref"><a href="#f52">52</a></sup></p>
+        <p class="implica"><span class="afecta" role="img" aria-label="Afecta a contra incendios y pintura"><span class="m m-pci"></span><span class="m m-pin"></span></span>Naves de Arinaga, El Goro, Salinetas o Miller: inspección, defectos y contrato de mantenimiento. Y la estructura metálica sin proteger es pintura intumescente.</p>
+      </li>
+
+      <li class="separador">Cuidado con la inspección de fachadas</li>
+      <li>
+        <div class="cifra">80 años</div>
+        <p class="dato">es el umbral de la inspección técnica de edificaciones en los municipios sin ordenanza propia, según la Ley del Suelo de Canarias, con una <strong>eficacia de veinte años</strong>.<sup class="ref"><a href="#f47b">47b</a></sup></p>
+        <p class="implica"><span class="afecta" role="img" aria-label="Afecta a pintura y trabajos en altura"><span class="m m-pin"></span><span class="m m-alt"></span></span><strong>En el sur esto no sirve de gancho.</strong> Casi ningún edificio de Vecindario llega a los 80 años.</p>
+      </li>
+      <li>
+        <div class="cifra">10 años</div>
+        <p class="dato">bastan en cambio en <strong>Las Palmas de Gran Canaria</strong>, cuya ordenanza obliga a pasar la inspección técnica de fachadas a todo edificio de más de diez años, repetida cada diez.<sup class="ref"><a href="#f1">1</a></sup> Allí el 61,5 % de las viviendas tiene 40 años o más.<sup class="ref"><a href="#f2">2</a></sup></p>
+        <p class="implica"><span class="afecta" role="img" aria-label="Afecta a pintura y trabajos en altura"><span class="m m-pin"></span><span class="m m-alt"></span></span>Como ahora trabajan en toda la isla, <strong>en la capital este es el mejor argumento para la fachada</strong>. En otros municipios, antes de usarlo, hay que preguntar al ayuntamiento si tiene ordenanza propia.</p>
       </li>
       <li>
         <div class="cifra">Siempre</div>
-        <p class="dato">puede el ayuntamiento dictar <strong>órdenes de ejecución</strong> para garantizar la seguridad, la salubridad y el ornato de un edificio, haya inspección o no. Y si no se cumplen, hay multa y la obra se hace a costa del propietario.<sup class="ref"><a href="#f47b">47b</a></sup><sup class="ref"><a href="#f1">1</a></sup></p>
-        <p class="implica"><span class="afecta" role="img" aria-label="Afecta a trabajos en altura"><span class="m m-alt"></span></span><strong>Este sí es el argumento universal</strong>, y funciona en cualquier municipio de la isla. Una fachada que suelta trozos a la acera no espera a cumplir 80 años para traer problemas al administrador.</p>
+        <p class="dato">puede el ayuntamiento dictar <strong>órdenes de ejecución</strong> por seguridad, salubridad u ornato, haya inspección o no. Si no se cumplen, hay multa y la obra se hace a costa del propietario.<sup class="ref"><a href="#f47b">47b</a></sup><sup class="ref"><a href="#f1">1</a></sup></p>
+        <p class="implica"><span class="afecta" role="img" aria-label="Afecta a pintura y trabajos en altura"><span class="m m-pin"></span><span class="m m-alt"></span></span>Este argumento sirve en cualquier municipio de la isla.</p>
       </li>
       <li class="separador">España</li>
       <li>
         <div class="cifra">3,4 millones</div>
         <p class="dato">de siniestros por daños de agua en viviendas aseguradas en 2024, la causa más frecuente.<sup class="ref"><a href="#f19">19</a></sup> Son el 38,2 % de todos los partes del seguro de hogar.<sup class="ref"><a href="#f20">20</a></sup></p>
-        <p class="implica"><span class="afecta" role="img" aria-label="Afecta a fontanería y trabajos en altura"><span class="m m-fon"></span><span class="m m-alt"></span></span>Hay 1,5 millones de percances en comunidades, y dos de cada tres son goteras, bajantes y conducciones.<sup class="ref"><a href="#f19">19</a></sup> Cuando la bajante va por fachada o patio de luces, el trabajo es de las dos líneas a la vez.</p>
-      </li>
-      <li>
-        <div class="cifra">2014</div>
-        <p class="dato">es el año desde el que la estructura de acero fabricada en taller necesita marcado CE por la norma EN 1090, con soldadores cualificados. Lo que se suelda en obra va por otra vía.<sup class="ref"><a href="#f21">21</a></sup></p>
-        <p class="implica"><span class="afecta" role="img" aria-label="Afecta a soldadura"><span class="m m-sol"></span></span>Ustedes lo tienen. Ninguno de los talleres que salen en el mapa lo enseña en su ficha. Es la mejor carta que hay sobre la mesa y no la están jugando.</p>
+        <p class="implica"><span class="afecta" role="img" aria-label="Afecta a fontanería y trabajos en altura"><span class="m m-fon"></span><span class="m m-alt"></span></span>Dos de cada tres percances en comunidades son goteras, bajantes y conducciones.<sup class="ref"><a href="#f19">19</a></sup> Cuando la bajante va por fachada o patio de luces, el trabajo es de fontanería y de altura a la vez.</p>
       </li>
       <li>
         <div class="cifra">700.000</div>
         <p class="dato">trabajadores necesitará incorporar la construcción en los próximos años.<sup class="ref"><a href="#f22">22</a></sup></p>
-        <p class="implica"><span class="afecta" role="img" aria-label="Afecta a las tres líneas"><span class="m m-alt"></span><span class="m m-fon"></span><span class="m m-sol"></span></span>Las redes también sirven para fichar oficiales, no solo para vender.</p>
+        <p class="implica"><span class="afecta" role="img" aria-label="Afecta a las tres líneas"><span class="m m-pin"></span><span class="m m-fon"></span><span class="m m-alt"></span></span>Las redes también sirven para fichar oficiales, no solo para vender.</p>
       </li>
     </ul>
   </div>
@@ -608,13 +666,13 @@ html.presentando.quieto{cursor:none}
   <div class="wrap">
     <div class="cabeza">
       <h2>Con quién compiten de verdad</h2>
-      <p>Esto es lo que salía en Google Maps buscando desde <strong>Vecindario</strong> el 14 de septiembre de 2026. Las barras son las reseñas de cada ficha.<sup class="ref"><a href="#f12">12</a></sup> El sur no se parece en nada a la capital, y esa es la mejor noticia del documento.</p>
+      <p>Dos mediciones en Google Maps. La del <strong>14 de septiembre</strong>, con reseñas, buscando desde Vecindario.<sup class="ref"><a href="#f12">12</a></sup> Y la del <strong>3 de octubre</strong>, buscando desde Vecindario y desde la capital, para pintura y contra incendios.<sup class="ref"><a href="#f57">57</a></sup> En la segunda Google ya no enseña las reseñas sin iniciar sesión, así que se cuentan fichas y categorías, no estrellas.</p>
     </div>
 
     <div class="comp">
-      <div class="comp-bloque c-alt">
+      <div class="comp-bloque c-pin">
         <h3>«pintar fachada» en Vecindario</h3>
-        <p class="fichas">6 fichas · el objetivo</p>
+        <p class="fichas">14 de septiembre · reseñas de cada ficha</p>
         <ul class="comp-lista" data-max="101">
           <li><span class="comp-nombre">Progesol Canarias <b>61</b></span><span class="comp-barra"><span data-v="61"></span></span></li>
           <li><span class="comp-nombre">Pintores y trabajos verticales <b>58</b></span><span class="comp-barra"><span data-v="58"></span></span></li>
@@ -622,43 +680,112 @@ html.presentando.quieto{cursor:none}
           <li><span class="comp-nombre">Alvarado Restauro <b>13</b></span><span class="comp-barra"><span data-v="13"></span></span></li>
           <li><span class="comp-nombre">Frontislimpieza <b>11</b></span><span class="comp-barra"><span data-v="11"></span></span></li>
         </ul>
-        <p class="lectura">Del tercer puesto para abajo, <strong>trece reseñas</strong>. Eso se alcanza en unos meses pidiéndoselas a todos los clientes. En la capital el tercero tiene 263.</p>
+        <p class="lectura">Del tercer puesto para abajo, <strong>trece reseñas</strong>. Se alcanza en unos meses pidiéndoselas a todos los clientes. En la capital el tercero tenía 263.</p>
       </div>
 
-      <div class="comp-bloque c-sol">
-        <h3>«soldador» en Vecindario</h3>
-        <p class="fichas">Cero fichas. Ninguna.</p>
-        <ul class="comp-lista" data-max="101">
-          <li><span class="comp-nombre">— <b>0</b></span><span class="comp-barra"><span data-v="0"></span></span></li>
+      <div class="comp-bloque c-pin">
+        <h3>Pintura en toda la isla</h3>
+        <p class="fichas">3 de octubre · fichas con categoría «Pintor»</p>
+        <ul class="comp-lista" data-max="41">
+          <li><span class="comp-nombre">Distintas, sumando todas las búsquedas <b>41</b></span><span class="comp-barra"><span data-v="41"></span></span></li>
+          <li><span class="comp-nombre">«pintor» desde Vecindario <b>13</b></span><span class="comp-barra"><span data-v="13"></span></span></li>
+          <li><span class="comp-nombre">«pintar fachada» desde la capital <b>12</b></span><span class="comp-barra"><span data-v="12"></span></span></li>
+          <li><span class="comp-nombre">«pintura industrial», pintores de verdad <b>2</b></span><span class="comp-barra"><span data-v="2"></span></span></li>
+          <li><span class="comp-nombre">«pintura intumescente» desde Vecindario <b>0</b></span><span class="comp-barra"><span data-v="0"></span></span></li>
         </ul>
-        <p class="lectura">Google no devuelve ni un solo negocio. Los cinco resultados de «cerrajería metálica» son cerrajeros de urgencia que abren puertas, no talleres. <strong>Abrir la ficha ya es ser el primero</strong>, y con la EN 1090 encima.</p>
+        <p class="lectura">«Pintura industrial» devuelve sobre todo tiendas de pinturas, ferreterías y talleres de chapa: <strong>casi nadie que lo aplique</strong>. Y para «intumescente» en toda la isla salen dos tiendas y dos empresas de ignifugados. Ese hueco es de ustedes, porque junta pintura y contra incendios.</p>
       </div>
 
       <div class="comp-bloque c-fon">
-        <h3>«fontanero»: sur contra capital</h3>
-        <p class="fichas">9 fichas en el sur · 11 en la capital</p>
-        <ul class="comp-lista" data-max="604">
-          <li><span class="comp-nombre">Capital · Desatascos Mario López <b>604</b></span><span class="comp-barra"><span data-v="604"></span></span></li>
-          <li><span class="comp-nombre">Capital · Desatascos Bonilla <b>573</b></span><span class="comp-barra"><span data-v="573"></span></span></li>
-          <li><span class="comp-nombre">Sur · Fontlux <b>67</b></span><span class="comp-barra"><span data-v="67"></span></span></li>
-          <li><span class="comp-nombre">Sur · Desatascos Maspalomas <b>19</b></span><span class="comp-barra"><span data-v="19"></span></span></li>
-          <li><span class="comp-nombre">Sur · Fontaenersol <b>14</b></span><span class="comp-barra"><span data-v="14"></span></span></li>
+        <h3>Contra incendios en Gran Canaria</h3>
+        <p class="fichas">3 de octubre · fichas con categoría de contra incendios</p>
+        <ul class="comp-lista" data-max="41">
+          <li><span class="comp-nombre">Distintas con sede en la isla, aproximadamente <b>41</b></span><span class="comp-barra"><span data-v="41"></span></span></li>
+          <li><span class="comp-nombre">«mantenimiento extintores» desde Vecindario <b>33</b></span><span class="comp-barra"><span data-v="33"></span></span></li>
+          <li><span class="comp-nombre">«protección contra incendios» desde la capital <b>27</b></span><span class="comp-barra"><span data-v="27"></span></span></li>
+          <li><span class="comp-nombre">Especialistas en ignifugados y pasiva <b>2</b></span><span class="comp-barra"><span data-v="2"></span></span></li>
         </ul>
-        <p class="lectura">En la capital era un muro. Aquí no. <strong>La ficha de fontanería sí se puede subir sin pagar</strong>, pero los anuncios siguen sin salir: miren la aceptación mínima en la calculadora.</p>
+        <p class="lectura"><strong>No es un campo vacío.</strong> Hay unas cuarenta empresas en el mapa, casi todas de extintores, y algunas con nombre de grupo grande. Lo que sí es cierto es que exige habilitación y que entra menos gente que en fontanería. El hueco no está en «extintores», sino en lo que pide fontanería de verdad: bocas de incendio, grupos de presión y columna seca.</p>
       </div>
 
       <div class="comp-bloque c-alt">
-        <h3>Los huecos</h3>
-        <p class="fichas">Mismo mapa, otras palabras</p>
-        <ul class="comp-lista" data-max="9">
-          <li><span class="comp-nombre">«fontanero» (sur) <b>9 fichas</b></span><span class="comp-barra"><span data-v="9"></span></span></li>
-          <li><span class="comp-nombre">«impermeabilizar azotea» <b>7 fichas</b></span><span class="comp-barra"><span data-v="7"></span></span></li>
-          <li><span class="comp-nombre">«pintar fachada» <b>6 fichas</b></span><span class="comp-barra"><span data-v="6"></span></span></li>
-          <li><span class="comp-nombre">«trabajos verticales» <b>3 fichas</b></span><span class="comp-barra"><span data-v="3"></span></span></li>
-          <li><span class="comp-nombre">«soldador» <b>0 fichas</b></span><span class="comp-barra"><span data-v="0"></span></span></li>
+        <h3>Para comparar</h3>
+        <p class="fichas">3 de octubre · fichas de la categoría de cada oficio</p>
+        <ul class="comp-lista" data-max="59">
+          <li><span class="comp-nombre">«Fontanero», distintas <b>59</b></span><span class="comp-barra"><span data-v="59"></span></span></li>
+          <li><span class="comp-nombre">Contra incendios, distintas <b>41</b></span><span class="comp-barra"><span data-v="41"></span></span></li>
+          <li><span class="comp-nombre">«Pintor», distintas <b>41</b></span><span class="comp-barra"><span data-v="41"></span></span></li>
+          <li><span class="comp-nombre">«Trabajos en altura», distintas <b>21</b></span><span class="comp-barra"><span data-v="21"></span></span></li>
         </ul>
-        <p class="lectura">«Humedades» en Santa Lucía no devuelve ni una empresa: solo el humedal y la presa. <strong>Todo el sur está por ocupar</strong>, y ustedes ya viven ahí.</p>
+        <p class="lectura">Contra incendios tiene tantas fichas como pintura, pero cada cliente vale un contrato que se renueva solo. A pintura, en cambio, la busca también el particular, no solo empresas y administradores. Por eso el dinero se reparte entre las dos y la fontanería suelta se queda sin anuncios: es la línea con más competidores.</p>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTRA INCENDIOS -->
+<section id="incendios">
+  <div class="wrap">
+    <div class="cabeza">
+      <h2>Contra incendios: estudio de mercado</h2>
+      <p>Pedían ver si es factible, tanto en instalación como en mantenimiento. Corto: <strong>sí, y el mantenimiento es lo que lo hace interesante</strong>. Pero no por falta de competencia, sino porque el cliente está obligado a pagarlo cada año y porque encaja con lo que ya hacen.</p>
+    </div>
+
+    <div class="dos-col">
+      <div>
+        <h3>Quién está obligado a pagarlo</h3>
+        <ul class="evitar" style="max-width:none">
+          <li><strong>Comunidades con garaje, bocas de incendio o detección.</strong> Mantenimiento anual por empresa habilitada.<sup class="ref"><a href="#f51">51</a></sup> Un contrato de 150 a 2.500 € al año según el tamaño.<sup class="ref"><a href="#f53">53</a></sup> Las decide el administrador: los mismos 204 a los que se va a ver por la fachada.</li>
+          <li><strong>Hoteles y apartamentos.</strong> Instalaciones grandes, de 1.500 a 4.000 € al año en uno mediano,<sup class="ref"><a href="#f53">53</a></sup> e inspección de un organismo de control cada diez años.<sup class="ref"><a href="#f51">51</a></sup></li>
+          <li><strong>Naves y talleres.</strong> De 800 a 3.500 € al año,<sup class="ref"><a href="#f53">53</a></sup> e inspección cada cinco años desde noviembre de 2025.<sup class="ref"><a href="#f52">52</a></sup></li>
+          <li><strong>Locales, oficinas y restaurantes.</strong> De 150 a 1.200 € al año.<sup class="ref"><a href="#f53">53</a></sup> Ticket bajo, pero muchos.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Por qué encaja con AMA</h3>
+        <ul class="evitar" style="max-width:none">
+          <li><strong>Lo de agua es fontanería.</strong> El Gobierno de Canarias da por habilitantes, para abastecimiento de agua, hidrantes, bocas de incendio, columna seca y rociadores, los títulos de instalador térmico con contenidos de fontanería.<sup class="ref"><a href="#f50">50</a></sup> Es justo donde menos competencia hay: las cuarenta del mapa son, sobre todo, de extintores.</li>
+          <li><strong>La pintura intumescente es contra incendios.</strong> Es la categoría P5 de protección pasiva, «aplicación de morteros y pinturas».<sup class="ref"><a href="#f50">50</a></sup> No pide certificado de calidad, y en el mapa casi no hay nadie.</li>
+          <li><strong>La columna seca va por fachada.</strong> Revisarla o cambiarla en un edificio alto es trabajo en altura.</li>
+          <li><strong>Entran por el mismo administrador.</strong> Quien les aprueba la fachada también firma el contrato de extintores de esa comunidad.</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 class="sub">Lo que la ley pide para poder anunciarlo</h3>
+    <p class="prosa">Dicen que ya podrían hacerlo. Perfecto. Esta es la lista que publica el Gobierno de Canarias, para que la repasen con los papeles delante <strong>antes de gastar un euro en anuncios</strong>.<sup class="ref"><a href="#f50">50</a></sup> Trabajar sin cumplirla, o con datos falsos en la declaración, es falta grave según la Ley de Industria.<sup class="ref"><a href="#f50">50</a></sup></p>
+    <div class="dos-col">
+      <div>
+        <h3 style="font-size:1.05rem"><span class="m m-pci" aria-hidden="true"></span>Protección activa: extintores, bocas de incendio, agua, detección</h3>
+        <ul class="requisitos">
+          <li><span>Una <strong>persona técnica titulada universitaria</strong> como responsable técnica.<small>Puede estar contratada en cualquier modalidad legal, y puede ser la misma persona que la operaria si cumple las dos cosas.</small></span></li>
+          <li><span>Una <strong>persona operaria cualificada</strong> para cada sistema en el que se habiliten.<small>Por título de formación profesional, certificado de profesionalidad, certificación acreditada o curso habilitado.</small></span></li>
+          <li><span>Seguro de responsabilidad civil de <strong>800.000 € por siniestro</strong>.</span></li>
+          <li><span><strong>Certificado de calidad (ISO 9001)</strong> emitido por entidad acreditada, con <strong>cada sistema nombrado en el alcance</strong>.<small>Al empezar, durante un año como máximo, basta con tener contratada su implantación.</small></span></li>
+          <li><span>Medios técnicos para trabajar con seguridad.</span></li>
+        </ul>
+      </div>
+      <div>
+        <h3 style="font-size:1.05rem"><span class="m m-pin" aria-hidden="true"></span>Protección pasiva: pintura intumescente, sellados, puertas</h3>
+        <ul class="requisitos">
+          <li><span>Al menos <strong>un operario cualificado a jornada completa</strong>.<small>Con certificado del fabricante del producto, dos años de experiencia o un curso de al menos 20 horas.</small></span></li>
+          <li><span>Seguro de responsabilidad civil de <strong>879.497,07 € por siniestro</strong>.</span></li>
+          <li><span>No pide certificado de calidad.</span></li>
+        </ul>
+        <h3 style="font-size:1.05rem;margin-top:1.4rem">El trámite, para las dos</h3>
+        <ul class="requisitos">
+          <li><span><strong>Declaración responsable</strong> en la sede electrónica del Gobierno de Canarias, trámite 3393, siempre por internet.<sup class="ref"><a href="#f63">63</a></sup><small>Habilita desde el día que se presenta, sin plazo y en toda España.</small></span></li>
+          <li><span>Pago de la tasa con el <strong>modelo 700</strong>, concepto 247, tasa 2.2.<sup class="ref"><a href="#f50">50</a></sup></span></li>
+          <li><span>Cualquier cambio de datos se comunica en el plazo de un mes.</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="veredicto">
+      <h3>Veredicto</h3>
+      <p><strong>Mantenimiento antes que instalación.</strong> La instalación es un trabajo suelto, que suele venir con la obra y se pelea por precio. El mantenimiento es un contrato que vuelve cada año y que abre la puerta a lo demás: quien les tiene en el garaje revisando extintores les llama cuando se rompe la bajante.</p>
+      <p><strong>Google, de apoyo; la venta, en la calle.</strong> Quien decide es un administrador o un jefe de mantenimiento, y busca menos por internet que un particular con una fuga. Por eso se le da un tercio del presupuesto y no más, y el grueso se hace en las visitas.</p>
+      <p><strong>La cuenta, con supuestos propios:</strong> veinte comunidades medianas a 500 € al año son 10.000 € fijos cada año, antes de contar ni una corrección de defectos tras una inspección. Ese es el objetivo razonable del primer año.</p>
     </div>
   </div>
 </section>
@@ -668,58 +795,55 @@ html.presentando.quieto{cursor:none}
   <div class="wrap">
     <div class="cabeza">
       <h2>El plan en 90 días</h2>
-      <p>Cinco pasos. Los dos primeros cuestan tiempo, no dinero, y son los que más pesan.</p>
+      <p>Cinco pasos. Los dos primeros cuestan tiempo, no dinero, y son los que más pesan. Los anuncios no se encienden hasta que haya ficha verificada y una página donde aterrizar.</p>
     </div>
 
     <ol class="plan">
       <li>
         <p class="cuando">Semanas 1 y 2</p>
         <h3>La base, sin gastar un euro</h3>
-        <p>Lo que más pesa para salir en Google Maps es gratis. En el informe de 2026, la categoría principal de la ficha es el factor número uno, por delante incluso de la cercanía.<sup class="ref"><a href="#f25">25</a></sup></p>
+        <p>Lo que más pesa para salir en Google Maps es gratis. La categoría principal de la ficha es el factor número uno, por delante incluso de la cercanía.<sup class="ref"><a href="#f25">25</a></sup> La <a href="#trescientos">guía de la ficha</a> lo explica pantalla a pantalla.</p>
         <ul>
-          <li><strong>Una sola ficha de Google</strong> para AMA. Google no admite perfiles duplicados de la misma empresa y la ficha puede acabar suspendida.<sup class="ref"><a href="#f38">38</a></sup></li>
-          <li>Categoría principal: <strong>«Empresa de impermeabilización»</strong> o <strong>«Trabajos en altura»</strong>, que es lo que usan las fichas que ya salen en el sur.<sup class="ref"><a href="#f12">12</a></sup> Secundarias, y esto importa: <strong>«Soldador»</strong> —que en Vecindario no la tiene nadie—, «Pintor» y «Fontanero».</li>
-          <li>Horario real de 8:00 a 20:00. «Negocio abierto en el momento de la búsqueda» es el quinto factor de posicionamiento local.<sup class="ref"><a href="#f25">25</a></sup> Siendo dos, no pongan un horario que no puedan sostener.</li>
-          <li>Dirección en Vecindario y zona de servicio con los municipios reales. La proximidad al punto de búsqueda es el segundo factor,<sup class="ref"><a href="#f25">25</a></sup> así que estar en el sur les da ventaja en el sur y se la quita en la capital: es otra razón para empezar por casa.</li>
-          <li>Fotos de obras reales. <strong>Nada generado con inteligencia artificial</strong>: el informe lo cuenta como riesgo de suspensión de la ficha.<sup class="ref"><a href="#f25">25</a></sup></li>
-          <li>Enlace y código QR para pedir la reseña al terminar cada trabajo. A todos, sin excepción.</li>
-          <li>Una hoja donde se apunte cada llamada, de dónde vino y en qué acabó. Sin eso, el día 90 no hay nada que revisar.</li>
+          <li><strong>Una sola ficha de Google</strong> para AMA. Google no admite perfiles duplicados de la misma empresa.<sup class="ref"><a href="#f38">38</a></sup></li>
+          <li>Categoría principal: <strong>«Pintor»</strong>, que es la línea con más tipos de cliente. Secundarias: «Servicio de protección contra incendios», «Fontanero», «Trabajos en altura» y «Servicio de impermeabilización».</li>
+          <li>Sin dirección visible y con zona de servicio en toda la isla, porque los clientes no van a su local: así lo pide Google a las empresas que se desplazan.<sup class="ref"><a href="#f60">60</a></sup></li>
+          <li>Horario real de 8:00 a 20:00.<sup class="ref"><a href="#f25">25</a></sup> Fotos de obras reales, <strong>nada generado con inteligencia artificial</strong>.<sup class="ref"><a href="#f25">25</a></sup></li>
+          <li><span class="etq etq-pci">Contra incendios:</span> repasar con los papeles delante la <a href="#incendios">lista de requisitos</a> y confirmar que la declaración responsable está presentada. Sin eso, ni ficha con esa categoría ni anuncios.</li>
+          <li>Una hoja donde se apunte cada llamada, de dónde vino y en qué acabó.</li>
         </ul>
       </li>
       <li>
         <p class="cuando">Semanas 3 a 6</p>
         <h3>Una página por servicio, no por oficio</h3>
-        <p>La web es donde el administrador comprueba que saben hacerlo. Y el cliente busca su problema, no la técnica de ustedes.</p>
+        <p>Los anuncios tienen que llevar a una página que hable justo de lo que se buscó. Sin estas páginas no se encienden.</p>
         <ul>
-          <li>Una página para cada cosa: <em>pintar fachada</em>, <em>impermeabilizar azotea</em>, <em>humedades y goteras</em>, <em>limpieza de fachadas y cristales</em>, <em>canalones y bajantes</em>, <em>rejas y barandillas</em>, <em>fontanería</em>.</li>
-          <li><strong>Una página aparte que explique el acceso por cuerda</strong>, enlazada desde todas las demás. Ahí va lo del andamio, la seguridad y los certificados. Ahí, y no en el título de los anuncios.</li>
-          <li>Fichas de obras con municipio, qué se hizo, cuántos días y fotos de antes y después.</li>
-          <li>Certificados a la vista: formación de altura, soldadores cualificados, marcado CE por la EN 1090<sup class="ref"><a href="#f21">21</a></sup> y la póliza de responsabilidad civil.</li>
-          <li>Preguntas frecuentes con los rangos de precio de esta página. Quien publica precios recibe menos llamadas, pero mejores.</li>
+          <li><span class="etq etq-pin">Pintura:</span> <em>pintar fachada</em>, <em>pintar pisos y locales</em>, <em>pintura industrial y de naves</em>, <em>pintura intumescente</em>.</li>
+          <li><span class="etq etq-pci">Contra incendios:</span> <em>mantenimiento para comunidades</em>, <em>mantenimiento para hoteles y empresas</em>, <em>bocas de incendio y grupos de presión</em>. Con el número de habilitación a la vista.</li>
+          <li><span class="etq etq-fon">Fontanería</span> y <span class="etq etq-alt">altura:</span> <em>bajantes y tuberías del edificio</em>, <em>impermeabilizar azotea</em> y <strong>una página que explique el acceso por cuerda</strong>, enlazada desde todas las demás.</li>
+          <li>Fichas de obras con municipio, qué se hizo, cuántos días y fotos de antes y después. Certificados y pólizas a la vista.</li>
         </ul>
       </li>
       <li>
         <p class="cuando">Semanas 5 a 8</p>
-        <h3>Los anuncios, concentrados en una cosa</h3>
-        <p>Con 300 € al mes no se pueden abrir tres frentes. Todo a trabajos en altura. El apartado siguiente lo detalla campo por campo.</p>
+        <h3>Los anuncios: dos campañas, dos tercios y un tercio</h3>
+        <p>Una campaña para pintura y otra para contra incendios, cada una con su presupuesto. Así, mover dinero de una a otra es cuestión de dos clics (lo explica <a href="#pivotar">Cambiar de línea</a>).</p>
         <ul>
-          <li>Una campaña de Búsqueda, dos grupos de anuncios: fachadas por un lado, azoteas y humedades por otro.</li>
-          <li>Red de Display y socios de búsqueda desactivados.<sup class="ref"><a href="#f30">30</a></sup></li>
-          <li>Anuncios solo de 8:00 a 20:00, que es cuando hay alguien para coger el teléfono. Siendo dos, un clic a deshora es dinero tirado.<sup class="ref"><a href="#f35">35</a></sup></li>
-          <li><span class="etq etq-sol">Soldadura:</span> ficha, categoría y fotos. Cero euros. Con nadie en el mapa, pagar sería absurdo.</li>
-          <li><span class="etq etq-fon">Fontanería:</span> ficha y reseñas sí, anuncios no. En el sur se puede subir sin pagar, pero el ticket no aguanta la puja: hace falta cerrar el 37,5 % de los presupuestos solo para no perder dinero. Los Anuncios de Servicios Locales, además, piden cinco reseñas y póliza de 150.000 €.<sup class="ref"><a href="#f28">28</a></sup></li>
+          <li><span class="etq etq-pin">Pintura:</span> 200 € al mes, con tres grupos: fachadas, interiores e industrial.</li>
+          <li><span class="etq etq-pci">Contra incendios:</span> 100 € al mes, con dos grupos: mantenimiento y bocas de incendio.</li>
+          <li><span class="etq etq-fon">Fontanería suelta</span> y <span class="etq etq-alt">altura:</span> 0 €. La fontanería es la línea con más competidores del mapa, y la altura se vende dentro de las otras.</li>
+          <li>IA Max, Red de Display y socios de búsqueda <strong>apagados</strong>.<sup class="ref"><a href="#f58">58</a></sup><sup class="ref"><a href="#f30">30</a></sup> Anuncios solo de 8:00 a 20:00.<sup class="ref"><a href="#f35">35</a></sup></li>
         </ul>
       </li>
       <li>
         <p class="cuando">Semanas 6 a 12</p>
         <h3>Salir a la calle a ver a quien decide</h3>
-        <p>Las obras grandes no llegan por Google. Llegan porque alguien se acuerda de ustedes cuando se cae un trozo de fachada. Y siendo dos, esto es lo que más rinde por hora invertida.</p>
+        <p>Las obras grandes y los contratos de mantenimiento no llegan por Google. Llegan porque alguien les conoce.</p>
         <ul>
-          <li><span class="etq etq-alt">Administradores:</span> los <strong>33 del sur y el sureste</strong>, empezando por los 6 de Vecindario y los 8 de San Bartolomé.<sup class="ref"><a href="#f13">13</a></sup> <strong>Tres visitas por semana</strong> y en el trimestre están todos vistos. Un dosier de una hoja: obras hechas, seguridad, seguros, plazos y lo que se ahorran en andamio.</li>
-          <li><span class="etq etq-alt">El gancho que abre la puerta:</span> no la inspección técnica —que en el sur casi no aplica—, sino las <strong>órdenes de ejecución</strong>. El ayuntamiento puede obligar a reparar por seguridad, salubridad u ornato en cualquier momento, y si no se cumple hay multa y obra a costa del propietario.<sup class="ref"><a href="#f47b">47b</a></sup> Un administrador entiende eso a la primera.</li>
-          <li><span class="etq etq-alt">Hoteles y apartamentos:</span> jefes de mantenimiento de Maspalomas, Playa del Inglés y Mogán, que los tienen al lado. El argumento es que no se cierra ninguna zona ni se molesta al cliente.</li>
-          <li><span class="etq etq-sol">Soldadura:</span> talleres, naves del polígono de Arinaga y mantenimiento hotelero, enseñando la EN 1090. Con cero competencia en el mapa, aquí la puerta fría rinde más que en ningún sitio.</li>
-          <li>Llamada de seguimiento a los siete días de cada presupuesto enviado. Sin excepción. Es lo primero que se cae cuando se está liado, y es lo que más cierra.</li>
+          <li><span class="etq etq-pin">Administradores:</span> empezando por los <strong>33 del sur y el sureste</strong>.<sup class="ref"><a href="#f13">13</a></sup> Tres visitas por semana. <strong>En la misma visita se ofrecen dos cosas</strong>: la fachada, para cuando toque, y el mantenimiento contra incendios de sus garajes, que toca cada año.</li>
+          <li><span class="etq etq-pci">Hoteles y apartamentos:</span> jefes de mantenimiento de Maspalomas, Playa del Inglés y Mogán. Contra incendios, pintura y todo sin cerrar zonas.</li>
+          <li><span class="etq etq-pci">Naves:</span> polígonos de Arinaga, El Goro, Salinetas y Miller. Inspección cada cinco años,<sup class="ref"><a href="#f52">52</a></sup> mantenimiento, pintura de suelos y estructura, e intumescente.</li>
+          <li>En la capital, la fachada entra con la ordenanza de los diez años.<sup class="ref"><a href="#f1">1</a></sup></li>
+          <li>Llamada de seguimiento a los siete días de cada presupuesto enviado. Sin excepción.</li>
         </ul>
       </li>
       <li>
@@ -727,10 +851,10 @@ html.presentando.quieto{cursor:none}
         <h3>Números sobre la mesa</h3>
         <p>Con tres meses de datos se decide dónde poner más y qué apagar. No antes.</p>
         <ul>
-          <li>Coste real de cada contacto y de cada trabajo, canal por canal.</li>
-          <li>Cuántos presupuestos se aceptaron de los enviados.</li>
-          <li>Si la de altura sale a cuenta, subir a 400–500 € y abrir soldadura con 80 €.</li>
-          <li>Si con veinte reseñas ya se está arriba en soldadura, no hace falta pagar nada ahí.</li>
+          <li>Coste real de cada contacto y de cada trabajo, campaña por campaña.</li>
+          <li>Contratos de mantenimiento firmados y lo que suman al año.</li>
+          <li>Si una campaña da contactos a menos de la mitad de lo que cuestan en la otra, se le pasa dinero.</li>
+          <li>Si contra incendios no da ni un contacto bueno en ocho semanas, se apaga la campaña y se queda solo la calle.</li>
         </ul>
       </li>
     </ol>
@@ -742,26 +866,39 @@ html.presentando.quieto{cursor:none}
   <div class="wrap">
     <div class="cabeza">
       <h2>Los 300 €, paso a paso</h2>
-      <p>«Pon 300 € en Google» no es un plan. Esto es la configuración campo por campo, con lo que hay que escribir en cada casilla y por qué. Los valores de ejemplo se recalculan si cambian el presupuesto.</p>
+      <p>Dos guías para hacer en este orden: primero la ficha de Google, que es gratis y tarda días en verificarse, y después los anuncios. Cada paso dice dónde hacer clic, qué escribir y por qué. Si en algún momento no encuentran un botón, Google Ads tiene una lupa arriba del todo: escribir ahí el nombre de lo que se busca lo encuentra casi siempre.</p>
     </div>
 
     <h3 class="sr-only">Reparto del dinero</h3>
     <dl class="reparto">
-      <div class="c-alt"><dt><span class="m m-alt" aria-hidden="true"></span>Trabajos en altura</dt><dd><span class="euros" id="rep-alt">300 €</span><span class="peq">Todo el presupuesto los dos primeros meses. Es la línea con ticket alto y seis competidores.</span></dd></div>
-      <div class="c-sol"><dt><span class="m m-sol" aria-hidden="true"></span>Soldadura</dt><dd><span class="euros">0 €</span><span class="peq">Cero fichas en el mapa: pagar por salir primero cuando no hay segundo sería tirar el dinero. Solo ficha, categoría y fotos.</span></dd></div>
-      <div class="c-fon"><dt><span class="m m-fon" aria-hidden="true"></span>Fontanería</dt><dd><span class="euros">0 €</span><span class="peq">Ficha y reseñas sí. Anuncios no: el ticket obliga a cerrar el 37,5 % solo para empatar.</span></dd></div>
+      <div class="c-pin"><dt><span class="m m-pin" aria-hidden="true"></span>Pintura</dt><dd><span class="euros" id="rep-pin">200 €</span><span class="peq">Dos tercios. La busca más tipo de cliente, es lo que más rinde hoy y donde del tercer puesto para abajo la competencia se alcanza.</span></dd></div>
+      <div class="c-fon"><dt><span class="m m-pci" aria-hidden="true"></span>Contra incendios</dt><dd><span class="euros" id="rep-pci">100 €</span><span class="peq">Un tercio. Menos búsquedas, pero cada contacto bueno puede ser un contrato que se cobra todos los años.</span></dd></div>
+      <div class="c-alt"><dt><span class="m m-alt" aria-hidden="true"></span>Fontanería suelta y altura</dt><dd><span class="euros">0 €</span><span class="peq">Ficha y reseñas sí, anuncios no. La fontanería tiene 59 competidores en el mapa y la altura va dentro de las otras.</span></dd></div>
     </dl>
 
-    <div class="guia">
+    <div class="guia" id="gf">
       <div class="guia-cab">
-        <h3 id="guia-titulo">Configurar la campaña</h3>
-        <div class="guia-pasos" role="tablist" aria-labelledby="guia-titulo" id="guia-pasos"></div>
+        <h3 id="gf-titulo">Guía 1 · La ficha de Google, desde cero</h3>
+        <div class="guia-pasos" role="tablist" aria-labelledby="gf-titulo" id="gf-pasos"></div>
       </div>
-      <div class="guia-cuerpo" id="guia-cuerpo" role="tabpanel" aria-live="polite"></div>
+      <div class="guia-cuerpo" id="gf-cuerpo" role="tabpanel" aria-live="polite"></div>
       <div class="guia-nav">
-        <button type="button" id="guia-ant">Anterior</button>
-        <button type="button" id="guia-sig" class="principal">Siguiente</button>
-        <span class="cuenta" id="guia-cuenta"></span>
+        <button type="button" id="gf-ant">Anterior</button>
+        <button type="button" id="gf-sig" class="principal">Siguiente</button>
+        <span class="cuenta" id="gf-cuenta"></span>
+      </div>
+    </div>
+
+    <div class="guia" id="ga">
+      <div class="guia-cab">
+        <h3 id="ga-titulo">Guía 2 · Los anuncios de Google</h3>
+        <div class="guia-pasos" role="tablist" aria-labelledby="ga-titulo" id="ga-pasos"></div>
+      </div>
+      <div class="guia-cuerpo" id="ga-cuerpo" role="tabpanel" aria-live="polite"></div>
+      <div class="guia-nav">
+        <button type="button" id="ga-ant">Anterior</button>
+        <button type="button" id="ga-sig" class="principal">Siguiente</button>
+        <span class="cuenta" id="ga-cuenta"></span>
       </div>
     </div>
 
@@ -771,7 +908,33 @@ html.presentando.quieto{cursor:none}
         <span class="valor"><input id="n-mes" type="number" inputmode="decimal" min="60" max="3000" step="10" value="300"> €</span>
       </div>
       <input id="r-mes" type="range" min="60" max="1500" step="10" value="300" aria-label="Presupuesto mensual en euros">
-      <p class="supuestos" style="margin-top:.5rem">Los importes del paso del presupuesto y el reparto de arriba se recalculan solos.</p>
+      <p class="supuestos" style="margin-top:.5rem">El reparto de arriba y los importes de la guía de anuncios se recalculan solos, siempre dos tercios para pintura y un tercio para contra incendios.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PIVOTAR -->
+<section id="pivotar">
+  <div class="wrap">
+    <div class="cabeza">
+      <h2>Cambiar de línea: qué deja hacer Google</h2>
+      <p>Preguntaban si Google les deja pivotar entre líneas. <strong>En los anuncios, sí, y sin castigo. En la ficha, con cuidado.</strong> Por eso está montado así desde el principio.</p>
+    </div>
+
+    <table class="tabla">
+      <caption class="sr-only">Qué se puede cambiar en Google y cómo</caption>
+      <thead><tr><th scope="col">Si quieren…</th><th scope="col">Qué hacer</th><th scope="col">Qué pasa</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Empujar contra incendios un mes</th><td data-col="Qué hacer">En <code>Campañas</code>, cambiar el presupuesto diario de las dos: subir una y bajar la otra.</td><td data-col="Qué pasa">Efecto el mismo día. Google no penaliza mover dinero entre campañas.<sup class="ref"><a href="#f32">32</a></sup></td></tr>
+        <tr><th scope="row">Parar pintura porque no dan abasto</th><td data-col="Qué hacer">Marcar la campaña y cambiar el estado a <code>Pausada</code>.</td><td data-col="Qué pasa">Deja de gastar al momento. Se reactiva igual, sin perder nada de lo configurado.</td></tr>
+        <tr><th scope="row">Abrir una línea nueva</th><td data-col="Qué hacer">Crear otra campaña repitiendo los pasos 6 a 13 de la guía de anuncios, con sus palabras y su página.</td><td data-col="Qué pasa">Empieza de cero; las demás no se tocan. Por eso cada línea va en su propia campaña.</td></tr>
+        <tr><th scope="row">Cambiar la categoría principal de la ficha</th><td data-col="Qué hacer">Solo si cambia de verdad a qué se dedica la empresa.</td><td data-col="Qué pasa">Google avisa de que <strong>añadir o editar una categoría puede obligar a verificar otra vez</strong> la empresa.<sup class="ref"><a href="#f61">61</a></sup> Y la principal es el primer factor para salir en el mapa.<sup class="ref"><a href="#f25">25</a></sup></td></tr>
+        <tr><th scope="row">Dar más peso a otra línea en el mapa</th><td data-col="Qué hacer">No tocar la principal: añadir servicios, fotos y publicaciones de esa línea, y pedir reseñas a esos clientes mencionando el trabajo.</td><td data-col="Qué pasa">Sube sin arriesgar la verificación.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="prosa" style="margin-top:1.5rem">
+      <p><strong>La regla de los cambios:</strong> mover presupuesto, todas las veces que haga falta. Cambiar pujas o palabras clave, como mucho cada dos semanas: cada cambio grande hace que Google vuelva a aprender y durante unos días los datos no dicen nada.</p>
     </div>
   </div>
 </section>
@@ -786,9 +949,9 @@ html.presentando.quieto{cursor:none}
 
     <div class="calc">
       <div class="calc-lineas" role="group" aria-label="Elegir línea de trabajo">
-        <button type="button" data-linea="alt" aria-pressed="true">Trabajos en altura</button>
-        <button type="button" data-linea="fon" aria-pressed="false">Fontanería</button>
-        <button type="button" data-linea="sol" aria-pressed="false">Soldadura</button>
+        <button type="button" data-linea="pin" aria-pressed="true">Pintura</button>
+        <button type="button" data-linea="pci" aria-pressed="false">Contra incendios</button>
+        <button type="button" data-linea="fon" aria-pressed="false">Fontanería suelta</button>
       </div>
 
       <div class="calc-cuerpo">
@@ -904,80 +1067,26 @@ html.presentando.quieto{cursor:none}
   </div>
 </section>
 
-<!-- IMPUESTOS Y AYUDAS -->
+<!-- IMPUESTOS -->
 <section id="impuestos">
   <div class="wrap">
     <div class="cabeza">
-      <h2>IGIC y ayudas: lo que hay y lo que no</h2>
-      <p>Aquí no se paga IVA, se paga IGIC. Y a día de hoy no hay ninguna ayuda abierta que sirva para esto. Mejor saberlo ahora que después de firmar con una agencia que lo prometa.</p>
+      <h2>IGIC y subvenciones</h2>
+      <p>Aquí no se paga IVA, se paga IGIC. Y una advertencia sobre subvenciones que conviene tener clara antes de hablar con cualquier comunidad.</p>
     </div>
 
-    <h3 style="margin-bottom:.9rem">Impuestos</h3>
     <table class="tabla">
       <caption class="sr-only">Tipos de IGIC aplicables</caption>
       <thead><tr><th scope="col">Caso</th><th scope="col">Tipo</th><th scope="col">Qué significa</th></tr></thead>
       <tbody>
-        <tr><th scope="row">Tipo general</th><td data-col="Tipo"><strong>7 %</strong></td><td data-col="Qué significa">Lo normal en la mayoría de trabajos y servicios.<sup class="ref"><a href="#f23">23</a></sup></td></tr>
-        <tr><th scope="row">Reparación de vivienda habitual</th><td data-col="Tipo"><strong>3 %</strong></td><td data-col="Qué significa">Tipo reducido. Conviene saber cuándo aplica antes de presupuestar.<sup class="ref"><a href="#f23">23</a></sup></td></tr>
+        <tr><th scope="row">Tipo general</th><td data-col="Tipo"><strong>7 %</strong></td><td data-col="Qué significa">Lo normal en la mayoría de trabajos y servicios, incluidos los contratos de mantenimiento.<sup class="ref"><a href="#f23">23</a></sup></td></tr>
+        <tr><th scope="row">Reparación de vivienda habitual</th><td data-col="Tipo"><strong>3 %</strong></td><td data-col="Qué significa">Tipo reducido. Conviene saber cuándo aplica antes de presupuestar un piso.<sup class="ref"><a href="#f23">23</a></sup></td></tr>
         <tr><th scope="row">Facturas de Google Ads y Meta Ads</th><td data-col="Tipo"><strong>Inversión del sujeto pasivo</strong></td><td data-col="Qué significa">Vienen de fuera de Canarias. Es un error habitual tratarlas como una factura cualquiera. Que lo vea la gestoría antes del primer pago.<sup class="ref"><a href="#f24">24</a></sup></td></tr>
       </tbody>
     </table>
 
-    <h3 style="margin:2rem 0 .9rem">Ayudas, comprobadas el 14 de septiembre de 2026</h3>
-    <table class="tabla">
-      <caption class="sr-only">Estado de las ayudas a la digitalización y a la rehabilitación</caption>
-      <thead><tr><th scope="col">Ayuda</th><th scope="col">Estado hoy</th><th scope="col">Qué significa para AMA</th></tr></thead>
-      <tbody>
-        <tr>
-          <th scope="row">Kit Digital</th>
-          <td data-col="Estado hoy"><span class="estado no">Cerrada</span></td>
-          <td data-col="Qué significa">La página oficial lo dice con estas palabras: «Las convocatorias del Programa Kit Digital han finalizado».<sup class="ref"><a href="#f43">43</a></sup> La última, la del segmento de 0 a 3 empleados, cerró el <strong>31 de octubre de 2025</strong>. Lo que se movió en 2026 fue una orden para repartir fondos sobrantes <strong>entre quienes ya estaban en lista de espera</strong>, no una convocatoria nueva.<sup class="ref"><a href="#f42">42</a></sup> Si alguien se lo ofrece hoy, no tiene dónde tramitarlo.</td>
-        </tr>
-        <tr>
-          <th scope="row">DigiEmpresas (Gobierno de Canarias, ACIISI)</th>
-          <td data-col="Estado hoy"><span class="estado no">Cerrada</span></td>
-          <td data-col="Qué significa">El plazo fue del 7 al 21 de abril de 2026. Además <strong>no subvencionaba el desarrollo de páginas web</strong>: iba de ERP, CRM y business intelligence.<sup class="ref"><a href="#f44">44</a></sup></td>
-        </tr>
-        <tr>
-          <th scope="row">Cámara de Comercio de Gran Canaria</th>
-          <td data-col="Estado hoy"><span class="estado no">Nada de digitalización</span></td>
-          <td data-col="Qué significa">Todo lo que tiene abierto ahora mismo es de internacionalización y ferias: misiones a Perú y China, WTM London, Metstrade.<sup class="ref"><a href="#f45">45</a></sup> Nada que sirva para una web o para anuncios.</td>
-        </tr>
-        <tr>
-          <th scope="row">Rehabilitación de edificios (Next Generation)</th>
-          <td data-col="Estado hoy"><span class="estado no">Fuera de plazo</span></td>
-          <td data-col="Qué significa">El programa de rehabilitación a nivel de edificio cerró el 15 de diciembre de 2023.<sup class="ref"><a href="#f46">46</a></sup> <strong>No prometan a ninguna comunidad que hay subvención</strong> sin comprobarlo ese mismo día en la sede del Gobierno de Canarias.</td>
-        </tr>
-      </tbody>
-    </table>
-
-  </div>
-</section>
-
-<!-- CRIBA KIT DIGITAL -->
-<section id="criba">
-  <div class="wrap">
-    <div class="cabeza">
-      <h2>Criba: ¿entraría AMA cuando vuelva a abrir?</h2>
-      <p>No sabemos qué forma jurídica tiene AMA, así que esto lo criban ustedes, que son quienes tienen los papeles. Son los requisitos que el Kit Digital ha pedido en sus convocatorias anteriores. Si alguno falla, ya saben que no hay nada que hacer aunque reabra mañana.</p>
-    </div>
-    <table class="tabla">
-      <caption class="sr-only">Requisitos de elegibilidad del Kit Digital para repasar</caption>
-      <thead><tr><th scope="col">Requisito</th><th scope="col">Qué hay que mirar</th></tr></thead>
-      <tbody>
-        <tr><th scope="row">Forma jurídica</th><td data-col="Qué hay que mirar">Vale autónomo, SL o SA. Las comunidades de bienes, sociedades civiles con objeto mercantil, sociedades civiles profesionales y explotaciones agrarias de titularidad compartida tuvieron convocatoria propia.<sup class="ref"><a href="#f42">42</a></sup> <strong>Miren la escritura o el alta censal.</strong></td></tr>
-        <tr><th scope="row">Número de empleados</th><td data-col="Qué hay que mirar">Siendo dos, AMA cae en el <strong>segmento III (de 0 a menos de 3)</strong>. En la última convocatoria de ese segmento el bono fue de <strong>2.000 €</strong>.<sup class="ref"><a href="#f42">42</a></sup> Cuenta la plantilla media del último ejercicio cerrado, no la de hoy.</td></tr>
-        <tr><th scope="row">Antigüedad en el censo</th><td data-col="Qué hay que mirar">Hay que llevar dados de alta <strong>al menos seis meses</strong> en el censo de empresarios de Hacienda.<sup class="ref"><a href="#f42">42</a></sup></td></tr>
-        <tr><th scope="row">Al corriente de pagos</th><td data-col="Qué hay que mirar">Sin deudas con Hacienda ni con la Seguridad Social. Lo mira la gestoría en un minuto.<sup class="ref"><a href="#f48">48</a></sup></td></tr>
-        <tr><th scope="row">No ser empresa en crisis</th><td data-col="Qué hay que mirar">Según la definición del reglamento europeo. Con dos personas y cuentas normales no suele ser problema.<sup class="ref"><a href="#f48">48</a></sup></td></tr>
-        <tr><th scope="row">Límite de ayudas de minimis</th><td data-col="Qué hay que mirar">No haber pasado de <strong>300.000 €</strong> en ayudas de minimis en los tres últimos ejercicios.<sup class="ref"><a href="#f48">48</a></sup> Si nunca han pedido subvenciones, esto está cubierto.</td></tr>
-        <tr><th scope="row">Test de autodiagnóstico</th><td data-col="Qué hay que mirar">Hay que hacerlo en <code>acelerapyme.gob.es</code>. Son quince minutos y se puede hacer ya, sin esperar a que abran.<sup class="ref"><a href="#f48">48</a></sup></td></tr>
-      </tbody>
-    </table>
-
     <div class="prosa" style="margin-top:1.5rem">
-      <p><strong>Esto caduca, y rápido.</strong> Antes de dar por buena cualquiera de estas filas hay que mirarlo <strong>ese mismo día</strong> en la sede de Red.es, en la Base de Datos Nacional de Subvenciones, en la sede del Gobierno de Canarias y en la Cámara de Comercio. Y una regla sencilla: <strong>si una agencia les ofrece hoy tramitar el Kit Digital, está vendiendo humo</strong>, porque no hay convocatoria donde presentarlo.</p>
-      <p>Mientras tanto, el plan no depende de ninguna ayuda. El escenario «con lo justo» son 3.685 € en todo el año, y eso no lo paga una subvención: lo pagan siete fachadas.</p>
+      <p><strong>No prometan subvenciones a ninguna comunidad.</strong> El programa de rehabilitación a nivel de edificio de los fondos Next Generation cerró el 15 de diciembre de 2023.<sup class="ref"><a href="#f46">46</a></sup> Si una junta pregunta, la respuesta es que se mira ese mismo día en la sede del Gobierno de Canarias, no que «seguro que hay algo».</p>
     </div>
   </div>
 </section>
@@ -991,29 +1100,28 @@ html.presentando.quieto{cursor:none}
     </div>
 
     <div class="videos">
+      <div class="video-bloque c-pin">
+        <h3>Pintura</h3>
+        <ul>
+          <li>Antes y después de una fachada, un piso o el suelo de una nave, en el mismo encuadre.</li>
+          <li>La preparación: rascar, sanear, imprimar. Es lo que no se ve y lo que diferencia un trabajo que dura.</li>
+          <li>Medir con galga el espesor de una intumescente. Eso no lo enseña nadie en la isla.</li>
+        </ul>
+      </div>
+      <div class="video-bloque c-fon">
+        <h3>Fontanería y contra incendios</h3>
+        <ul>
+          <li>Una revisión de extintores en un garaje: qué se mira y la etiqueta que queda puesta.</li>
+          <li>Probar una boca de incendio o un grupo de presión.</li>
+          <li>Cambiar una bajante colgados de la cuerda, sin entrar en la vivienda de nadie.</li>
+        </ul>
+      </div>
       <div class="video-bloque c-alt">
         <h3>Trabajos en altura</h3>
         <ul>
           <li>El descuelgue desde la azotea, grabado desde arriba y desde la calle.</li>
-          <li>Antes y después de una fachada, un patio de luces o una medianera.</li>
           <li>La acera sin cortar y el portal libre, al lado de una foto de un andamio.</li>
           <li>Cómo se colocan y se comprueban los anclajes.</li>
-        </ul>
-      </div>
-      <div class="video-bloque c-fon">
-        <h3>Fontanería</h3>
-        <ul>
-          <li>Localizar una fuga con cámara o detector.</li>
-          <li>Cambiar una bajante colgados de la cuerda, sin tocar la vivienda de nadie.</li>
-          <li>Dónde está la llave de paso y qué hacer mientras llega el fontanero.</li>
-        </ul>
-      </div>
-      <div class="video-bloque c-sol">
-        <h3>Soldadura</h3>
-        <ul>
-          <li>Chispas a cámara lenta, con todo el equipo de protección puesto.</li>
-          <li>Una reja o una barandilla, antes y después.</li>
-          <li>El sello de la EN 1090 y el certificado del soldador. Eso no lo enseña nadie más.</li>
         </ul>
       </div>
     </div>
@@ -1022,7 +1130,7 @@ html.presentando.quieto{cursor:none}
       <h3>Tres reglas antes de publicar</h3>
       <ul>
         <li><strong>Permiso por escrito de cada trabajador que salga en imagen.</strong> La Agencia Española de Protección de Datos ha multado con 5.000 € a una empresa por publicar la foto de una extrabajadora sin consentimiento válido.<sup class="ref"><a href="#f41">41</a></sup></li>
-        <li>Permiso del cliente para grabar su casa o su edificio, y que no se vea el número del portal.</li>
+        <li>Permiso del cliente para grabar su casa, su edificio o su nave, y que no se vea el número del portal ni el plano de su instalación contra incendios.</li>
         <li>Nadie en altura sin arnés ni casco en un vídeo. Lo que se sube es público y lo ve también quien inspecciona.</li>
       </ul>
     </div>
@@ -1034,19 +1142,20 @@ html.presentando.quieto{cursor:none}
   <div class="wrap">
     <div class="cabeza">
       <h2>Cómo sabremos si funciona</h2>
-      <p>Seis números, apuntados siempre en el mismo sitio. Sin esto, el día 90 no se puede decidir nada.</p>
+      <p>Siete números, apuntados siempre en el mismo sitio. Sin esto, el día 90 no se puede decidir nada.</p>
     </div>
 
     <table class="tabla medir">
       <caption class="sr-only">Indicadores del primer trimestre</caption>
       <thead><tr><th scope="col">Qué apuntar</th><th scope="col">Cada cuánto</th><th scope="col">Objetivo del primer trimestre</th></tr></thead>
       <tbody>
-        <tr><th scope="row">Llamadas y mensajes, con su origen</th><td data-col="Cada cuánto">Cada semana</td><td data-col="Objetivo">Que ninguno quede sin anotar de dónde vino</td></tr>
-        <tr><th scope="row">Coste por contacto de los anuncios</th><td data-col="Cada cuánto">Cada mes</td><td data-col="Objetivo">Por debajo del límite que marca la calculadora</td></tr>
+        <tr><th scope="row">Llamadas y mensajes, con su origen y su línea</th><td data-col="Cada cuánto">Cada semana</td><td data-col="Objetivo">Que ninguno quede sin anotar de dónde vino y de qué era</td></tr>
+        <tr><th scope="row">Coste por contacto de cada campaña</th><td data-col="Cada cuánto">Cada mes</td><td data-col="Objetivo">Por debajo del límite que marca la calculadora para esa línea</td></tr>
         <tr><th scope="row">Presupuestos aceptados</th><td data-col="Cada cuánto">Cada mes</td><td data-col="Objetivo">Subirlo con la llamada de seguimiento a los siete días</td></tr>
+        <tr><th scope="row">Contratos de mantenimiento contra incendios</th><td data-col="Cada cuánto">Cada mes</td><td data-col="Objetivo">Los primeros cinco firmados, y lo que suman al año</td></tr>
         <tr><th scope="row">Reseñas nuevas en Google</th><td data-col="Cada cuánto">Cada mes</td><td data-col="Objetivo">Tres o cuatro al mes. Es el noveno factor de posicionamiento local<sup class="ref"><a href="#f25">25</a></sup></td></tr>
         <tr><th scope="row">Llamadas sin contestar en horario</th><td data-col="Cada cuánto">Cada semana</td><td data-col="Objetivo">Ninguna entre las 8:00 y las 20:00</td></tr>
-        <tr><th scope="row">Administradores visitados</th><td data-col="Cada cuánto">Cada semana</td><td data-col="Objetivo">Tres por semana: los 33 del sur, vistos todos en el trimestre<sup class="ref"><a href="#f13">13</a></sup></td></tr>
+        <tr><th scope="row">Administradores, hoteles y naves visitados</th><td data-col="Cada cuánto">Cada semana</td><td data-col="Objetivo">Tres por semana: los 33 administradores del sur, vistos todos en el trimestre<sup class="ref"><a href="#f13">13</a></sup></td></tr>
       </tbody>
     </table>
   </div>
@@ -1060,17 +1169,20 @@ html.presentando.quieto{cursor:none}
       <p>Cada una de estas cuesta dinero de verdad.</p>
     </div>
     <ul class="evitar">
-      <li><strong>Anunciarse como «trabajos verticales».</strong> Tres fichas se pelean en Vecindario por una búsqueda que casi nadie hace.<sup class="ref"><a href="#f12">12</a></sup> La cuerda va en la página que la explica, no en el título del anuncio.</li>
-      <li><strong>Meter dinero en anuncios de fontanería.</strong> El clic de «fontanero urgente» sale a 2,10 €, más del doble que el de reformas,<sup class="ref"><a href="#f29">29</a></sup> y el ticket obliga a cerrar el 37,5 % solo para empatar. La ficha, en cambio, es gratis y en el sur sí se puede subir.</li>
-      <li><strong>Usar la inspección técnica como argumento en el sur.</strong> Lo de los diez años es una ordenanza de Las Palmas de Gran Canaria.<sup class="ref"><a href="#f1">1</a></sup> Donde no hay ordenanza propia rigen los 80 años de la Ley del Suelo.<sup class="ref"><a href="#f47b">47b</a></sup> Decírselo mal a un administrador es perderlo para siempre.</li>
-      <li><strong>Abrir campañas en toda la isla o en otras islas todavía.</strong> Con 300 € y dos personas, el dinero se diluye y los desplazamientos se comen el margen. Primero el sur, que es donde viven y donde la proximidad juega a favor.<sup class="ref"><a href="#f25">25</a></sup></li>
-      <li><strong>Abrir una ficha de Google por cada línea.</strong> Google no admite perfiles duplicados de la misma empresa.<sup class="ref"><a href="#f38">38</a></sup></li>
+      <li><strong>Anunciar contra incendios antes de tener la declaración responsable presentada</strong> y todos los requisitos cubiertos. Es falta grave según la Ley de Industria.<sup class="ref"><a href="#f50">50</a></sup></li>
+      <li><strong>Venderse como «extintores» a secas.</strong> Es donde están las cuarenta empresas del mapa.<sup class="ref"><a href="#f57">57</a></sup> Lo que les distingue es el agua (bocas de incendio, grupos de presión, columna seca) y la intumescente.</li>
+      <li><strong>Gastar en anuncios de soldadura.</strong> Llega por cartera y contactos, y nadie la busca por esa vía.</li>
+      <li><strong>Meter dinero en anuncios de fontanería suelta.</strong> El clic de «fontanero urgente» sale a 2,10 €,<sup class="ref"><a href="#f29">29</a></sup> el ticket es bajo y hay 59 competidores en el mapa.<sup class="ref"><a href="#f57">57</a></sup></li>
+      <li><strong>Anunciarse como «trabajos verticales».</strong> Casi nadie lo busca. La cuerda va en la página que la explica, no en el título del anuncio.</li>
+      <li><strong>Dejar IA Max encendido.</strong> Viene activado por defecto en las campañas de búsqueda nuevas y decide por su cuenta las búsquedas, los textos y la página de destino.<sup class="ref"><a href="#f58">58</a></sup> Con 300 € al mes, eso es perder el control del dinero.</li>
       <li><strong>Dejar la Red de Display encendida.</strong> Viene activada por defecto y trae clics que no sirven.<sup class="ref"><a href="#f30">30</a></sup></li>
-      <li><strong>Usar «Maximizar clics» sin poner límite de CPC.</strong> Sin tope, Google puede pagar varios euros por un solo clic para gastarse el presupuesto del día.<sup class="ref"><a href="#f37">37</a></sup></li>
-      <li><strong>Firmar con quien prometa tramitar el Kit Digital.</strong> Las convocatorias están cerradas y no hay dónde presentarlo.<sup class="ref"><a href="#f43">43</a></sup></li>
+      <li><strong>Usar «Maximizar clics» sin límite de CPC.</strong> Sin tope, Google puede pagar varios euros por un solo clic.<sup class="ref"><a href="#f37">37</a></sup></li>
+      <li><strong>Cambiar la categoría principal de la ficha cada vez que se cambie de línea.</strong> Puede obligar a verificar de nuevo.<sup class="ref"><a href="#f61">61</a></sup></li>
+      <li><strong>Usar la inspección de fachadas de diez años fuera de Las Palmas de Gran Canaria.</strong> Es una ordenanza de la capital;<sup class="ref"><a href="#f1">1</a></sup> donde no hay ordenanza propia rigen los 80 años.<sup class="ref"><a href="#f47b">47b</a></sup></li>
+      <li><strong>Abrir una ficha de Google por cada línea.</strong> Google no admite perfiles duplicados de la misma empresa.<sup class="ref"><a href="#f38">38</a></sup></li>
       <li><strong>Prometer subvenciones a una comunidad de vecinos.</strong> El programa de rehabilitación de edificios lleva cerrado desde diciembre de 2023.<sup class="ref"><a href="#f46">46</a></sup></li>
       <li><strong>Poner fotos generadas con inteligencia artificial en la ficha.</strong> Cuentan como riesgo de suspensión.<sup class="ref"><a href="#f25">25</a></sup></li>
-      <li><strong>Comprar seguidores o reseñas.</strong> Los seguidores están en el puesto 187 de los factores de posicionamiento<sup class="ref"><a href="#f25">25</a></sup> y las reseñas falsas pueden costar la ficha entera.</li>
+      <li><strong>Comprar seguidores o reseñas.</strong> Las reseñas falsas pueden costar la ficha entera.</li>
       <li><strong>Publicar vídeos sin permiso por escrito</strong> de trabajadores y clientes.<sup class="ref"><a href="#f41">41</a></sup></li>
     </ul>
   </div>
@@ -1081,7 +1193,7 @@ html.presentando.quieto{cursor:none}
   <div class="wrap">
     <div class="cabeza">
       <h2>Fuentes</h2>
-      <p>Consultadas el 14 de septiembre de 2026. Los precios son rangos publicados por plataformas y empresas: cada obra tiene el suyo. Lo que es cálculo propio o supuesto está dicho en el sitio donde aparece.</p>
+      <p>Consultadas el 14 de septiembre de 2026; de la 50 en adelante, el 3 de octubre de 2026. Los precios son rangos publicados por plataformas y empresas: cada obra tiene el suyo. Lo que es cálculo propio o supuesto está dicho en el sitio donde aparece.</p>
     </div>
     <ol class="fuentes">
       <li id="f1">Ayuntamiento de Las Palmas de Gran Canaria, Ordenanza Especial sobre Conservación y Estado Ruinoso de las Edificaciones. Artículo 5 (ITF a partir de diez años y cada diez), artículo 8 (inspección de oficio a costa del interesado), artículo 20 (medianeras al descubierto) y artículo 23 (multa y ejecución subsidiaria). <a href="https://sedeelectronica.laspalmasgc.es/textos/2/OM_ConservacionyEstadoRuinosoEdif_LasPalmasGC.pdf">sedeelectronica.laspalmasgc.es</a></li>
@@ -1092,7 +1204,6 @@ html.presentando.quieto{cursor:none}
       <li id="f6">Cronoshare, precios de fontanero en Las Palmas de Gran Canaria: 13–22 €/h, grifo 50–150 €, punto de agua 150–300 €, desatasco 30–200 €, cambio completo de tuberías 1.500–6.000 €. <a href="https://www.cronoshare.com/cuanto-cuesta/fontanero/las-palmas-de-gran-canaria">cronoshare.com</a></li>
       <li id="f7">Cronoshare, precios de fontanero en Santa Cruz de Tenerife: 13–21 €/h. <a href="https://www.cronoshare.com/cuanto-cuesta/fontanero/santa-cruz-de-tenerife">cronoshare.com</a></li>
       <li id="f8">Motor de Presupuestos, oficial de 1.ª fontanero en Las Palmas calculado desde el convenio provincial: 37–50 €/h. <a href="https://motordepresupuestos.com/cuanto-cobra/fontaneros/las-palmas">motordepresupuestos.com</a></li>
-      <li id="f9">Tutti, precios habituales de soldador en España: 30–60 €/h, reja de ventana 150–400 €, puerta metálica 300–800 €. No hay datos publicados por islas. <a href="https://soytutti.com/guias/plantilla-presupuesto-soldador">soytutti.com</a></li>
       <li id="f10">Cronoshare, precio de impermeabilización: 20–35 €/m² por empresa especializada. <a href="https://www.cronoshare.com/cuanto-cuesta/impermeabilizacion">cronoshare.com</a></li>
       <li id="f11">Humedades.com, precio de impermeabilizar azotea en 2026: 15–35 €/m², hasta 80 €/m² si es transitable con solado nuevo. <a href="https://humedades.com/guia-precios/impermeabilizacion/impermeabilizar-azotea/">humedades.com</a></li>
       <li id="f12"><strong>Elaboración propia.</strong> Consulta de Google Maps el 14 de septiembre de 2026 para «trabajos verticales», «pintar fachada», «impermeabilizar azotea», «humedades», «fontanero», «soldador» y «cerrajería metálica», buscando <strong>desde Vecindario y Santa Lucía de Tirajana</strong>, y repetida desde Las Palmas de Gran Canaria para comparar. Número de fichas, reseñas y categorías recogidos ese día. Las cifras cambian: conviene repetir la consulta cada trimestre. <a href="https://www.google.com/maps">google.com/maps</a></li>
@@ -1104,7 +1215,6 @@ html.presentando.quieto{cursor:none}
       <li id="f18">Promotur Turismo de Canarias, barómetro de rentabilidad y empleo de Gran Canaria 2025: 81,7 % de ocupación y RevPAR de 108,02 €. <a href="https://investigacion.turismodeislascanarias.com/sites/default/files/2026-02/Promotur_Bar%C3%B3metro%20rentabilidad%20y%20empleo_Gran%20Canaria_2025.pdf">turismodeislascanarias.com</a></li>
       <li id="f19">UNESPA, siniestros en inmuebles asegurados con datos de 2024. <a href="https://www.unespa.es/notasdeprensa/siniestros-inmuebles-asegurados-datos-2024/">unespa.es</a></li>
       <li id="f20">ICEA, los daños por agua fueron el 38,2 % de los siniestros de hogar en 2024. <a href="https://www.icea.es/es-ES/noticias/Noticias/Noticias0625/Dia-25/multirriesgos.aspx">icea.es</a></li>
-      <li id="f21">SEAS, homologación de soldadores y marcado CE según la norma EN 1090 desde 2014. <a href="https://www.seas.es/blog/produccion-mantenimiento/la-homologacion-de-soldadores-es-obligatoria/">seas.es</a></li>
       <li id="f22">El Español, la construcción necesitará unos 700.000 trabajadores (agosto de 2026). <a href="https://www.elespanol.com/sociedad/20260806/espana-necesita-trabajadores-construccion-faltan-albaniles-pagan-sueldos-euros-ano/1003744344830_0.html">elespanol.com</a></li>
       <li id="f23">Guía Fiscal, tipos de IGIC en Canarias 2026: general 7 %, reducido 3 % en reparación de vivienda habitual. <a href="https://guiafiscal.es/guias/igic-canarias-2026/">guiafiscal.es</a></li>
       <li id="f23b">Neolo y LPB Digital, precios de web para pyme en España 2026: 800–2.500 € una web corporativa, dominio 10–25 € al año y alojamiento de 60 a 300 € al año. <a href="https://www.neolo.com/blog/precio-pagina-web-espana.php">neolo.com</a>, <a href="https://lpbdigital.com/blog/cuanto-cuesta-pagina-web-espana/">lpbdigital.com</a></li>
@@ -1112,8 +1222,6 @@ html.presentando.quieto{cursor:none}
       <li id="f25">Whitespark, Local Search Ranking Factors 2026 (publicado el 6 de noviembre de 2025, encuesta a 47 especialistas). Categoría principal de la ficha, primer factor con 227 puntos; negocio abierto en el momento de la búsqueda, quinto; dirección visible, séptimo; número de reseñas, noveno; fotos o vídeos generados con IA, factor de riesgo de suspensión con 45 puntos; número de seguidores en redes, puesto 187. <a href="https://whitespark.ca/local-search-ranking-factors/">whitespark.ca</a></li>
       <li id="f26">BrightLocal, Local Consumer Review Survey 2026 (panel de 1.002 adultos de EE. UU.): el 97 % lee reseñas, el 45 % ya usa herramientas de IA para recomendaciones locales frente al 6 % del año anterior, y el uso de Google para buscar negocios locales baja del 83 % al 71 %. <a href="https://www.brightlocal.com/research/local-consumer-review-survey/">brightlocal.com</a></li>
       <li id="f26b">danielfounder.es, precios de SEO local en España 2026: 150–450 € al mes para un negocio local; 150–300 € un profesional independiente y 300–600 € una agencia pequeña. <a href="https://danielfounder.es/blog/cuanto-cuesta-seo-local/">danielfounder.es</a></li>
-      <li id="f27">Google, introducción a los Anuncios de Servicios Locales: se paga por contacto recibido y el ranking empeora si se dejan llamadas o mensajes sin responder. <a href="https://support.google.com/localservices/answer/6224841?hl=es&amp;co=GENIE.CountryCode%3DES">support.google.com</a></li>
-      <li id="f28">Adentity, requisitos de los Anuncios de Servicios Locales: ficha verificada, mínimo de cinco reseñas y seguro de responsabilidad civil de al menos 150.000 €. <a href="https://adentity.es/anuncios-servicios-locales-google/">adentity.es</a></li>
       <li id="f29">adberg, cuánto cuesta Google Ads en España en 2026: coste por clic estimado de 2,10 € en «fontanero urgente» frente a 0,95 € en «reformas integrales»; gestión de agencia de 75 a 400 € al mes. <a href="https://adberg.agency/blog/cuanto-cuesta-google-ads">adberg.agency</a></li>
       <li id="f29b">ScalixLab, presupuestos de Google Ads en España 2026: entre 200 y 800 € al mes en campañas locales sencillas. <a href="https://scalixlab.com/blog/cuanto-cuesta-google-ads-precios-presupuestos/">scalixlab.com</a></li>
       <li id="f30">Organik Marketing, la Red de Display viene activada por defecto en Google Ads y trae clics poco cualificados. <a href="https://www.organikmarketing.es/cuanto-cuesta-google-ads-espana/">organikmarketing.es</a></li>
@@ -1128,14 +1236,22 @@ html.presentando.quieto{cursor:none}
       <li id="f39">IAB Spain, Estudio de Redes Sociales 2026: Instagram lo usa el 77 % de los internautas cada mes y Facebook el 56 %. <a href="https://iabspain.es/iab-spain-presenta-estudio-rrss-2026/">iabspain.es</a></li>
       <li id="f40">Unagi Productions, indexación de publicaciones de Instagram en Google desde julio de 2025. <a href="https://unagiproductions.com/indexacion-publicaciones-instagram-google/">unagiproductions.com</a></li>
       <li id="f41">Escura, la AEPD multa con 5.000 € a una empresa por publicar la foto de una extrabajadora sin consentimiento válido. <a href="https://www.escura.com/es/la-entidad-no-puede-publicar/">escura.com</a></li>
-      <li id="f42">Red.es, convocatoria de Kit Digital para comunidades de bienes, sociedades civiles con objeto mercantil, sociedades civiles profesionales y explotaciones agrarias de titularidad compartida de menos de 50 empleados. Bonos de 12.000 € (segmento I, 10–49 empleados), 6.000 € (II, 3–9) y 2.000 € (III, 0–2); exigía seis meses de antigüedad en el censo tributario y test de autodiagnóstico. <strong>Plazo cerrado.</strong> <a href="https://www.red.es/es/actualidad/noticias/nueva-convocatoria-de-kit-digital-destinada-comunidades-de-bienes-explotaciones">red.es</a></li>
-      <li id="f43">Acelera Pyme (Red.es), portal oficial del Kit Digital, consultado el 14 de septiembre de 2026: «Las convocatorias del Programa Kit Digital han finalizado». La del segmento III (0 a 3 empleados) cerró el 31 de octubre de 2025; la Orden TDF/39/2026 reparte fondos remanentes entre solicitudes ya en lista de espera, no abre plazo nuevo. <a href="https://www.acelerapyme.gob.es/kit-digital">acelerapyme.gob.es</a></li>
-      <li id="f44">OCTSI, convocatoria DigiEmpresas 2026 del Gobierno de Canarias: 700.000 €, ayudas de 10.000 a 30.000 €, plazo del 7 al 21 de abril de 2026, para ERP, CRM y business intelligence. <a href="https://www.octsi.es/actualidad/noticias-del-octsi/convocatoria-2026-ayudas-proyectos-digitalizacion-empresas-canarias">octsi.es</a></li>
-      <li id="f45">Sede electrónica de la Cámara de Comercio de Gran Canaria, convocatorias abiertas el 14 de septiembre de 2026: misiones comerciales a Perú y China, WTM London y Metstrade. Ninguna de digitalización. <a href="https://sede.camara.es/sede/grancanaria">sede.camara.es</a></li>
       <li id="f46">Sede electrónica del Gobierno de Canarias, programa de ayuda a las actuaciones de rehabilitación a nivel de edificio (fondos Next Generation): plazo del 15 de septiembre de 2022 al 15 de diciembre de 2023, fuera de plazo. <a href="https://sede.gobiernodecanarias.org/sede/tramites/7249">sede.gobiernodecanarias.org</a></li>
-      <li id="f47">Cámara de Comercio de Santa Cruz de Tenerife, Pyme Digital 2026: hasta el 85 % con un máximo de 7.490 € por empresa, plazo cerrado el 30 de junio de 2026. Es de la provincia de Tenerife. <a href="https://camaratenerife.com/secretaria/las-empresas-de-la-provincia-podran-acceder-a-nuevas-ayudas-de-digitalizacion-con-pyme-digital-2026/">camaratenerife.com</a></li>
       <li id="f47b">Ley 4/2017, de 13 de julio, del Suelo y de los Espacios Naturales Protegidos de Canarias. <strong>Artículo 269</strong>: la inspección técnica de edificaciones la realiza técnico competente y «tendrá una eficacia de veinte años»; el apartado 5 mantiene las órdenes de ejecución para garantizar seguridad, salubridad y ornato. <strong>Disposición adicional tercera</strong>: se someten a inspección las edificaciones de vivienda colectiva y de uso colectivo no residencial cuya antigüedad a 30 de junio de 2018 fuese igual o superior a <strong>80 años</strong>, y las demás según vayan cumpliendo los 80. <strong>Artículo 272</strong>: órdenes de ejecución de obras de conservación. <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2017-10295">boe.es</a></li>
-      <li id="f48">Requisitos generales del Kit Digital recogidos en sus bases: domicilio fiscal en España, estar al corriente con Hacienda y la Seguridad Social, no ser empresa en crisis, no superar el límite de ayudas de minimis de 300.000 € en tres ejercicios y haber hecho el test de autodiagnóstico digital en acelerapyme.gob.es. <a href="https://millennialsconsulting.es/requisitos-kit-digital/">millennialsconsulting.es</a>, <a href="https://www.acelerapyme.gob.es/kit-digital">acelerapyme.gob.es</a></li>
+      <li id="f50">Gobierno de Canarias, Dirección General de Industria, «Requisitos y procedimiento de habilitación de empresas instaladoras y/o mantenedoras de sistemas o elementos de protección contra incendios», versión 02/2025 del 5 de septiembre de 2025. Categorías activas y pasivas (P5, aplicación de morteros y pinturas); técnico titulado universitario y operario cualificado; títulos de fontanería y térmicas habilitantes para sistemas de agua; seguro de 800.000 € (activa) y 879.497,07 € (pasiva); certificado de calidad con cada sistema en el alcance, con un año de gracia; declaración responsable telemática, modelo 700 y falta grave según la Ley 21/1992. <a href="https://www.gobiernodecanarias.org/cmsgob2/export/sites/industria/temas/instaladores/EI_PCIv2_25.pdf">gobiernodecanarias.org</a></li>
+      <li id="f51">Real Decreto 513/2017, de 22 de mayo, Reglamento de instalaciones de protección contra incendios. Anexo II (mantenimiento trimestral por el titular y anual por empresa mantenedora), artículo 22 (inspección por organismo de control al menos cada diez años y exenciones) y disposición transitoria cuarta (primera inspección de instalaciones existentes en uno, dos o tres años según antigüedad). En vigor desde el 12 de diciembre de 2017. <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2017-6606">boe.es</a></li>
+      <li id="f52">Real Decreto 164/2025, de 4 de marzo, Reglamento de seguridad contra incendios en los establecimientos industriales: en vigor el 10 de mayo de 2025; inspección periódica cada cinco años para todos los establecimientos, obligatoria desde el 10 de noviembre de 2025. <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2025-7190">boe.es</a>, <a href="https://www.codigotecnico.org/noticias/2025-04-10-publicacion-RSCIEI.html">codigotecnico.org</a></li>
+      <li id="f53">Profuego, guía de precios del mantenimiento RIPCI en España: extintores de 6 a 14 € por unidad y año, retimbrado de 18 a 30 € cada cinco años, bocas de incendio de 25 a 55 € al año; contratos anuales de comunidad pequeña 150–350 €, mediana 300–700 € y grande 700–2.500 €; local pequeño 150–400 €, restaurante 400–1.200 €, hotel mediano 1.500–4.000 € y nave 800–3.500 €. <a href="https://profuego.es/cuanto-cuesta-el-mantenimiento-ripci-guia-de-precios-para-comunidades-y-empresas-en-espana/">profuego.es</a></li>
+      <li id="f54">Cronoshare, pintar piso en Las Palmas de Gran Canaria: de 5 a 12 €/m²; un piso de 90 m² entre 700 y 1.200 €. <a href="https://www.cronoshare.com/servicios/presupuesto-pintar-piso/las-palmas/las-palmas-de-gran-canaria">cronoshare.com</a></li>
+      <li id="f55">Cronoshare, cuánto cuesta pintar una nave industrial en 2026: paredes de 5 a 7 €/m² y suelo de 15 a 25 €/m². <a href="https://www.cronoshare.com/cuanto-cuesta/pintar-nave-industrial">cronoshare.com</a></li>
+      <li id="f56">Ignipro, precio de la pintura intumescente en 2026: protección R60 aplicada, de 45 a 70 €/m². <a href="https://ignipro.es/pintura-intumescente/precio-costes/">ignipro.es</a></li>
+      <li id="f57"><strong>Elaboración propia.</strong> Consulta automatizada de Google Maps el 3 de octubre de 2026 para «pintor», «pintar fachada», «pintar piso», «pintura industrial», «pintura intumescente», «mantenimiento extintores», «protección contra incendios», «instalación contra incendios», «fontanero» y «trabajos verticales», desde Vecindario y desde Las Palmas de Gran Canaria. Google mostró la vista limitada sin sesión iniciada, sin número de reseñas, así que se contaron fichas distintas por categoría, descartando las de fuera de la isla. Es una aproximación: conviene repetirla con sesión iniciada. <a href="https://www.google.com/maps">google.com/maps</a></li>
+      <li id="f58">Google Ads, configurar IA Max para campañas de Búsqueda: viene seleccionado de forma predeterminada al crear una campaña de búsqueda; la personalización de texto y la expansión de URL final vienen activadas; se desactiva desde la configuración de la campaña. <a href="https://support.google.com/google-ads/answer/15909989?hl=es">support.google.com</a></li>
+      <li id="f59">Google Ads, crear una cuenta: datos de la empresa, país de facturación, zona horaria y forma de pago, con la opción de crear la cuenta sin una campaña. <a href="https://support.google.com/google-ads/answer/6366720?hl=es-ES">support.google.com</a></li>
+      <li id="f60">Perfil de Empresa en Google, añadir o reclamar un perfil: se crea en business.google.com/create; las empresas que se desplazan al cliente indican zona de servicio (hasta 20 zonas) y deben ocultar su dirección. <a href="https://support.google.com/business/answer/10514137?hl=es">support.google.com</a></li>
+      <li id="f61">Perfil de Empresa en Google, gestionar la categoría: «si añades o editas una categoría, es posible que se te pida que vuelvas a verificar tu empresa». <a href="https://support.google.com/business/answer/7249669?hl=es">support.google.com</a></li>
+      <li id="f62">Perfil de Empresa en Google, verificar con una grabación de vídeo: grabación continua, sin editar, de al menos 30 segundos, desde el móvil; en empresas de servicios, enseñar la calle, las herramientas o el vehículo rotulado y un documento con el nombre de la empresa; revisión de hasta cinco días hábiles. <a href="https://support.google.com/business/answer/14271705?hl=es">support.google.com</a></li>
+      <li id="f63">Sede electrónica del Gobierno de Canarias, trámite 3393: declaración responsable de inicio, modificación o cese de actividad de empresas instaladoras y mantenedoras. <a href="https://sede.gobiernodecanarias.org/sede/tramites/3393">sede.gobiernodecanarias.org</a></li>
     </ol>
   </div>
 </section>
@@ -1144,7 +1260,7 @@ html.presentando.quieto{cursor:none}
 
 <footer>
   <div class="wrap">
-    <p class="prosa">Plan preparado el 14 de septiembre de 2026 para AMA, con base en Vecindario, Santa Lucía de Tirajana. La competencia se midió desde allí; los datos de la capital están solo como comparación. <strong>La única ordenanza municipal verificada es la de Las Palmas de Gran Canaria</strong>: en Santa Lucía de Tirajana no hemos encontrado ordenanza propia de inspección de edificios publicada, así que rige la Ley del Suelo de Canarias, y conviene confirmarlo llamando al ayuntamiento (928 72 72 00). Las ayudas y los datos de competencia caducan rápido: conviene repasarlos cada trimestre.</p>
+    <p class="prosa">Plan preparado el 14 de septiembre de 2026 y actualizado el 3 de octubre de 2026 para AMA, con base en Vecindario, Santa Lucía de Tirajana. La competencia se midió desde Vecindario y, en octubre, también desde la capital, porque ahora trabajan en toda la isla. <strong>La única ordenanza municipal verificada es la de Las Palmas de Gran Canaria</strong>: en Santa Lucía de Tirajana no hemos encontrado ordenanza propia de inspección de edificios publicada, así que rige la Ley del Suelo de Canarias, y conviene confirmarlo llamando al ayuntamiento (928 72 72 00). Las ayudas y los datos de competencia caducan rápido: conviene repasarlos cada trimestre.</p>
   </div>
 </footer>
 
@@ -1197,132 +1313,262 @@ function corto(n){
 }
 function dec2(n){ return (Math.round(n*100)/100).toFixed(2).replace('.',','); }
 
-/* ---------- Guia de configuracion ---------- */
-(function(){
-  var mensual=300;
+/* ---------- Guias paso a paso ---------- */
+var mensual=300;
+function kw(lista, neg){
+  return '<ul class="lista-kw">'+lista.map(function(k){ return '<li'+(neg?' class="neg"':'')+'>'+k+'</li>'; }).join('')+'</ul>';
+}
+function pasosLista(items){ return '<ol>'+items.map(function(x){ return '<li>'+x+'</li>'; }).join('')+'</ol>'; }
 
-  function pasos(){
-    var diario=mensual/30.4;
-    var topeDia=diario*2;
-    var topeMes=diario*30.4;
-    var cpcTope=Math.max(0.5, Math.round(diario/5.5*100)/100);
-    return [
-    { t:'Abrir la cuenta en modo experto',
-      campos:[
-        ['Dónde','En <code>ads.google.com</code>, al crear la cuenta, buscar abajo <code>Cambiar al modo experto</code>'],
-        ['Qué NO hacer','No quedarse en el modo inteligente. No deja tocar redes, concordancias ni programación'],
-        ['Moneda y zona','Euro y Canarias. No se puede cambiar después']
-      ],
-      por:'El modo sencillo de Google no permite desactivar la Red de Display ni poner palabras clave negativas. Es decir, no permite hacer nada de lo que viene en los pasos siguientes.' },
+function pasosFicha(){
+  return [
+  { t:'Antes de empezar: qué tener a mano',
+    campos:[
+      ['Una cuenta de Google de la empresa','Un Gmail solo para AMA, por ejemplo <code>nombredelaempresa@gmail.com</code>. <strong>No el personal</strong>: el día que otra persona lleve la ficha, se le da acceso y ya'],
+      ['El móvil','La verificación se hace grabando un vídeo con él'],
+      ['Datos','Nombre exacto de la empresa, teléfono, horario y la lista de servicios de las tres líneas'],
+      ['Fotos','Diez o más fotos de obras reales: fachadas, pisos, una revisión de extintores, la furgoneta, el equipo con el material'],
+      ['Tiempo','Media hora para crearla y hasta cinco días hábiles para que Google revise el vídeo<sup class="ref"><a href="#f62">62</a></sup>']
+    ],
+    por:'La ficha es lo que sale en el mapa cuando alguien busca «pintor» o «mantenimiento extintores». Es gratis, y es lo que más pesa para aparecer.<sup class="ref"><a href="#f25">25</a></sup> Los anuncios vienen después, y además se vinculan a ella.' },
 
-    { t:'Tipo de campaña: Búsqueda',
-      campos:[
-        ['Objetivo','<code>Crear una campaña sin objetivo concreto</code>'],
-        ['Tipo','<code>Búsqueda</code>'],
-        ['Formas de conseguir clientes','Marcar <code>Llamadas telefónicas</code> y poner el teléfono de la empresa'],
-        ['Nombre de la campaña','<code>Altura · Fachadas y azoteas</code>']
-      ],
-      por:'Si se elige un objetivo, Google empuja hacia campañas automáticas que reparten el dinero donde él quiere. Con 300 € al mes hace falta control, no automatismo.' },
+  { t:'Crear la ficha: nombre y categoría',
+    campos:[
+      ['Dónde','Entrar en <code>business.google.com/create</code> con la cuenta de la empresa<sup class="ref"><a href="#f60">60</a></sup>'],
+      ['Nombre de la empresa','<code>AMA</code> o el nombre legal tal cual. <strong>Sin añadir</strong> «pintores Gran Canaria» ni nada más: Google lo considera trampa'],
+      ['Categoría de la empresa','Escribir <code>Pintor</code> y elegirla de la lista'],
+      ['Después','Botón <code>Siguiente</code>']
+    ],
+    por:'La categoría principal es el factor número uno para salir en el mapa.<sup class="ref"><a href="#f25">25</a></sup> «Pintor» porque es la línea que más tipos de cliente buscan. Las otras se añaden en el paso 6 como adicionales.' },
 
-    { t:'Redes: apagar lo que sobra',
-      campos:[
-        ['Red de Display','<strong>Desmarcar</strong>'],
-        ['Incluir socios de búsqueda de Google','<strong>Desmarcar</strong>'],
-        ['Dónde está','En <code>Configuración de la campaña</code> → <code>Redes</code>. Viene plegado, hay que abrirlo']
-      ],
-      por:'La Red de Display viene activada por defecto y saca los anuncios en páginas de terceros mientras la gente navega. Trae clics baratos que no llaman a nadie.<sup class="ref"><a href="#f30">30</a></sup>' },
+  { t:'¿Atienden a clientes en su local? No',
+    campos:[
+      ['Pregunta de Google','«¿Quieres añadir una ubicación que los clientes puedan visitar?» → <strong>No</strong>'],
+      ['Zona de servicio','Escribir <code>Gran Canaria</code>. Si no sale como opción, añadir los municipios donde más trabajan, hasta 20<sup class="ref"><a href="#f60">60</a></sup>'],
+      ['Si ya pusieron dirección','Más tarde, en <code>Editar perfil</code> → <code>Ubicación</code>, desactivar <code>Mostrar la dirección de la empresa a los clientes</code>']
+    ],
+    por:'Google pide a las empresas que van a casa del cliente que no enseñen su dirección.<sup class="ref"><a href="#f60">60</a></sup> Saltárselo es una causa típica de suspensión.' },
 
-    { t:'Ubicación: solo quien está aquí',
-      campos:[
-        ['Ubicaciones','<code>Santa Lucía de Tirajana</code>, <code>San Bartolomé de Tirajana</code>, <code>Agüimes</code>, <code>Ingenio</code> y <code>Mogán</code>. Nada de «Gran Canaria» entera'],
-        ['Opciones de ubicación','Abrir <code>Opciones de ubicación</code> y marcar <code>Presencia</code>'],
-        ['Qué NO dejar','La opción predeterminada es <code>Presencia o interés</code>. Cambiarla'],
-        ['Cuándo ampliar','La capital, solo cuando el sur ya dé trabajo. Son 50 km y otro mercado']
-      ],
-      por:'Dos cosas. Una: con la opción predeterminada el anuncio también se le enseña a quien está en Madrid buscando información sobre Gran Canaria.<sup class="ref"><a href="#f31">31</a></sup> Dos: con 300 € repartidos por toda la isla no se compra nada. La proximidad es el segundo factor de posicionamiento local,<sup class="ref"><a href="#f25">25</a></sup> y ustedes la tienen en el sur, no en Las Palmas.' },
+  { t:'Teléfono y web',
+    campos:[
+      ['Teléfono','El único teléfono de la empresa, el que se coge de 8:00 a 20:00'],
+      ['Sitio web','Si la web aún no existe, dejarlo vacío y añadirlo cuando esté. No poner un Facebook ni una web a medias'],
+      ['Después','<code>Siguiente</code> → <code>Finalizar</code>']
+    ],
+    por:'Lo que ponga aquí es lo que sale en el botón de llamar. Si suena y no lo coge nadie, el cliente llama al siguiente de la lista.' },
 
-    { t:'Presupuesto: la cifra exacta',
-      campos:[
-        ['Presupuesto medio diario','<code>' + dec2(diario) + ' €</code>'],
-        ['Lo que Google puede gastar en un día','Hasta <strong>' + dec2(topeDia) + ' €</strong>'],
-        ['Tope del mes','<strong>' + dec2(topeMes) + ' €</strong>, que es el presupuesto de ' + miles(mensual) + ' €'],
-        ['Cómo se calcula','Presupuesto del mes ÷ 30,4']
-      ],
-      por:'Google no pide mínimo, pero conviene saber que puede gastar el doble del diario en un día bueno y compensar en otro. Lo que no se pasa es el mes: el límite mensual es 30,4 veces el diario.<sup class="ref"><a href="#f32">32</a></sup>' },
+  { t:'Verificar con un vídeo',
+    campos:[
+      ['Dónde','En la ficha sale un aviso rojo: <code>Verificar ahora</code>. Se graba y se sube desde el móvil'],
+      ['Cómo grabar','<strong>Un solo vídeo seguido</strong>, sin cortes ni edición, de al menos 30 segundos<sup class="ref"><a href="#f62">62</a></sup>'],
+      ['Qué enseñar, por orden',pasosLista(['La placa de la calle y algo reconocible del barrio','La furgoneta con el nombre, o las herramientas y el material','Un documento con el nombre de AMA: una factura o el alta de actividad'])],
+      ['Qué NO enseñar','Caras de otras personas, números de cuenta ni datos personales'],
+      ['Cuánto tarda','Hasta cinco días hábiles. Si lo rechazan, Google dice por qué y se repite']
+    ],
+    por:'Sin verificar, la ficha no sale en el mapa. Google pide a las empresas que trabajan fuera de su local que demuestren que existen con herramientas, vehículo o documentos.<sup class="ref"><a href="#f62">62</a></sup>' },
 
-    { t:'Puja: con tope, siempre',
-      campos:[
-        ['Estrategia','<code>Clics</code> → <code>Maximizar clics</code>'],
-        ['Límite de puja de CPC máximo','Marcar la casilla y poner <code>' + dec2(cpcTope) + ' €</code>'],
-        ['Cuándo cambiarla','Cuando haya 30 conversiones al mes, y no antes']
-      ],
-      por:'Sin tope, Google puede pagar varios euros por un clic para gastarse el presupuesto del día.<sup class="ref"><a href="#f37">37</a></sup> Y las estrategias automáticas de conversión no funcionan sin historial: una cuenta nueva no tiene datos que darles.' },
+  { t:'Las categorías adicionales',
+    campos:[
+      ['Dónde','En la ficha: <code>Editar perfil</code> → junto a <code>Categoría de la empresa</code>, el lápiz → <code>Añadir otra categoría</code>'],
+      ['Cuáles','<code>Servicio de protección contra incendios</code> · <code>Fontanero</code> · <code>Trabajos en altura</code> · <code>Servicio de impermeabilización</code>'],
+      ['Cuándo','Después de verificar. Y la de contra incendios, solo con la declaración responsable ya presentada'],
+      ['Ojo','Añadir o cambiar categorías puede hacer que Google pida verificar otra vez<sup class="ref"><a href="#f61">61</a></sup>. Se ponen una vez y no se tocan']
+    ],
+    por:'Son las categorías que usan las empresas que ya salen en el mapa de la isla.<sup class="ref"><a href="#f57">57</a></sup> Hacen que la ficha aparezca también cuando buscan «fontanero» o «extintores».' },
 
-    { t:'Horario: solo cuando hay alguien',
-      campos:[
-        ['Dónde','Menú lateral → <code>Programación de anuncios</code>'],
-        ['Qué poner','<code>De lunes a viernes, de 8:00 a 20:00</code>'],
-        ['Por defecto viene','<code>Todo el día</code>, hay que cambiarlo']
-      ],
-      por:'Un clic a las tres de la madrugada se cobra igual y no lo contesta nadie. Si algún sábado hay guardia, se añade ese tramo y ya.<sup class="ref"><a href="#f35">35</a></sup>' },
+  { t:'Servicios y descripción',
+    campos:[
+      ['Servicios','En <code>Editar servicios</code>, uno por uno: pintar fachadas, pintar pisos y locales, pintura industrial y de naves, pintura intumescente, mantenimiento de extintores, bocas de incendio y grupos de presión, bajantes y tuberías, impermeabilización de azoteas, trabajos verticales'],
+      ['Descripción','<code>Pintura, fontanería y protección contra incendios en toda Gran Canaria. Fachadas sin andamio gracias al trabajo por cuerda, pisos, locales y naves. Mantenimiento de extintores, bocas de incendio y grupos de presión para comunidades, hoteles y empresas.</code>'],
+      ['Qué no poner','Teléfonos, enlaces ni ofertas en la descripción']
+    ],
+    por:'Cada servicio es una palabra más por la que Google puede enseñar la ficha. Y quien lee la descripción tiene que saber en diez segundos si hacen lo suyo.' },
 
-    { t:'Palabras clave: el problema, no la técnica',
-      campos:[
-        ['Grupo 1 · Fachadas','<ul class="lista-kw"><li>"pintar fachada"</li><li>[pintar fachada comunidad]</li><li>"rehabilitación de fachadas"</li><li>"reparar fachada edificio"</li><li>"pintar fachada edificio"</li></ul>'],
-        ['Grupo 2 · Azoteas y humedades','<ul class="lista-kw"><li>"impermeabilizar azotea"</li><li>"impermeabilización cubierta"</li><li>"arreglar humedades pared"</li><li>"goteras techo"</li><li>[eliminar humedades vivienda]</li></ul>'],
-        ['Concordancias','Comillas = de frase. Corchetes = exacta. Sin símbolos = amplia, que es la predeterminada'],
-        ['Lo que NO se pone','<code>trabajos verticales</code>. Solo lo buscan seis competidores entre ellos']
-      ],
-      por:'La concordancia amplia sin control se come el presupuesto en búsquedas que no son de ustedes.<sup class="ref"><a href="#f33">33</a></sup> Con 300 € al mes se empieza cerrado y se abre después, no al revés.' },
+  { t:'Horario y fotos',
+    campos:[
+      ['Horario','De lunes a viernes, de 8:00 a 20:00. Si un sábado hay guardia, se añade'],
+      ['Fotos','Las diez del paso 1. Cada mes, tres o cuatro nuevas de obras recientes'],
+      ['Qué NO subir','<strong>Nada generado con inteligencia artificial</strong> ni fotos de internet<sup class="ref"><a href="#f25">25</a></sup>']
+    ],
+    por:'«Abierto en el momento de la búsqueda» es el quinto factor para salir en el mapa,<sup class="ref"><a href="#f25">25</a></sup> pero un horario que no se cumple trae llamadas perdidas. Las fotos falsas son un riesgo de suspensión.' },
 
-    { t:'Palabras clave negativas',
-      campos:[
-        ['Dónde','Menú lateral → <code>Palabras clave</code> → pestaña <code>Negativas</code> → nivel campaña'],
-        ['Lista de partida','<ul class="lista-kw"><li class="neg">gratis</li><li class="neg">curso</li><li class="neg">cursos</li><li class="neg">empleo</li><li class="neg">trabajo</li><li class="neg">sueldo</li><li class="neg">salario</li><li class="neg">oferta de empleo</li><li class="neg">como pintar</li><li class="neg">tutorial</li><li class="neg">alquiler de andamios</li><li class="neg">segunda mano</li><li class="neg">peritaje</li><li class="neg">seguro</li></ul>'],
-        ['Ojo con los plurales','Hay que poner singular y plural por separado']
-      ],
-      por:'Las negativas no entienden variaciones ni plurales, al revés que las normales: si se pone «curso» no bloquea «cursos».<sup class="ref"><a href="#f34">34</a></sup> Media hora al mes revisando el informe de términos de búsqueda ahorra más que cualquier otra cosa.' },
+  { t:'Las reseñas: a todos, siempre',
+    campos:[
+      ['Dónde','En la ficha: <code>Pedir reseñas</code>. Da un enlace para mandar por WhatsApp y un código QR'],
+      ['Cuándo','El mismo día que se termina el trabajo, con el cliente contento delante'],
+      ['Qué pedir','Que digan qué se hizo y dónde: «pintaron la fachada de nuestra comunidad en Vecindario»'],
+      ['Contestar','Todas, las buenas y las malas, en menos de una semana']
+    ],
+    por:'El número de reseñas es el noveno factor del mapa.<sup class="ref"><a href="#f25">25</a></sup> En «pintar fachada», del tercer puesto para abajo había trece reseñas: se alcanza en unos meses si se piden a todos.' },
 
-    { t:'Los anuncios',
-      campos:[
-        ['Titulares','<code>Pintar fachada sin andamio</code> · <code>Comunidades en Vecindario y el sur</code> · <code>Presupuesto en 48 horas</code> · <code>Con seguro y certificados</code>'],
-        ['Descripciones','<code>Bajamos por cuerda: sin andamio, sin cortar la acera y con menos días de obra. Fachadas, azoteas y humedades.</code>'],
-        ['URL','La página del servicio concreto, nunca la portada'],
-        ['Cuántos','Dos anuncios por grupo, para poder compararlos']
-      ],
-      por:'Mandar todos los clics a la portada es tirar la mitad. Quien busca «impermeabilizar azotea» tiene que caer en la página de azoteas, con las fotos de azoteas.' },
+  { t:'La rutina: diez minutos a la semana',
+    campos:[
+      ['Cada semana','Contestar reseñas nuevas y publicar una novedad con foto (<code>Añadir novedad</code>): una obra terminada, con municipio'],
+      ['Cada mes','Subir fotos nuevas y mirar en <code>Rendimiento</code> cuántas llamadas ha dado la ficha'],
+      ['Si quieren empujar otra línea','Más fotos, novedades y reseñas de esa línea. <strong>No cambiar la categoría principal</strong> (ver <a href="#pivotar">Cambiar de línea</a>)']
+    ],
+    por:'Una ficha que se mueve parece una empresa viva. Y lo que se publica con servicio y municipio es lo que Google relaciona con esas búsquedas.' }
+  ];
+}
 
-    { t:'Recursos: el teléfono en el anuncio',
-      campos:[
-        ['Recurso de llamada','Añadir el número de la empresa'],
-        ['Programación del recurso','En <code>Opciones avanzadas</code>, limitarlo a <code>8:00–20:00</code>'],
-        ['Enlaces de sitio','Cuatro: <code>Fachadas</code>, <code>Azoteas</code>, <code>Humedades</code>, <code>Cómo trabajamos por cuerda</code>'],
-        ['Recurso de ubicación','Vincular la ficha de Google Business']
-      ],
-      por:'El botón de llamar sube los clics, pero si suena y no lo coge nadie se ha pagado por nada. Por eso se programa igual que el anuncio.<sup class="ref"><a href="#f36">36</a></sup>' },
+function pasosAnuncios(){
+  var dia=mensual/30.4;
+  var dPin=dia*2/3, dPci=dia/3;
+  var cpc=function(d){ return Math.max(0.5, Math.round(d/5.5*100)/100); };
+  return [
+  { t:'Antes de empezar: qué tiene que estar listo',
+    campos:[
+      ['La ficha','Creada y <strong>verificada</strong> (guía 1)'],
+      ['La web','Al menos una página por servicio anunciado: pintar fachada, pintar pisos, pintura industrial, mantenimiento contra incendios. <strong>Sin páginas no se empieza</strong>'],
+      ['Contra incendios','Declaración responsable presentada y requisitos cubiertos (ver <a href="#incendios">el estudio</a>)'],
+      ['Para pagar','Tarjeta de la empresa y el CIF o NIF a mano'],
+      ['Tiempo','Una tarde para dejarlo todo montado']
+    ],
+    por:'Un anuncio que lleva a la portada, o a una web sin el servicio que se buscó, paga el clic y pierde al cliente. Y si falta la ficha, se pierden el botón de llamar y la ubicación en el anuncio.' },
 
-    { t:'Medir: que se cuenten las llamadas',
-      campos:[
-        ['Dónde','<code>Objetivos</code> → <code>Conversiones</code> → <code>Nueva acción de conversión</code>'],
-        ['Qué crear','<code>Llamadas desde anuncios</code>, contando solo las de <strong>60 segundos o más</strong>'],
-        ['Además','Un formulario en la web que también cuente como conversión']
-      ],
-      por:'Una llamada de ocho segundos es alguien que se equivocó. Poniendo el mínimo en 60 segundos, el dato se parece a la realidad y sirve para decidir el día 90.' },
+  { t:'Crear la cuenta sin campaña',
+    campos:[
+      ['Dónde','<code>ads.google.com</code> → <code>Empezar ahora</code>, con la misma cuenta de Google de la ficha'],
+      ['Lo que va a pasar','Google empuja a crear una campaña «inteligente» guiada. <strong>No.</strong> Buscar abajo <code>Cambiar al modo experto</code> y después <code>Crear una cuenta sin una campaña</code><sup class="ref"><a href="#f59">59</a></sup>'],
+      ['País, zona horaria y moneda','España · <code>(GMT+00:00) Hora de Canarias</code> · Euro. <strong>No se pueden cambiar después</strong>'],
+      ['Si te pierdes','Si ya se creó una campaña inteligente sin querer, se pausa y se sigue con estos pasos: no pasa nada']
+    ],
+    por:'La campaña inteligente no deja apagar la Red de Display, ni poner palabras negativas, ni elegir horario fino. Es decir, nada de lo que viene después.' },
 
-    { t:'La media hora del lunes',
-      campos:[
-        ['Informe de términos de búsqueda','Ver por qué se está pagando de verdad y añadir negativas'],
-        ['Llamadas sin contestar','Si hay alguna en horario, es lo primero que hay que arreglar'],
-        ['Coste por contacto','Compararlo con el límite que da la calculadora del apartado siguiente'],
-        ['Qué no tocar','No cambiar pujas ni presupuesto cada dos días. Dos semanas mínimo entre cambios']
-      ],
-      por:'Casi todo el dinero mal gastado en Google Ads se ve en el informe de términos de búsqueda, y casi nadie lo abre. Media hora los lunes vale más que pagar a una agencia por los primeros meses.' }
-    ];
-  }
+  { t:'Facturación y verificación',
+    campos:[
+      ['Facturación','Menú de la izquierda → <code>Facturación</code> → tarjeta de la empresa. Google puede hacer un cargo de prueba que se devuelve en unos días<sup class="ref"><a href="#f59">59</a></sup>'],
+      ['Verificación del anunciante','Si sale un aviso pidiendo verificar la identidad, hacerlo ese mismo día con el CIF y los datos de la empresa'],
+      ['IGIC','Pasar la primera factura de Google a la gestoría: va por inversión del sujeto pasivo<sup class="ref"><a href="#f24">24</a></sup>']
+    ],
+    por:'Si la verificación queda pendiente, Google puede limitar o pausar los anuncios hasta completarla.' },
 
-  var i=0, lista=pasos();
-  var cuerpo=$('guia-cuerpo'), botonera=$('guia-pasos');
+  { t:'Vincular la ficha de Google',
+    campos:[
+      ['Dónde','Lupa de arriba → escribir <code>Cuentas vinculadas</code> → <code>Perfil de Empresa en Google</code> → <code>Vincular</code>'],
+      ['Elegir','La ficha de AMA'],
+      ['Comprobar','Que pone <code>Vinculada</code>']
+    ],
+    por:'Con la ficha vinculada, el anuncio puede enseñar la zona y las estrellas, y se puede añadir el recurso de ubicación del paso 15.' },
 
+  { t:'Contar las llamadas, antes que nada',
+    campos:[
+      ['Dónde','<code>Objetivos</code> → <code>Conversiones</code> → <code>Resumen</code> → <code>+ Crear acción de conversión</code>'],
+      ['Qué elegir','<code>Llamadas telefónicas</code> → la opción de llamadas <strong>desde los anuncios</strong> (las que llegan por el botón de llamar del anuncio)'],
+      ['Duración mínima','<code>60</code> segundos'],
+      ['Valor','No asignar valor; contar <code>Una</code> por clic'],
+      ['Además','Si la web tiene formulario, crear otra conversión para el formulario enviado']
+    ],
+    por:'Una llamada de ocho segundos es alguien que se equivocó. Con un mínimo de 60 segundos, el dato se parece a la realidad y el día 90 sirve para decidir.' },
+
+  { t:'Campaña 1 · Pintura: crearla',
+    campos:[
+      ['Dónde','<code>Campañas</code> → botón azul <code>+</code> → <code>Nueva campaña</code>'],
+      ['Objetivo','<code>Crear una campaña sin un objetivo</code>'],
+      ['Tipo','<code>Búsqueda</code>'],
+      ['Resultados','Marcar <code>Llamadas telefónicas</code> y <code>Visitas al sitio web</code>'],
+      ['Nombre','<code>Pintura</code>'],
+      ['<strong>IA Max</strong>','Viene marcado. <strong>Desmarcarlo</strong>. Si ya está creada: <code>Configuración</code> → <code>IA Max</code> → desactivar todo<sup class="ref"><a href="#f58">58</a></sup>']
+    ],
+    por:'IA Max deja que Google elija por su cuenta las búsquedas, reescriba los textos y cambie la página de destino.<sup class="ref"><a href="#f58">58</a></sup> Con 300 € al mes y una cuenta sin historial, primero se aprende qué funciona con control; la automatización, si acaso, después.' },
+
+  { t:'Redes: apagar lo que sobra',
+    campos:[
+      ['Red de Búsqueda','Dejar <code>Incluir socios de búsqueda de Google</code> <strong>desmarcado</strong>'],
+      ['Red de Display','<strong>Desmarcar</strong> <code>Incluir Red de Display de Google</code>'],
+      ['Dónde está','En la misma pantalla de configuración, apartado <code>Redes</code>']
+    ],
+    por:'La Red de Display viene activada y saca los anuncios en páginas de terceros mientras la gente navega. Trae clics baratos que no llaman.<sup class="ref"><a href="#f30">30</a></sup>' },
+
+  { t:'Ubicación e idioma',
+    campos:[
+      ['Ubicaciones','<code>Introducir otra ubicación</code> → escribir <code>Gran Canaria</code> y elegir el resultado de la isla. Si no aparece, añadir los municipios uno a uno'],
+      ['Opciones de ubicación','Abrir <code>Opciones de ubicación</code> y marcar <code>Presencia: personas que están o suelen estar en las ubicaciones incluidas</code>'],
+      ['Qué NO dejar','La opción predeterminada, <code>Presencia o interés</code><sup class="ref"><a href="#f31">31</a></sup>'],
+      ['Idioma','Español']
+    ],
+    por:'Con la opción predeterminada, el anuncio se enseña también a quien está en Madrid buscando información sobre Gran Canaria.<sup class="ref"><a href="#f31">31</a></sup> Eso no trae ni una fachada.' },
+
+  { t:'Presupuesto y puja',
+    campos:[
+      ['Presupuesto diario','<code>' + dec2(dPin) + ' €</code> (es lo que da ' + miles(Math.round(mensual*2/3)) + ' € al mes)'],
+      ['Puja','<code>Clics</code> → marcar <code>Definir un límite de puja de coste por clic máximo</code> → <code>' + dec2(cpc(dPin)) + ' €</code>'],
+      ['Lo que puede pasar','Un día bueno Google puede gastar hasta el doble del diario, pero en el mes no pasa de 30,4 veces el diario<sup class="ref"><a href="#f32">32</a></sup>'],
+      ['Cuándo cambiar la puja','Con 30 llamadas contadas al mes, y no antes']
+    ],
+    por:'Sin tope, Google puede pagar varios euros por un clic para gastarse el presupuesto del día.<sup class="ref"><a href="#f37">37</a></sup> Y las pujas automáticas por conversiones necesitan un historial que una cuenta nueva no tiene.' },
+
+  { t:'Horario',
+    campos:[
+      ['Dónde','En la configuración, <code>Más ajustes</code> → <code>Programación de anuncios</code>'],
+      ['Qué poner','De lunes a viernes, de <code>8:00</code> a <code>20:00</code>'],
+      ['Por defecto viene','<code>Todo el día</code><sup class="ref"><a href="#f35">35</a></sup>']
+    ],
+    por:'Un clic a las tres de la madrugada se cobra igual y no lo contesta nadie.' },
+
+  { t:'Pintura: grupos y palabras clave',
+    campos:[
+      ['Grupo 1 · Fachadas', kw(['"pintar fachada"','"pintar fachada comunidad"','"pintores de fachadas"','"rehabilitación de fachadas"','[pintar fachada edificio]'])],
+      ['Grupo 2 · Interiores', kw(['"pintar piso"','"pintar vivienda"','"pintores gran canaria"','"pintar local"','[pintor las palmas]'])],
+      ['Grupo 3 · Industrial', kw(['"pintar nave industrial"','"pintura suelo industrial"','"pintura estructura metálica"','"pintura intumescente"','"pintura anticorrosiva"'])],
+      ['Cómo se escriben','Entre comillas = concordancia de frase. Entre corchetes = exacta. Sin nada = amplia, que <strong>no se usa</strong><sup class="ref"><a href="#f33">33</a></sup>'],
+      ['Página de destino','La de cada servicio: fachadas a la de fachadas, pisos a la de pisos']
+    ],
+    por:'La concordancia amplia se come el presupuesto en búsquedas que no son de ustedes.<sup class="ref"><a href="#f33">33</a></sup> Se empieza cerrado y se abre después, mirando qué busca la gente de verdad.' },
+
+  { t:'Pintura: los anuncios',
+    campos:[
+      ['Tipo','<code>Anuncio de búsqueda adaptable</code>, uno por grupo'],
+      ['Títulos (máx. 30 letras)','<code>Pintores en Gran Canaria</code> · <code>Fachadas sin andamio</code> · <code>Pintamos pisos y locales</code> · <code>Pintura industrial y naves</code> · <code>Presupuesto en 48 horas</code> · <code>Con seguro y certificados</code> · <code>Comunidades y empresas</code>'],
+      ['Descripciones (máx. 90)','<code>Fachadas, pisos, locales y naves en toda Gran Canaria. Presupuesto sin compromiso.</code> · <code>Sin andamio: trabajamos por cuerda. Menos días de obra y la acera libre.</code>'],
+      ['URL final','La página del servicio de ese grupo, nunca la portada']
+    ],
+    por:'Google combina los títulos y las descripciones y va aprendiendo cuáles funcionan. Cuantos más títulos distintos, mejor; pero que todos sean verdad.' },
+
+  { t:'Palabras negativas de pintura',
+    campos:[
+      ['Dónde','<code>Palabras clave</code> → <code>Palabras clave negativas</code> → nivel de campaña'],
+      ['Lista de partida', kw(['tienda','comprar','precio pintura','spray','coche','chapa','cuadro','cuadros','artístico','acrílica','leroy','bricomart','curso','cursos','empleo','trabajo','oferta de empleo','como pintar','tutorial','gratis'],true)],
+      ['Ojo con los plurales','Las negativas no entienden plurales: «curso» no bloquea «cursos». Hay que poner las dos<sup class="ref"><a href="#f34">34</a></sup>']
+    ],
+    por:'«Pintura» lo busca mucha gente que quiere comprar un bote o pintar un cuadro. Cada una de esas búsquedas es un clic pagado que no trae nada.' },
+
+  { t:'Campaña 2 · Contra incendios',
+    campos:[
+      ['Cómo','Repetir los pasos 6 a 10 con el nombre <code>Contra incendios</code>, IA Max desmarcado, mismas redes, ubicación y horario'],
+      ['Presupuesto diario','<code>' + dec2(dPci) + ' €</code> (' + miles(Math.round(mensual/3)) + ' € al mes) y límite de CPC de <code>' + dec2(cpc(dPci)) + ' €</code>'],
+      ['Grupo 1 · Mantenimiento', kw(['"mantenimiento extintores"','"revisión extintores"','"empresa mantenedora contra incendios"','"mantenimiento contra incendios comunidad"','"retimbrado extintores"'])],
+      ['Grupo 2 · Agua', kw(['"bocas de incendio"','"revisión bie"','"grupo de presión contra incendios"','"columna seca"','"instalación contra incendios"'])],
+      ['Títulos','<code>Mantenimiento de extintores</code> · <code>Empresa mantenedora habilitada</code> · <code>Revisión de bocas de incendio</code> · <code>Comunidades, hoteles y naves</code> · <code>Listos para la inspección</code> · <code>Toda Gran Canaria</code>'],
+      ['Descripciones','<code>Extintores, bocas de incendio, grupos de presión y detección. Empresa habilitada.</code> · <code>Contratos de mantenimiento para comunidades, hoteles y naves en toda la isla.</code>'],
+      ['Negativas', kw(['comprar','precio extintor','amazon','segunda mano','curso','cursos','formación','empleo','trabajo','bombero','bomberos','oposiciones','coche'],true)]
+    ],
+    por:'Va en campaña aparte para que cada línea tenga su presupuesto y se pueda subir, bajar o pausar sin tocar la otra (ver <a href="#pivotar">Cambiar de línea</a>).' },
+
+  { t:'Recursos: teléfono y enlaces',
+    campos:[
+      ['Dónde','Menú → <code>Recursos</code> → <code>+</code>'],
+      ['Recurso de llamada','El teléfono de la empresa. En <code>Opciones avanzadas</code>, programarlo de <code>8:00</code> a <code>20:00</code><sup class="ref"><a href="#f36">36</a></sup>'],
+      ['Enlaces de sitio, pintura','<code>Fachadas</code> · <code>Pisos y locales</code> · <code>Naves</code> · <code>Cómo trabajamos por cuerda</code>'],
+      ['Enlaces de sitio, contra incendios','<code>Comunidades</code> · <code>Hoteles y empresas</code> · <code>Bocas de incendio</code> · <code>Nuestra habilitación</code>'],
+      ['Recurso de ubicación','Se añade solo con la ficha vinculada (paso 4)']
+    ],
+    por:'El botón de llamar sube los clics, pero si suena y no contesta nadie se ha pagado por nada. Por eso se programa igual que los anuncios.' },
+
+  { t:'Publicar y la media hora del lunes',
+    campos:[
+      ['Publicar','<code>Publicar campaña</code>. Google revisa los anuncios en uno o dos días'],
+      ['Cada lunes',pasosLista(['<code>Estadísticas e informes</code> → <code>Términos de búsqueda</code>: ver por qué se ha pagado y añadir negativas','Llamadas sin contestar en horario: lo primero que hay que arreglar','Coste por contacto de cada campaña, contra el límite de la <a href="#calculadora">calculadora</a>'])],
+      ['Qué no tocar','Pujas y palabras clave: dos semanas mínimo entre cambios. El presupuesto entre campañas sí se puede mover cuando haga falta'],
+      ['Recomendaciones de Google','Las pestañas de <code>Recomendaciones</code> proponen subir presupuesto y activar automatismos. <strong>No aplicar ninguna sin leerla</strong>']
+    ],
+    por:'Casi todo el dinero mal gastado en Google Ads se ve en el informe de términos de búsqueda, y casi nadie lo abre. Media hora los lunes vale más que pagar a una agencia los primeros meses.' }
+  ];
+}
+
+function montarGuia(pref, fuente){
+  var i=0, lista=fuente();
+  var cuerpo=$(pref+'-cuerpo'), botonera=$(pref+'-pasos');
   function pintarBotonera(){
     botonera.innerHTML='';
     for (var k=0;k<lista.length;k++){
@@ -1337,7 +1583,7 @@ function dec2(n){ return (Math.round(n*100)/100).toFixed(2).replace('.',','); }
     }
   }
   function pintar(){
-    lista=pasos();
+    lista=fuente();
     var p=lista[i], h='';
     h+='<p class="guia-num">Paso '+(i+1)+' de '+lista.length+'</p>';
     h+='<h4>'+p.t+'</h4><dl>';
@@ -1346,39 +1592,45 @@ function dec2(n){ return (Math.round(n*100)/100).toFixed(2).replace('.',','); }
     }
     h+='</dl><div class="guia-por"><p><strong>Por qué:</strong> '+p.por+'</p></div>';
     cuerpo.innerHTML=h;
-    $('guia-cuenta').textContent=(i+1)+' / '+lista.length;
-    $('guia-ant').disabled=(i===0);
-    $('guia-sig').disabled=(i===lista.length-1);
+    $(pref+'-cuenta').textContent=(i+1)+' / '+lista.length;
+    $(pref+'-ant').disabled=(i===0);
+    $(pref+'-sig').disabled=(i===lista.length-1);
     var bs=botonera.querySelectorAll('button');
     for (var q=0;q<bs.length;q++){ bs[q].setAttribute('aria-current', q===i ? 'true':'false'); }
   }
-  $('guia-ant').addEventListener('click', function(){ if(i>0){ i--; pintar(); } });
-  $('guia-sig').addEventListener('click', function(){ if(i<lista.length-1){ i++; pintar(); } });
+  $(pref+'-ant').addEventListener('click', function(){ if(i>0){ i--; pintar(); } });
+  $(pref+'-sig').addEventListener('click', function(){ if(i<lista.length-1){ i++; pintar(); } });
+  pintarBotonera();
+  pintar();
+  return pintar;
+}
+
+(function(){
+  montarGuia('gf', pasosFicha);
+  var repintarAnuncios=montarGuia('ga', pasosAnuncios);
 
   function ponerMensual(v){
     mensual=Math.max(60, Math.min(3000, v||300));
-    $('rep-alt').textContent=miles(mensual)+' €';
-    pintar();
+    $('rep-pin').textContent=miles(Math.round(mensual*2/3))+' €';
+    $('rep-pci').textContent=miles(Math.round(mensual/3))+' €';
+    repintarAnuncios();
   }
   $('r-mes').addEventListener('input', function(){ $('n-mes').value=this.value; ponerMensual(+this.value); });
   $('n-mes').addEventListener('input', function(){
     var x=parseFloat(String(this.value).replace(',','.'));
     if (isFinite(x)){ $('r-mes').value=x; ponerMensual(x); }
   });
-
-  pintarBotonera();
-  pintar();
 })();
 
 /* ---------- Calculadora ---------- */
 (function(){
   var P={
-    alt:{inv:300,cpl:45,cierre:25,ticket:1800,margen:30,tmin:300,tmax:8000,tstep:50,
-      nota:'<strong>Supuestos, no datos.</strong> Coste por contacto de 45 €: el clic de reformas ronda 0,95 €<sup class="ref"><a href="#f29">29</a></sup> y se supone que uno de cada treinta clics deja un contacto. Trabajo medio de 1.800 €, entre la media de 1.020 € de una fachada de vivienda y los 3.625 € de una de edificio.<sup class="ref"><a href="#f3">3</a></sup> Aceptación del 25 %: una comunidad pide tres presupuestos. Margen del 30 %: pónganlo ustedes, que lo saben mejor que nadie. Es la línea con más colchón: aunque se acepte poco, sigue saliendo.'},
-    fon:{inv:150,cpl:30,cierre:55,ticket:200,margen:40,tmin:50,tmax:2000,tstep:10,
-      nota:'<strong>Esto está aquí para que vean por qué la ficha sí y los anuncios no.</strong> El clic de «fontanero urgente» sale a 2,10 €, más del doble que el de reformas.<sup class="ref"><a href="#f29">29</a></sup> Aviso medio de 200 €, según los precios publicados.<sup class="ref"><a href="#f6">6</a></sup> Miren la aceptación mínima para no perder dinero y compárenla con la de altura: con un ticket así, casi cuatro de cada diez presupuestos tienen que salir solo para empatar. En el sur la ficha se puede subir sin pagar —el primero tiene 67 reseñas, no 604 como en la capital—,<sup class="ref"><a href="#f12">12</a></sup> y eso es gratis.'},
-    sol:{inv:80,cpl:35,cierre:35,ticket:450,margen:40,tmin:50,tmax:3000,tstep:10,
-      nota:'<strong>Supuestos.</strong> Trabajo medio de 450 €, entre una reja de ventana y una puerta metálica.<sup class="ref"><a href="#f9">9</a></sup> Aceptación del 35 %: se pide precio por WhatsApp y se compara menos. Pero antes de gastar un euro aquí: <strong>«soldador» en Vecindario no devuelve ni una ficha</strong>.<sup class="ref"><a href="#f12">12</a></sup> Pagar por ser el primero cuando no hay segundo no tiene sentido. Abran la ficha con la categoría «Soldador» y enseñen la EN 1090.'}
+    pin:{inv:200,cpl:35,cierre:30,ticket:1300,margen:30,tmin:200,tmax:8000,tstep:50,
+      nota:'<strong>Supuestos, no datos.</strong> Coste por contacto de 35 €: el clic de reformas ronda 0,95 €<sup class="ref"><a href="#f29">29</a></sup> y se supone que uno de cada treinta y cinco clics deja un contacto. Trabajo medio de 1.300 €, mezclando pisos de 700 a 1.200 €<sup class="ref"><a href="#f54">54</a></sup> con alguna fachada de 1.500 a 6.000 €.<sup class="ref"><a href="#f3">3</a></sup> Aceptación del 30 %: piden dos o tres precios. Margen del 30 %: pongan el suyo, que lo saben mejor que nadie.'},
+    pci:{inv:100,cpl:50,cierre:30,ticket:1500,margen:45,tmin:150,tmax:8000,tstep:50,
+      nota:'<strong>Supuestos, no datos.</strong> Aquí el «precio del trabajo» es <strong>el contrato de mantenimiento a tres años</strong>: 500 € al año de una comunidad mediana<sup class="ref"><a href="#f53">53</a></sup> por tres. Coste por contacto de 50 €, más caro que en pintura porque se busca menos y el que busca es una empresa. Aceptación del 30 % y margen del 45 %, porque el mantenimiento es sobre todo mano de obra. Miren la aceptación mínima: con un contrato que se renueva, casi cualquier cierre paga los anuncios.'},
+    fon:{inv:100,cpl:30,cierre:55,ticket:200,margen:40,tmin:50,tmax:2000,tstep:10,
+      nota:'<strong>Esto está aquí para que vean por qué la fontanería suelta va sin anuncios.</strong> El clic de «fontanero urgente» sale a 2,10 €, más del doble que el de reformas.<sup class="ref"><a href="#f29">29</a></sup> Aviso medio de 200 €, según los precios publicados.<sup class="ref"><a href="#f6">6</a></sup> Miren la aceptación mínima para no perder dinero y compárenla con la de las otras dos: con un ticket así, casi cuatro de cada diez presupuestos tienen que salir solo para empatar. Y hay 59 fontaneros en el mapa.<sup class="ref"><a href="#f57">57</a></sup>'}
   };
   var campos=['inv','cpl','cierre','ticket','margen'];
 
@@ -1453,7 +1705,7 @@ function dec2(n){ return (Math.round(n*100)/100).toFixed(2).replace('.',','); }
   for (var q=0;q<bs.length;q++){
     bs[q].addEventListener('click', function(){ cargar(this.getAttribute('data-linea')); });
   }
-  cargar('alt');
+  cargar('pin');
 })();
 
 /* ---------- Modo presentacion ---------- */
